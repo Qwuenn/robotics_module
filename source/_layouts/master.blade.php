@@ -7,6 +7,7 @@
     <link rel="canonical" href="{{ $page->getUrl() }}">
     <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
     <link rel="icon" href="/favicon.svg">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,300i,400,400i,700,700i,800,800i" rel="stylesheet">
     <title>{{ $page->title }}</title>
 </head>
 <body class="d-flex flex-column min-vh-100 antialiased">

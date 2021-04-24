@@ -4,6 +4,10 @@
 // Partials
 @import "header";
 
+body {
+    font-family: Nunito, sans-serif;
+}
+
 .antialiased {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;

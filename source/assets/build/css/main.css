@@ -11494,6 +11494,10 @@ textarea.form-control-lg {
     margin: 0 auto;
   }
 }
+body {
+  font-family: Nunito, sans-serif;
+}
+
 .antialiased {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

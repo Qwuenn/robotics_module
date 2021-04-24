@@ -1,4 +1,4 @@
-<header class="navbar navbar-light shadow-sm">
+<header class="navbar navbar-expand-sm bg-white shadow-sm position-relative">
     <div class="container-xxl">
         <a class="navbar-brand" href="/">
             <img src="/assets/img/logo.png" alt="erovoutika" style="height:76px">

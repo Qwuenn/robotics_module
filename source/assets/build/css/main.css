@@ -11432,3 +11432,65 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.navbar {
+  padding: 0 5rem;
+  z-index: 1;
+}
+.navbar .navbar-brand svg {
+  height: 55px;
+}
+
+.navbar-scroll .navbar-collapse {
+  overflow-x: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  display: flex;
+  flex-direction: row;
+}
+.navbar-scroll .navbar-collapse::-webkit-scrollbar {
+  height: 0;
+}
+.navbar-scroll .navbar-nav {
+  flex-direction: row;
+  white-space: nowrap;
+}
+.navbar-scroll .navbar-nav .nav-item {
+  padding: 0 0.7rem;
+}
+.navbar-scroll .navbar-nav .active-link {
+  border-bottom: 3px solid red;
+  color: #198754;
+  font-weight: 700;
+}
+
+@media (min-width: 768px) {
+  @supports (position: sticky) {
+    .navbar {
+      position: sticky;
+      top: 0;
+      z-index: 1020;
+    }
+  }
+}
+@media (max-width: 767.98px) {
+  .navbar {
+    padding: 0 1rem;
+  }
+}
+@media (max-width: 575.98px) {
+  .navbar .navbar-brand {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .navbar .navbar-search {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 0.5rem;
+    width: 100%;
+  }
+  .navbar .navbar-nav {
+    margin: 0 auto;
+  }
+}

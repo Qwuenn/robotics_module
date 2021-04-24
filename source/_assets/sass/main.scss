@@ -13,3 +13,8 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+
+// Fixes bootstrap modal z-index issue when overlayscrollbars is appended to body element
+.os-padding { 
+    z-index: auto; 
+}

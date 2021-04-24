@@ -11494,3 +11494,7 @@ textarea.form-control-lg {
     margin: 0 auto;
   }
 }
+.antialiased {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

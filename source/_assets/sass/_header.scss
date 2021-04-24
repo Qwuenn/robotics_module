@@ -1,14 +1,3 @@
-.navbar {
-    padding: 0 ($spacer * 1);
-    z-index: 1;
-
-    .navbar-brand {
-        svg {
-            height: 55px;
-        }
-    }
-}
-
 .navbar-scroll {
     .navbar-collapse {
         overflow-x: auto;

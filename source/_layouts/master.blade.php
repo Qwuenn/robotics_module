@@ -9,9 +9,12 @@
     <link rel="icon" href="/favicon.svg">
     <title>{{ $page->title }}</title>
 </head>
-<body class="antialiased">
+<body class="d-flex flex-column min-vh-100 antialiased">
     @include('_partials.header')
-    @yield('body')
+    <main>
+        @yield('body')
+    </main>
+    @include('_partials.footer')
     <script defer src="{{ mix('js/main.js', 'assets/build') }}"></script>
 </body>
 </html>

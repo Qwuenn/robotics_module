@@ -13,7 +13,7 @@
 </head>
 <body class="d-flex flex-column min-vh-100 bg-light antialiased">
     @include('_partials.header')
-    <main>
+    <main class="h-100">
         @yield('body')
     </main>
     @include('_partials.footer')

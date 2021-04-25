@@ -1,7 +1,7 @@
 <header class="navbar navbar-expand-sm bg-white position-relative shadow-sm py-0 px-md-5">
     <div class="container-xxl">
         <a class="navbar-brand" href="/">
-            <img src="/assets/img/logo.png" alt="erovoutika" style="height:76px">
+            <img src="/assets/img/brand.svg" alt="Erovoutika" style="height:76px">
         </a>
         <form class="d-flex navbar-search">
             <div class="input-group">

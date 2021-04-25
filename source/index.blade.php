@@ -12,7 +12,7 @@
                     Learn how to build robots easily.<br>
                     No computer programming required!
                 </p>
-                <div class="d-grid gap-2 d-md-block">
+                <div class="d-grid gap-2 d-sm-block">
                     <a class="btn btn-lg btn-primary" href="/" role="button">Get Started</a>
                 </div>
             </div>

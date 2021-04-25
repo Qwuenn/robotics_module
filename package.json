@@ -4,7 +4,8 @@
         "dev": "mix",
         "watch": "mix watch",
         "staging": "NODE_ENV=staging mix",
-        "prod": "mix --production"
+        "prod": "mix --production",
+        "git-log": "git log --pretty=oneline --abbrev-commit"
     },
     "devDependencies": {
         "bootstrap": "^5.0.0-beta3",

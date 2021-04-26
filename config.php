@@ -12,4 +12,25 @@ return [
     'selected' => function ($page, $section) {
         return Str::contains($page->getPath(), $section) ? 'selected' : '';
     },
+
+    'svg' => function($page, $file, $properties = []) {
+        $svg = new \DOMDocument();
+        $svg->load("./source/_assets/svg/". $file);
+
+        if (!is_null($properties)) {
+            foreach ($properties as $key => $value) {
+                if ($key === 'className') {
+                    $svg->documentElement->setAttribute($key, $value);
+                } else if ($key === 'css') {
+                    $style = "";
+                    foreach($value as $property => $value) {
+                        $style .= "$property: $value;";
+                    }
+                    $svg->documentElement->setAttribute('style', $style);
+                }
+            }
+        }
+
+        return $svg->saveXML($svg->documentElement);
+    }
 ];

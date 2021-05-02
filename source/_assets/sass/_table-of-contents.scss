@@ -1,0 +1,21 @@
+.table-of-contents {
+    font-size: $small-font-size;
+    color: $gray-600;
+
+    nav ul {
+        &:first-child {
+            padding-left: 0;
+        }
+
+        list-style-type: none;
+
+        li a {
+            text-decoration: none;
+            color: $gray-600;
+
+            &:hover {
+                color: $gray-800;
+            }
+        }
+    }
+}

@@ -1,10 +1,13 @@
 // Custom Bootstrap
 @import "custom";
 
+
 // Partials
 @import "header";
 @import "footer";
 @import "hero-header";
+@import "sidebar";
+@import "table-of-contents";
 
 body {
     color: $default-black;

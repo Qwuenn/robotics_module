@@ -1,0 +1,27 @@
+.sidebar {
+    .nav-link {
+        color: $default-black;
+        font-weight: bold;
+
+        transition: margin-left 0.2s;
+
+        &:hover {
+            margin-left: 0.5rem;
+        }
+    }
+
+    .btn-toggle-nav a {
+        display: inline-flex;
+        padding: 0.1875rem 0.5rem;
+        // margin-top: 0.125rem;
+        margin-left: 1rem;
+        text-decoration: none;
+        color: $default-black;
+    
+        transition: margin-left 0.2s;
+    
+        &:hover {
+            margin-left: 1.5rem;
+        }
+    }
+}

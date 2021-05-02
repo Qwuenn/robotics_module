@@ -1,0 +1,12 @@
+.hero-header {
+    display: inline-flex;
+    height: 720px;
+    background: linear-gradient(165deg, #3d8bff 49.8%, transparent 50%);
+}
+
+@include media-breakpoint-down(md) {
+    .hero-header {
+        height: 100%;
+        background: linear-gradient(165deg, #3d8bff 39.8%, transparent 40%);
+    }
+}

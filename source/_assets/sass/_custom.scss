@@ -1,0 +1,41 @@
+@import "bootstrap";
+@import "~overlayscrollbars/css/OverlayScrollbars.css";
+
+$default-black: #1a3a57;
+
+// Border radius Utilities
+.rounded-5 {
+    border-radius: 1rem;
+}
+
+.rounded-6 {
+    border-radius: 1.5rem;
+}
+
+// Card component
+.card {
+    box-shadow: $box-shadow;
+    border: 0;
+    border-radius: 1rem;
+
+    .card-img-top {
+        border-radius: 1rem 1rem 0 0;
+    }
+
+    .card-title {
+        font-weight: $font-weight-bold;
+    }
+
+    .card-body {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+        .btn {
+            align-self: center;
+            border-radius: $border-radius-pill;
+            margin-top: auto;
+            font-weight: $font-weight-bold;
+        }
+    }
+}

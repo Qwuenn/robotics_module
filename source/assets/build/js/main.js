@@ -1,6 +1,24 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./source/_assets/js/header.js":
+/*!*************************************!*\
+  !*** ./source/_assets/js/header.js ***!
+  \*************************************/
+/***/ (() => {
+
+var navbarToggler = document.querySelector('.header .navbar-toggler');
+var navbarTogglerIcon = navbarToggler.querySelector('.navbar-toggler-icon svg');
+navbarToggler.addEventListener('click', function () {
+  if (!navbarToggler.classList.contains('collapsed')) {
+    navbarTogglerIcon.style.fill = 'white';
+  } else {
+    navbarTogglerIcon.style.fill = '#1a3a57';
+  }
+});
+
+/***/ }),
+
 /***/ "./source/_assets/js/main.js":
 /*!***********************************!*\
   !*** ./source/_assets/js/main.js ***!
@@ -13,6 +31,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var bootstrap_dist_js_bootstrap_bundle__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_js_bootstrap_bundle__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var overlayscrollbars__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! overlayscrollbars */ "./node_modules/overlayscrollbars/js/OverlayScrollbars.js");
 /* harmony import */ var overlayscrollbars__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(overlayscrollbars__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _header__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./header */ "./source/_assets/js/header.js");
+/* harmony import */ var _header__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_header__WEBPACK_IMPORTED_MODULE_2__);
+
+ // Components
 
  // Initialize OverlayScrollbars on body element
 

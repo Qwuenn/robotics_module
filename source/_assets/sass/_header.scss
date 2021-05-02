@@ -1,3 +1,31 @@
+.header {
+    .navbar-toggler {
+        &:focus {
+            box-shadow: none;
+            fill: $white;
+        }
+
+        .navbar-toggler-icon svg {
+            fill: $default-black;
+        }
+    }
+
+    .navbar-nav {
+        margin-left: auto;
+
+        .nav-item {
+            padding: 0 ($spacer * 0.6);
+        }
+
+        .nav-link {
+            color: $white;
+            font-size: $font-size-base * 1;
+            font-weight: $font-weight-bold;
+        }
+    }
+}
+
+/*
 .navbar-scroll {
     .navbar-collapse {
         overflow-x: auto;
@@ -14,22 +42,12 @@
     
     .navbar-nav {
         flex-direction: row;
-        white-space: nowrap;
-
-        .nav-item {
-            padding: 0 ($spacer * 0.7);
-        }
-
-        .active-link {
-            border-bottom: 3px solid red;
-            color: $green;
-            font-weight: $font-weight-bold;
-        }
+        white-space: nowrap; 
     }
 }
 
 @include media-breakpoint-up(md) {
-    .navbar {
+    header {
         @supports (position: sticky) {
             position: sticky;
             top: 0;
@@ -39,13 +57,17 @@
 }
 
 @include media-breakpoint-down(md) {
-    .navbar {
+    header {
         padding: 0 $spacer;
+
+        .navbar-nav .nav-link {
+            font-size: $font-size-base;
+        }
     }
 }
 
-@include media-breakpoint-only(xs) {
-    .navbar {
+@include media-breakpoint-down(lg) {
+    header {
         .navbar-brand {
             position: relative;
             left: 50%;
@@ -65,3 +87,4 @@
         }
     }
 }
+*/

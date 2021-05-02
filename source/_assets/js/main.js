@@ -1,6 +1,9 @@
 import 'bootstrap/dist/js/bootstrap.bundle';
 import 'overlayscrollbars';
 
+// Components
+import './header';
+
 // Initialize OverlayScrollbars on body element
 document.addEventListener("DOMContentLoaded", function() {
     //The 1st argument are the elements to which the plugin shall be initialized

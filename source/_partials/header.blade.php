@@ -1,15 +1,40 @@
-<header class="navbar navbar-expand-sm bg-white position-relative shadow-sm py-0 px-md-5">
+<header class="header navbar navbar-expand-lg py-0 px-md-5" style="background-color: #3d8bff">
     <div class="container-xxl">
         <a class="navbar-brand" href="/">
-            {!! $page->svg('brand.svg', ['css' => ['height' => '76px']]) !!}
+            {!! $page->svg('erovoutika-white.svg', ['css' => ['height' => '76px']]) !!}
         </a>
-        <form class="d-flex navbar-search">
-            <div class="input-group">
-                <input class="form-control" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-primary" type="submit">
-                    {!! $page->svg('magnifying-glass.svg') !!}
-                </button>
-            </div>
-        </form>
+        <button class="navbar-toggler" 
+            type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#navMenu" 
+            aria-controls="navMenu" 
+            aria-expanded="false" 
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon">
+                {!! $page->svg('list') !!}
+            </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navMenu">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Categories</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Nav Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Nav Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Nav Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Nav Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Nav Menu</a>
+                </li>
+            </ul>
+        </div>
     </div>
 </header>

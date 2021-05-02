@@ -1,11 +1,13 @@
-@import "bootstrap";
-@import "~overlayscrollbars/css/OverlayScrollbars.css";
+// Custom Bootstrap
+@import "custom";
 
 // Partials
 @import "header";
+@import "footer";
+@import "hero-header";
 
 body {
-    color: #1f2e41;
+    color: $default-black;
     font-family: Nunito Sans, sans-serif;
 }
 

@@ -20,7 +20,7 @@ return [
 
         if (!is_null($properties)) {
             foreach ($properties as $key => $value) {
-                if ($key === 'className') {
+                if ($key === 'class') {
                     $svg->documentElement->setAttribute($key, $value);
                 } else if ($key === 'css') {
                     $style = "";

@@ -15,8 +15,9 @@
                         No computer programming required!
                     </p>
                     <div class="d-grid gap-2 d-sm-block">
-                        <a class="btn btn-lg btn-primary fw-bold shadow-sm" href="/module/introduction" role="button">Get
-                            Started</a>
+                        <a class="btn btn-lg btn-primary fw-bold shadow-sm" href="/module/introduction" role="button">
+                            Get Started
+                        </a>
                     </div>
                 </div>
             </div>
@@ -30,9 +31,9 @@
             <div class="col-md-4 d-flex align-items-stretch">
                 <div class="card">
                     {!! $page->svg('erovoutika-icon(white)', [
-                            'class' => 'card-img-top bg-primary bg-gradient p-3',
-                            'css' => [
-                                'height' => '192px'
+                        'class' => 'card-img-top bg-primary bg-gradient p-3',
+                        'css' => [
+                            'height' => '192px'
                         ]
                     ]) !!}
                     <div class="card-body">
@@ -40,16 +41,16 @@
                         <p class="card-text">
                             Some quick example text to build on the card title and make up the bulk of the card's content.
                         </p>
-                        <a href="#" class="btn btn-primary">Get Started</a>
+                        <a href="/module/introduction" class="btn btn-primary">Get Started</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4 d-flex align-items-stretch">
                 <div class="card">
                     {!! $page->svg('erovoutika-icon(white)', [
-                            'class' => 'card-img-top bg-primary bg-gradient p-3',
-                            'css' => [
-                                'height' => '192px'
+                        'class' => 'card-img-top bg-primary bg-gradient p-3',
+                        'css' => [
+                            'height' => '192px'
                         ]
                     ]) !!}
                     <div class="card-body">
@@ -64,9 +65,9 @@
             <div class="col-md-4 d-flex align-items-stretch">
                 <div class="card">
                     {!! $page->svg('erovoutika-icon(white)', [
-                            'class' => 'card-img-top bg-primary bg-gradient p-3',
-                            'css' => [
-                                'height' => '192px'
+                        'class' => 'card-img-top bg-primary bg-gradient p-3',
+                        'css' => [
+                            'height' => '192px'
                         ]
                     ]) !!}
                     <div class="card-body">

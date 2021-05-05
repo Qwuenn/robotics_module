@@ -20,10 +20,10 @@
                     <a class="nav-link" href="#">Categories</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Nav Menu</a>
+                    <a class="nav-link" href="https://www.erovoutika.ph">Company Site</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Nav Menu</a>
+                    <a class="nav-link" href="https://www.facebook.com/erovoutika">Facebook</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Nav Menu</a>

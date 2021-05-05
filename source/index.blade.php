@@ -5,10 +5,10 @@
     <div class="container-fluid hero-header">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 order-md-2 my-4 text-center">
-                    {!! $page->svg('robot-hero-vector', ['css' => ['height' => '420px']]) !!}
+                <div class="col-md-6 order-md-2 my-lg-4 my-0 text-center">
+                    {!! $page->svg('robot-hero-vector', ['class' => 'hero-vector']) !!}
                 </div>
-                <div class="col-md-6 order-md-1 my-auto">
+                <div class="col-md-6 order-md-1 my-auto hero-message">
                     <h1 class="fw-bold">{{ $page->title }}</h1>
                     <p class="fs-4">
                         Learn how to build your own robots easily.<br>
@@ -27,7 +27,7 @@
     {{-- Categories --}}
     <div class="container pt-md-0 py-5">
         <h2 class="pb-2 border-bottom mb-3">Categories</h2>
-        <div class="row pt-md-0 py-5 g-5">
+        <div class="row pt-md-0 py-5 gy-5">
             <div class="col-md-4 d-flex align-items-stretch">
                 <div class="card">
                     {!! $page->svg('erovoutika-icon(white)', [

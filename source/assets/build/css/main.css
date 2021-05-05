@@ -11563,11 +11563,22 @@ footer span {
   height: 720px;
   background: linear-gradient(165deg, #3d8bff 49.8%, transparent 50%);
 }
+.hero-header .hero-vector {
+  height: 420px;
+}
 
 @media (max-width: 767.98px) {
   .hero-header {
     height: 100%;
     background: linear-gradient(165deg, #3d8bff 39.8%, transparent 40%);
+  }
+}
+@media (max-width: 575.98px) {
+  .hero-header .hero-vector {
+    width: 320px;
+  }
+  .hero-header .hero-message {
+    text-align: center;
   }
 }
 .sidebar .nav-link {

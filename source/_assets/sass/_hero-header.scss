@@ -2,11 +2,27 @@
     display: inline-flex;
     height: 720px;
     background: linear-gradient(165deg, #3d8bff 49.8%, transparent 50%);
+
+    .hero-vector {
+        height: 420px;
+    }
 }
 
 @include media-breakpoint-down(md) {
     .hero-header {
         height: 100%;
         background: linear-gradient(165deg, #3d8bff 39.8%, transparent 40%);
+    }
+}
+
+@include media-breakpoint-down(sm) {
+    .hero-header {
+        .hero-vector {
+            width: 320px;
+        }
+
+        .hero-message {
+            text-align: center;
+        }
     }
 }

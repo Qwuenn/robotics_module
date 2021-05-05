@@ -5,7 +5,7 @@
     <div class="container-fluid hero-header">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 order-md-2 my-lg-4 my-0 text-center">
+                <div class="col-md-6 order-md-2 my-4 text-center">
                     {!! $page->svg('robot-hero-vector', ['class' => 'hero-vector']) !!}
                 </div>
                 <div class="col-md-6 order-md-1 my-auto hero-message">

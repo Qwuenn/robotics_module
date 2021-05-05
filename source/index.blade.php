@@ -6,7 +6,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 order-md-2 my-4 text-center">
-                    {!! $page->svg('robot.svg', ['css' => ['height' => '420px']]) !!}
+                    {!! $page->svg('robot-hero-vector', ['css' => ['height' => '420px']]) !!}
                 </div>
                 <div class="col-md-6 order-md-1 my-auto">
                     <h1 class="fw-bold">{{ $page->title }}</h1>
@@ -39,7 +39,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Robotics for Kids!</h5>
                         <p class="card-text">
-                            Some quick example text to build on the card title and make up the bulk of the card's content.
+                            Learn how to build your own robots easily with no computer programming required!
                         </p>
                         <a href="/module/introduction" class="btn btn-primary">Get Started</a>
                     </div>

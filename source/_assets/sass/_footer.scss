@@ -1,15 +1,11 @@
-footer {
-    background-color: #1a3a57;
-    
-    span {
-        font-size: $font-size-lg;
+footer  {
+    .nav-link {
+        display: inline;
+        padding-left: 0;
         color: $white;
-    }
-    
-}
 
-@include media-breakpoint-down(md) {
-    footer span {
-        font-size: $font-size-base * 1;
-    } 
+        &:hover {
+            color: #febd17
+        }
+    }
 }

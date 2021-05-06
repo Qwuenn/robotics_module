@@ -11545,26 +11545,22 @@ textarea.form-control-lg {
     }
 }
 */
-footer {
-  background-color: #1a3a57;
-}
-footer span {
-  font-size: 1.25rem;
+footer .nav-link {
+  display: inline;
+  padding-left: 0;
   color: #fff;
 }
-
-@media (max-width: 767.98px) {
-  footer span {
-    font-size: 1rem;
-  }
+footer .nav-link:hover {
+  color: #febd17;
 }
+
 .hero-header {
   display: inline-flex;
-  height: 720px;
+  height: 615px;
   background: linear-gradient(165deg, #3d8bff 49.8%, transparent 50%);
 }
 .hero-header .hero-vector {
-  height: 420px;
+  height: 400px;
 }
 
 @media (max-width: 767.98px) {
@@ -11575,7 +11571,7 @@ footer span {
 }
 @media (max-width: 575.98px) {
   .hero-header .hero-vector {
-    width: 320px;
+    width: 300px;
   }
   .hero-header .hero-message {
     text-align: center;

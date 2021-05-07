@@ -6769,10 +6769,23 @@ document.addEventListener("DOMContentLoaded", function () {
 
 /***/ }),
 
-/***/ "./source/_assets/sass/main.scss":
-/*!***************************************!*\
-  !*** ./source/_assets/sass/main.scss ***!
-  \***************************************/
+/***/ "./source/_assets/sass/index.scss":
+/*!****************************************!*\
+  !*** ./source/_assets/sass/index.scss ***!
+  \****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }),
+
+/***/ "./source/_assets/sass/module.scss":
+/*!*****************************************!*\
+  !*** ./source/_assets/sass/module.scss ***!
+  \*****************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -13560,7 +13573,8 @@ var __WEBPACK_AMD_DEFINE_RESULT__;/*!
 /******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
 /******/ 		var installedChunks = {
 /******/ 			"/js/main": 0,
-/******/ 			"css/main": 0
+/******/ 			"css/module": 0,
+/******/ 			"css/index": 0
 /******/ 		};
 /******/ 		
 /******/ 		// no chunk on demand loading
@@ -13608,8 +13622,9 @@ var __WEBPACK_AMD_DEFINE_RESULT__;/*!
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	__webpack_require__.O(undefined, ["css/main"], () => (__webpack_require__("./source/_assets/js/main.js")))
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/main"], () => (__webpack_require__("./source/_assets/sass/main.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/module","css/index"], () => (__webpack_require__("./source/_assets/js/main.js")))
+/******/ 	__webpack_require__.O(undefined, ["css/module","css/index"], () => (__webpack_require__("./source/_assets/sass/index.scss")))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/module","css/index"], () => (__webpack_require__("./source/_assets/sass/module.scss")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()

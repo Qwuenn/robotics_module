@@ -1,12 +1,11 @@
-// Custom Bootstrap
-@import "custom";
+@import "bootstrap";
+@import "~overlayscrollbars/css/OverlayScrollbars.css";
+
+$default-black: #1a3a57;
 
 // Partials
 @import "header";
 @import "footer";
-@import "hero-header";
-@import "sidebar";
-@import "table-of-contents";
 
 body {
     color: $default-black;

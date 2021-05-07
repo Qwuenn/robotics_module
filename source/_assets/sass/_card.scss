@@ -1,0 +1,26 @@
+.card {
+    box-shadow: $box-shadow;
+    border: 0;
+    border-radius: 1rem;
+
+    .card-img-top {
+        border-radius: 1rem 1rem 0 0;
+    }
+
+    .card-title {
+        font-weight: $font-weight-bold;
+    }
+
+    .card-body {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+        .btn {
+            align-self: center;
+            border-radius: $border-radius-pill;
+            margin-top: auto;
+            font-weight: $font-weight-bold;
+        }
+    }
+}

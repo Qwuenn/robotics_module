@@ -11545,29 +11545,6 @@ body {
   border-radius: 1.5rem;
 }
 
-.card {
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-  border: 0;
-  border-radius: 1rem;
-}
-.card .card-img-top {
-  border-radius: 1rem 1rem 0 0;
-}
-.card .card-title {
-  font-weight: 700;
-}
-.card .card-body {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-}
-.card .card-body .btn {
-  align-self: center;
-  border-radius: 50rem;
-  margin-top: auto;
-  font-weight: 700;
-}
-
 .hero-header {
   display: inline-flex;
   height: 615px;
@@ -11590,4 +11567,26 @@ body {
   .hero-header .hero-message {
     text-align: center;
   }
+}
+.card {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  border: 0;
+  border-radius: 1rem;
+}
+.card .card-img-top {
+  border-radius: 1rem 1rem 0 0;
+}
+.card .card-title {
+  font-weight: 700;
+}
+.card .card-body {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.card .card-body .btn {
+  align-self: center;
+  border-radius: 50rem;
+  margin-top: auto;
+  font-weight: 700;
 }

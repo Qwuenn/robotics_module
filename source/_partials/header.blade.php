@@ -20,19 +20,22 @@
                     <a class="nav-link" href="#">Categories</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://www.erovoutika.ph">Company Site</a>
+                    <a class="nav-link" 
+                        href="https://www.erovoutika.ph">
+                        Main Website
+                    </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://www.facebook.com/erovoutika">Facebook</a>
+                    <a class="nav-link" 
+                        href="https://www.facebook.com/erovoutika">
+                        Facebook
+                    </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Nav Menu</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Nav Menu</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Nav Menu</a>
+                    <a class="nav-link" 
+                        href="https://www.youtube.com/channel/UC405vJKrS2r20iFV_5ccgVg">
+                        Youtube
+                    </a>
                 </li>
             </ul>
         </div>

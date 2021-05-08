@@ -15,12 +15,32 @@
 
         .nav-item {
             padding: 0 ($spacer * 0.6);
+
+            .selected {
+                opacity: initial;
+            }
         }
 
         .nav-link {
+            opacity: 0.7;
+
             color: $white;
             font-size: $font-size-base * 1;
             font-weight: $font-weight-bold;
+
+            transition: opacity 0.2s;
+
+            &:hover {
+                opacity: 1;
+                // content: "";
+                // position: absolute;
+                // top: 36px;
+                // background: $white;
+                // width: 8px;
+                // height: 8px;
+                // border-radius: 100%;
+                // left:calc(50% - 4px);
+            }
         }
     }
 }

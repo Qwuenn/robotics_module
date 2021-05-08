@@ -17,7 +17,7 @@
         <div class="collapse navbar-collapse" id="navMenu">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" 
+                    <a class="nav-link {{ $page->selected('categories') }}" 
                         href="/categories">
                         Categories
                     </a>

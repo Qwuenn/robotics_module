@@ -1,4 +1,12 @@
-@import "main";
+// Required bootstrap imports
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+
+// Custom global variables
+@import "variables";
+
+// Components
 @import "custom";
 @import "hero-header";
 @import "card";

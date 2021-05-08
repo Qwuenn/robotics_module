@@ -1,7 +1,8 @@
 @import "bootstrap";
 @import "~overlayscrollbars/css/OverlayScrollbars.css";
 
-$default-black: #1a3a57;
+// Custom Global Variables
+@import "variables";
 
 // Partials
 @import "header";

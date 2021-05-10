@@ -15,9 +15,7 @@
 <body class="antialiased">
     <div class="d-flex flex-column min-vh-100 bg-light">
         @include('_partials.header')
-        <main>
-            @yield('body')
-        </main>
+        @yield('body')
         @include('_partials.footer')
     </div>
     <script defer src="{{ mix('js/main.js', 'assets/build') }}"></script>

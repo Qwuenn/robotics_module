@@ -5,7 +5,7 @@ use Illuminate\Support\Str;
 return [
     'production' => false,
     'baseUrl' => '',
-    'title' => 'Robotics for Kids!',
+    'title' => 'Robotics Academy',
     'description' => 'Website description.',
     'collections' => [],
 

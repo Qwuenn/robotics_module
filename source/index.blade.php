@@ -19,7 +19,11 @@
                         No computer programming required!
                     </p>
                     <div class="d-grid gap-2 d-sm-block">
+<<<<<<< HEAD
                         <a class="btn btn-lg btn-primary fw-bold shadow-sm" href="/categories" role="button">
+=======
+                        <a class="btn btn-lg btn-primary fw-bold shadow" href="/categories" role="button">
+>>>>>>> f23e7f2112ec792b0ea94e19e89b6f20dcde82d9
                             Get Started
                         </a>
                     </div>

@@ -1,5 +1,5 @@
-<div id="sidebar" class="sidebar d-lg-block collapse">
-    <div class="position-sticky ps-lg-3 mt-lg-5 py-lg-0 py-4 px-2">
+<div id="sidebar" class="sidebar d-lg-block collapse mt-lg-5">
+    <div class="position-sticky ps-lg-3 py-lg-0 py-4 px-2">
         <div class="navbar-brand text-primary mb-1 pt-lg-0 pt-2 pb-1">Robotics for Kids!</div>
         <ul class="nav flex-column">
             <li class="nav-item">

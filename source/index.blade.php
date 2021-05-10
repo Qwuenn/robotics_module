@@ -7,7 +7,7 @@
 @section('body')
     {{-- Hero Header --}}
     <div class="container-fluid hero-header">
-        <div class="container">
+        <div class="container-lg">
             <div class="row">
                 <div class="col-lg-6 order-lg-2 my-4 mx-0 text-center">
                     {!! $page->svg('robot-hero-vector', ['class' => 'hero-vector']) !!}
@@ -29,7 +29,7 @@
     </div>
 
     {{-- Categories --}}
-    <div class="container py-5">
+    <div class="container-lg py-5">
         <h2 class="pb-2 border-bottom mb-2">Categories</h2>
         <div class="row py-5 gy-5">
             <div class="col-md-4 d-flex align-items-stretch">

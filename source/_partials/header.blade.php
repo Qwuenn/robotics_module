@@ -1,4 +1,4 @@
-<header class="header navbar navbar-expand-lg py-0 px-md-5" style="background-color: #3d8bff">
+<header class="header navbar navbar-expand-lg py-0 px-lg-5" style="background-color: #3d8bff">
     <div class="container-xxl">
         <a class="navbar-brand" href="/">
             {!! $page->svg('erovoutika-white.svg', ['css' => ['height' => '76px']]) !!}

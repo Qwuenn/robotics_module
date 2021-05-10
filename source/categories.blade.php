@@ -6,7 +6,7 @@
 
 @section('body')
     {{-- Categories --}}
-    <div class="container py-5">
+    <div class="container-lg py-5">
         <h2 class="pb-2 border-bottom">Categories</h2>
         <div class="row pt-3 pb-5 gy-5">
             <div class="col-md-4 d-flex align-items-stretch">

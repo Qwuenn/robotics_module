@@ -1,5 +1,5 @@
 <footer class="mt-auto pt-5 pb-3 text-white" style="background-color: #1a3a57">
-    <div class="container">
+    <div class="container-lg">
         <div class="row gy-5 gx-md-5">
             <div class="col-lg-4">
                 {!! $page->svg('erovoutika-white', [

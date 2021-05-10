@@ -26,11 +26,11 @@
                 @yield('introduction')
             </div>
 
-            <div class="toc table-of-contents pb-4">
+            <div id="table-of-contents" class="toc table-of-contents pb-4">
                 <div class="d-flex align-items-center pb-1 mb-1 border-bottom disabled">
                     <span class="fw-semibold">On this page</span>
                 </div>
-                <nav id="table-of-contents">
+                <nav>
                     <ul>
                         @yield('table_of_contents')
                     </ul>
@@ -43,3 +43,7 @@
         </main>
     </div>
 @endSection
+
+@push('scripts')
+    <script defer src="{{ mix('js/module.js', 'assets/build') }}"></script>
+@endpush

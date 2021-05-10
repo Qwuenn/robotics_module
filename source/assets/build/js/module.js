@@ -3,7 +3,8 @@ var __webpack_exports__ = {};
 /*!*************************************!*\
   !*** ./source/_assets/js/module.js ***!
   \*************************************/
-var toc = new Object();
+var osToc = new Object();
+var osSidebar = new Object();
 document.addEventListener('DOMContentLoaded', function () {
   mediaBreakpointDownLarge();
 });
@@ -13,11 +14,11 @@ window.addEventListener('resize', function () {
 
 function mediaBreakpointDownLarge() {
   if (window.innerWidth <= 991.98) {
-    toc.destroy();
-    console.log('HI');
+    osToc.destroy();
+    osSidebar.destroy();
   } else {
-    toc = OverlayScrollbars(document.querySelector('#table-of-contents'), {});
-    console.log('Hello');
+    osToc = OverlayScrollbars(document.querySelector('#table-of-contents'), {});
+    osSidebar = OverlayScrollbars(document.querySelector('#sidebar'), {});
   }
 }
 /******/ })()

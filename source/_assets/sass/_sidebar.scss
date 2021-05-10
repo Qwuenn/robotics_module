@@ -2,7 +2,8 @@
     grid-area: sidebar;
 
     .navbar-brand {
-        font-size: 1.05rem;
+        font-size: 1rem;
+        margin: 0.5rem 1rem;
         font-weight: $font-weight-bold;
     }
 
@@ -13,7 +14,6 @@
     .nav-link {
         color: $default-black;
         font-weight: bold;
-        padding-left: 0;
 
         transition: margin-left 0.2s;
 

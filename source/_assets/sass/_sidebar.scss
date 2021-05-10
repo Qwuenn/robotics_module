@@ -1,7 +1,19 @@
 .sidebar {
+    grid-area: sidebar;
+
+    .navbar-brand {
+        font-size: 1.05rem;
+        font-weight: $font-weight-bold;
+    }
+
+    a {
+        font-size: 0.9rem;
+    }
+
     .nav-link {
         color: $default-black;
         font-weight: bold;
+        padding-left: 0;
 
         transition: margin-left 0.2s;
 
@@ -23,5 +35,16 @@
         &:hover {
             margin-left: 1.5rem;
         }
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    .sidebar {
+        position: sticky;
+        top: 2rem;
+        right: 0;
+        z-index: 2;
+        height: 100vh;
+        overflow-y: auto;
     }
 }

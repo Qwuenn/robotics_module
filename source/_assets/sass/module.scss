@@ -9,3 +9,49 @@
 // Components
 @import "sidebar";
 @import "table-of-contents";
+@import "subnavbar";
+
+.layout {
+    display: grid;
+    grid-template-columns: 2fr 9fr;
+    grid-template-rows: auto 1fr;
+    grid-template-areas: "sidebar main";
+}
+
+main {
+    display: grid;
+    grid-area: main;
+    gap: inherit;
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: auto 1fr;
+    grid-template-areas: 
+        "intro toc" 
+        "content toc";
+
+    background-color: $white;
+}
+
+.intro {
+    grid-area: intro;
+}
+
+.content {
+    grid-area: content;
+}
+
+@include media-breakpoint-down(lg) {
+    .layout {
+        grid-template-areas: 
+            "sidebar sidebar"
+            "main main";
+    }
+
+    main {
+        grid-template-areas: 
+        "intro intro"
+        "toc toc"
+        "content content";
+
+        margin: 0;
+    }
+}

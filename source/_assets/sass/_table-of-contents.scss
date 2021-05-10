@@ -1,6 +1,14 @@
 .table-of-contents {
+    grid-area: toc;
     font-size: $small-font-size;
     color: $gray-600;
+
+    position: sticky;
+    top: 2rem;
+    right: 0;
+    z-index: 2;
+    height: 100vh;
+    overflow-y: auto;
 
     nav ul {
         &:first-child {
@@ -17,5 +25,13 @@
                 color: $gray-800;
             }
         }
+    }
+}
+
+@include media-breakpoint-down(lg) {
+    .table-of-contents {
+        position: relative;
+        top: 0;
+        height: inherit;
     }
 }

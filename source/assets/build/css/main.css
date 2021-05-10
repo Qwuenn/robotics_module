@@ -11432,12 +11432,17 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.header .navbar-toggler {
+  color: #1a3a57;
+}
+.header .navbar-toggler .navbar-toggler-icon {
+  background-image: none;
+}
 .header .navbar-toggler:focus {
   box-shadow: none;
-  fill: #fff;
 }
-.header .navbar-toggler .navbar-toggler-icon svg {
-  fill: #1a3a57;
+.header .navbar-toggler:not([aria-expanded=false]) {
+  color: #fff;
 }
 .header .navbar-nav {
   margin-left: auto;

@@ -1,12 +1,17 @@
 .header {
     .navbar-toggler {
-        &:focus {
-            box-shadow: none;
-            fill: $white;
+        color: $default-black;
+
+        .navbar-toggler-icon {
+            background-image: none;
         }
 
-        .navbar-toggler-icon svg {
-            fill: $default-black;
+        &:focus {
+            box-shadow: none;
+        }
+
+        &:not([aria-expanded=false]) {
+            color: $white;
         }
     }
 

@@ -16,7 +16,7 @@
             <span class="navbar-toggler-icon"></span>
         </button>
     </header>
-    <div class="container-lg layout px-0">
+    <div class="container-xxl layout px-0">
         {{-- Sidebar --}}
         @include('_partials.sidebar')
         

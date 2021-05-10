@@ -1,6 +1,6 @@
-<div id="sidebar" class="sidebar d-lg-block collapse ps-lg-3 mt-lg-5 py-lg-0 py-3 px-2">
-    <div class="position-sticky container-xxl">
-        <div class="navbar-brand text-primary mb-2 pt-lg-0 pt-2 pb-1">Robotics for Kids!</div>
+<div id="sidebar" class="sidebar d-lg-block collapse">
+    <div class="position-sticky ps-lg-3 mt-lg-5 py-lg-0 py-4 px-2">
+        <div class="navbar-brand text-primary mb-1 pt-lg-0 pt-2 pb-1">Robotics for Kids!</div>
         <ul class="nav flex-column">
             <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="/module/introduction">

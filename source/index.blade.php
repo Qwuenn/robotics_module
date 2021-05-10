@@ -19,7 +19,7 @@
                         No computer programming required!
                     </p>
                     <div class="d-grid gap-2 d-sm-block">
-                        <a class="btn btn-lg btn-primary fw-bold shadow-sm" href="/robotics/kids/introduction" role="button">
+                        <a class="btn btn-lg btn-primary fw-bold shadow" href="/categories" role="button">
                             Get Started
                         </a>
                     </div>

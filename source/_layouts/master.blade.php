@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="{{ $page->description }}">
     <link rel="canonical" href="{{ $page->getUrl() }}">
-    <link rel="icon" href="/favicon.svg">
+    <link rel="icon" href="{{ $page->link('favicon.svg') }}">
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,300i,400,400i,700,700i,800,800i" rel="stylesheet">
     <title>{{ $page->title }}</title>

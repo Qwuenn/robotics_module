@@ -33,5 +33,9 @@ return [
         }
 
         return $svg->saveXML($svg->documentElement);
+    },
+
+    'link' => function ($page, $link) {
+        return $page->baseUrl . '/' . trim($link, '/');
     }
 ];

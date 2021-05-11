@@ -72,7 +72,7 @@
                     ]) !!}
                 </a>
             </nav>
-            <span class="fs-6 mt-3">&copy; Erovoutika International Corporation {{ date('Y') }}. All Rights Reserved.</span>
+            <span class="fs-6 mt-3 text-center">&copy; Erovoutika International Corporation {{ date('Y') }}. All Rights Reserved.</span>
         </div>
     </div>
 </footer>

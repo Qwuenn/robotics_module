@@ -8,6 +8,7 @@
         "git-log": "git log --pretty=oneline --abbrev-commit"
     },
     "devDependencies": {
+        "@popperjs/core": "^2.9.2",
         "bootstrap": "^5.0.0-beta3",
         "laravel-mix": "^6.0.10",
         "laravel-mix-jigsaw": "^1.5.0",

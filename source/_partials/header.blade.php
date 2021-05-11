@@ -1,6 +1,6 @@
 <header class="header navbar navbar-expand-lg py-0 px-lg-5" style="background-color: #3d8bff">
     <div class="container-xxl">
-        <a class="navbar-brand" href="/">
+        <a class="navbar-brand" href="{{ $page->link('/') }}">
             {!! $page->svg('erovoutika-white.svg', ['css' => ['height' => '76px']]) !!}
         </a>
         <button class="navbar-toggler" 
@@ -18,7 +18,7 @@
             <ul class="navbar-nav">
                 <li class="nav-item">
                     <a class="nav-link {{ empty($page->getPath()) ? 'selected' : ''}}" 
-                        href="/">
+                        href="{{ $page->link('/') }}">
                         Home
                     </a>
                 </li>

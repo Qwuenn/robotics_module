@@ -38,6 +38,7 @@
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   border: 0;
   border-radius: 1rem;
+  width: 100%;
 }
 .card .card-img-top {
   border-radius: 1rem 1rem 0 0;

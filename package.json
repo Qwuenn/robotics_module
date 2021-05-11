@@ -6,7 +6,7 @@
         "staging": "NODE_ENV=staging mix",
         "prod": "mix --production",
         "git-log": "git log --pretty=oneline --abbrev-commit",
-        "deploy": "npm run prod && git clean -f && git checkout . && git add build_production -f && git commit -m 'build: Deploy' && git subtree split --prefix build_production -b gh-pages && git push -f origin gh-pages:gh-pages && git branch -D gh-pages && git reset --hard HEAD"
+        "deploy": "npm run prod && git clean -f && git checkout . && git add build_production -f && git commit -m \"build: Deploy\" && git subtree split --prefix build_production -b gh-pages && git push -f origin gh-pages:gh-pages && git branch -D gh-pages && git reset --hard HEAD"
     },
     "devDependencies": {
         "@popperjs/core": "^2.9.2",

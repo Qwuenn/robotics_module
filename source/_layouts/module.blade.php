@@ -1,7 +1,7 @@
 @extends('_layouts.master')
 
 @push('styles')
-    <link rel="stylesheet" href="{{ mix('css/module.css', 'assets/build') }}">
+    <link rel="stylesheet" href="{{ $page->link(mix('css/module.css', 'assets/build')) }}">
 @endpush
 
 @section('body')
@@ -45,5 +45,5 @@
 @endSection
 
 @push('scripts')
-    <script defer src="{{ mix('js/module.js', 'assets/build') }}"></script>
+    <script defer src="{{ $page->link(mix('js/module.js', 'assets/build')) }}"></script>
 @endpush

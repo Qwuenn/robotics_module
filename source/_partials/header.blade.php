@@ -24,7 +24,7 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link {{ $page->selected('categories') }}" 
-                        href="/categories">
+                        href="{{ $page->link('categories') }}">
                         Categories
                     </a>
                 </li>

@@ -1,7 +1,7 @@
 @extends('_layouts.master')
 
 @push('styles')
-    <link rel="stylesheet" href="{{ mix('css/index.css', 'assets/build') }}">
+    <link rel="stylesheet" href="{{ $page->link(mix('css/index.css', 'assets/build')) }}">
 @endpush
 
 @section('body')
@@ -22,7 +22,7 @@
                         <p class="card-text">
                             Learn how to build your own robots easily with no computer programming required!
                         </p>
-                        <a href="/robotics/kids/introduction" class="btn btn-primary">Get Started</a>
+                        <a href="{{ $page->link('robotics/kids/introduction') }}" class="btn btn-primary">Get Started</a>
                     </div>
                 </div>
             </div>

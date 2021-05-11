@@ -3,7 +3,7 @@
         <div class="navbar-brand text-primary border-bottom border-primary border-1 mb-1 pt-lg-0 pt-2 pb-1">Robotics for Kids!</div>
         <ul class="nav flex-column">
             <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="/module/introduction">
+                <a class="nav-link" href="/module/introduction">
                     Introduction
                 </a>
             </li>
@@ -17,11 +17,11 @@
                     Robotics Kit
                 </a>
                 <div class="collapse" id="robotics-kit-collapse">
-                    <ul class="btn-toggle-nav list-unstyled">
-                        <li><a href="#">Sub Menu</a></li>
-                        <li><a href="#">Sub Menu</a></li>
-                        <li><a href="#">Sub Menu</a></li>
-                        <li><a href="#">Sub Menu</a></li>
+                    <ul class="nav flex-column btn-toggle-nav">
+                        <li class="nav-item"><a class="nav-link" href="#">Sub Menu</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Sub Menu</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Sub Menu</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Sub Menu</a></li>
                     </ul>
                 </div>
             </li>

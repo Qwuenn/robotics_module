@@ -17,15 +17,16 @@
 .sidebar .nav-link:hover {
   margin-left: 0.5rem;
 }
-.sidebar .btn-toggle-nav a {
+.sidebar .btn-toggle-nav .nav-link {
   display: inline-flex;
   padding: 0.1875rem 0.5rem;
   margin-left: 1rem;
   text-decoration: none;
   color: #1a3a57;
+  font-weight: initial;
   transition: margin-left 0.2s;
 }
-.sidebar .btn-toggle-nav a:hover {
+.sidebar .btn-toggle-nav .nav-link:hover {
   margin-left: 1.5rem;
 }
 

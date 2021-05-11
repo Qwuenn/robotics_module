@@ -1,6 +1,7 @@
 let osToc = new Object;
 let osSidebar = new Object;
 
+// Enable OverlayScrollbars on sidebar and table of contents
 document.addEventListener('DOMContentLoaded', function() {
     mediaBreakpointDownLarge();
 });
@@ -18,3 +19,6 @@ function mediaBreakpointDownLarge() {
         osSidebar = OverlayScrollbars(document.querySelector('#sidebar'), { });
     }
 }
+
+// Show sidebar collapse menu if link is selected
+document.querySelector('.btn-toggle-nav .selected').closest('.collapse').classList.add('show');

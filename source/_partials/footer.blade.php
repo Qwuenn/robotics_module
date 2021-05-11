@@ -17,8 +17,8 @@
                 <div class="d-flex flex-row">
                     <nav class="nav flex-column flex-fill">
                         <a class="nav-link" href="/">Home</a>
-                        <a class="nav-link" href="#">Categories</a>
-                        <a class="nav-link" href="#">Robotics for Kids!</a>
+                        <a class="nav-link" href="/categories">Categories</a>
+                        <a class="nav-link" href="/robotics/kids/introduction">Robotics for Kids!</a>
                         <a class="nav-link" href="#">Robotics for Teens!</a>
                     </nav>
                     <nav class="nav flex-column flex-fill">

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .sidebar {
   grid-area: sidebar;
 }
@@ -16,6 +17,10 @@
 }
 .sidebar .nav-link:hover {
   margin-left: 0.5rem;
+}
+.sidebar .selected .nav-link:before {
+  content: "• ";
+  color: #6ea8fe;
 }
 .sidebar .btn-toggle-nav .nav-link {
   display: inline-flex;

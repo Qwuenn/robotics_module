@@ -22,6 +22,12 @@
         }
     }
 
+    .selected .nav-link:before {
+        content: "• ";
+        color: $blue-300;
+    }
+      
+
     .btn-toggle-nav {
         .nav-link {
             display: inline-flex;

@@ -2,7 +2,7 @@
     <div class="position-sticky ps-lg-3 py-lg-0 py-4 px-2">
         <div class="navbar-brand text-primary border-bottom border-primary border-1 mb-1 pt-lg-0 pt-2 pb-1">Robotics for Kids!</div>
         <ul class="nav flex-column">
-            <li class="nav-item">
+            <li class="nav-item {{ $page->selected('/robotics\kids/introduction') }}">
                 <a class="nav-link" href="/robotics/kids/introduction">
                     Introduction
                 </a>

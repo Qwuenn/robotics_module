@@ -4,7 +4,9 @@
     .navbar-brand {
         font-size: 1rem;
         margin: 0.5rem 1rem;
+        color: $blue-500;
         font-weight: $font-weight-bold;
+        border-bottom: 1px solid $blue-500;
     }
 
     a {
@@ -24,7 +26,7 @@
 
     .selected .nav-link:before {
         content: "• ";
-        color: $blue-300;
+        color: $blue-500;
     }
       
 

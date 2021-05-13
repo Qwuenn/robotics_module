@@ -36,7 +36,7 @@
 @endSection
 
 @section('content')
-    <h3 id="what-is-robotics">What is Robotics?</h3>
+    <h3 id="what-is-robotics"><b>What is Robotics?</b></h3>
     <p>
         Robotics is a discipline that combines computer science and engineering. It is the study of how to plan, create,
         operate, and use robots. Its objective is to develop robots that can assist and help humans in making their lives

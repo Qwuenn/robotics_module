@@ -11442,6 +11442,14 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.rounded-5 {
+  border-radius: 1rem;
+}
+
+.rounded-6 {
+  border-radius: 1.5rem;
+}
+
 .header .navbar-toggler {
   color: #1a3a57;
 }
@@ -11544,6 +11552,30 @@ footer .nav-link {
 }
 footer .nav-link:hover {
   color: #febd17;
+}
+
+.card {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  border: 0;
+  border-radius: 1rem;
+  width: 100%;
+}
+.card .card-img-top {
+  border-radius: 1rem 1rem 0 0;
+}
+.card .card-title {
+  font-weight: 700;
+}
+.card .card-body {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.card .card-body .btn {
+  align-self: center;
+  border-radius: 50rem;
+  margin-top: auto;
+  font-weight: 700;
 }
 
 body {

@@ -1,12 +1,16 @@
 @import "bootstrap";
 @import "~overlayscrollbars/css/OverlayScrollbars.css";
 
-// Custom Global Variables
+// Global Variables
 @import "variables";
+
+// Custom bootstrap
+@import "custom";
 
 // Partials
 @import "header";
 @import "footer";
+@import "card";
 
 body {
     color: $default-black;

@@ -22,7 +22,7 @@
         
         <main class="mx-0 p-lg-5 py-5 px-3 shadow-sm">
 
-            <div class="intro pe-lg-5">
+            <div class="intro pe-lg-5 d-grid gap-2">
                 @yield('introduction')
             </div>
 
@@ -37,7 +37,7 @@
                 </nav>
             </div>
 
-            <div class="content pe-lg-5">
+            <div class="content pe-lg-5 d-grid gap-1">
                 @yield('content')
             </div>
         </main>

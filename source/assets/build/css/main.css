@@ -11560,7 +11560,7 @@ footer .nav-link:hover {
 .card .card-body {
   display: flex;
   flex-direction: column;
-  text-align: center;
+  border-radius: 0 0 1rem 1rem;
 }
 .card .card-body .btn {
   align-self: center;

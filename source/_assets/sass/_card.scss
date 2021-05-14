@@ -15,7 +15,8 @@
     .card-body {
         display: flex;
         flex-direction: column;
-        text-align: center;
+
+        border-radius: 0 0 1rem 1rem;
 
         .btn {
             align-self: center;

@@ -11433,6 +11433,14 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.bg-default-black {
+  background-color: #1a3a57 !important;
+}
+
+.bg-sky-blue {
+  background-color: #3d8bff !important;
+}
+
 .rounded-5 {
   border-radius: 1rem;
 }

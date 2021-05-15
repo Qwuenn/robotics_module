@@ -14,7 +14,7 @@
                     class="component-symbol">
                 </button>
             </div>
-            <div class="carousel-inner mb-4">
+            <div class="carousel-inner mb-4 mt-3">
                 <div class="carousel-item active">
                     <img src="{{ $page->link('assets/build/img/robotics/kids/components/p-'. str_replace(' ', '-', strtolower($title)) .'.jpg') }}" 
                         alt="Picture of {{ $title }}" 

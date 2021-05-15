@@ -5,6 +5,16 @@
             <li class="nav-item {{ $page->selected('/robotics\kids/introduction') }}">
                 <a class="nav-link" href="{{ $page->link('robotics/kids/introduction') }}">Introduction</a>
             </li>
+            <li class="nav-item {{ $page->selected('/robotics\kids/robot-car-kit') }}">
+                <a class="nav-link" href="{{ $page->link('robotics\kids/robot-car-kit') }}">
+                    Robot Car Kit
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    Menu
+                </a>
+            </li>
             <li class="nav-item">
                 <a class="nav-link" 
                     data-bs-toggle="collapse" 
@@ -12,7 +22,7 @@
                     role="button" 
                     aria-expanded="false" 
                     aria-controls="collapseExample">
-                    Robotics Kit
+                    Collapse Menu
                 </a>
                 <div class="collapse" id="robotics-kit-collapse">
                     <ul class="nav flex-column btn-toggle-nav">
@@ -30,16 +40,6 @@
                         </li>
                     </ul>
                 </div>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">
-                    Menu
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">
-                    Menu
-                </a>
             </li>
         </ul>
     </div>

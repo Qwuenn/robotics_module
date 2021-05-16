@@ -1,7 +1,7 @@
 @extends('_layouts.module')
 
 @section('introduction')
-    <h1 id="introduction"><b>Introduction</b></h1>
+    <h1 id="introduction"><b>Introduction to Robotics</b></h1>
     <h5>Discusses the concept of Robotics that can be assembled by kids with no computer programming required.</h5>
     <p>&nbsp</p>
 @endsection

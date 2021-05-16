@@ -1,5 +1,5 @@
 <div class="col-md-4 d-flex align-items-stretch">
-    <div class="card shadow component-card">
+    <div class="card component-card">
         <div id="carousel{{ str_replace(' ', '', $component) }}" class="carousel slide card-img-top mx-auto" data-bs-ride="carousel" data-bs-interval="false">
             <div class="carousel-indicators">
                 <button type="button" 

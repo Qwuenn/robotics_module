@@ -37,7 +37,7 @@
                 </nav>
             </div>
 
-            <div class="content pe-lg-5 d-grid gap-1">
+            <div class="content pe-lg-5">
                 @yield('content')
             </div>
         </main>

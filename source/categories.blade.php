@@ -10,7 +10,7 @@
         <h2 class="pb-2 border-bottom">Categories</h2>
         <div class="row pt-3 pb-5 gy-5">
             <div class="col-md-4 d-flex align-items-stretch">
-                <div class="card">
+                <div class="card shadow">
                     {!! $page->svg('erovoutika-icon(white)', [
                         'class' => 'card-img-top bg-primary bg-gradient p-3',
                         'css' => [
@@ -27,7 +27,7 @@
                 </div>
             </div>
             <div class="col-md-4 d-flex align-items-stretch">
-                <div class="card">
+                <div class="card shadow">
                     {!! $page->svg('erovoutika-icon(white)', [
                         'class' => 'card-img-top bg-primary bg-gradient p-3',
                         'css' => [
@@ -44,7 +44,7 @@
                 </div>
             </div>
             <div class="col-md-4 d-flex align-items-stretch">
-                <div class="card">
+                <div class="card shadow">
                     {!! $page->svg('erovoutika-icon(white)', [
                         'class' => 'card-img-top bg-primary bg-gradient p-3',
                         'css' => [

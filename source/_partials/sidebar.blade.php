@@ -11,26 +11,20 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">
-                    Menu
-                </a>
-            </li>
-            <li class="nav-item">
                 <a class="nav-link" 
                     data-bs-toggle="collapse" 
                     href="#robotics-kit-collapse" 
                     role="button" 
                     aria-expanded="false" 
                     aria-controls="collapseExample">
-                    Collapse Menu
+                    Activities
                 </a>
                 <div class="collapse" id="robotics-kit-collapse">
                     <ul class="nav flex-column btn-toggle-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Sub Menu</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Sub Menu</a>
+                        <li class="nav-item {{ $page->selected('/robotics\kids/activity-1') }}">
+                            <a class="nav-link" href="{{ $page->link('robotics\kids/activity-1') }}">
+                                1 - Line Following Robot
+                            </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Sub Menu</a>

@@ -3,6 +3,10 @@ $carousel-control-size: 1.2rem;
 .component-card {
     box-shadow: 0 .125rem .25rem rgba($black, 0.2);
 
+    .carousel-inner img {
+        width: 45%;
+    }
+
     .carousel-indicators {
         margin-bottom: 0 ;
 
@@ -30,5 +34,11 @@ $carousel-control-size: 1.2rem;
         width: $carousel-control-size;
         height: $carousel-control-size;
         background-image: escape-svg(url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$default-black-rgba}'><path d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/></svg>"));
+    }
+}
+
+@include media-breakpoint-down(md) {
+    .component-card .carousel-inner img {
+        width: 30%;
     }
 }

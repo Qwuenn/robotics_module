@@ -29,12 +29,12 @@
                 <div class="carousel-item {{ (isset($active) && $active === 0) || !isset($active) ? 'active' : '' }}">
                     <img src="{{ $page->link('assets/build/img/robotics/kids/components/p-'. str_replace(' ', '-', strtolower($component)) .'.jpg') }}" 
                         alt="Picture of {{ $component }}" 
-                        class="mx-auto d-block w-50" />
+                        class="mx-auto d-block" />
                 </div>
                 <div class="carousel-item {{ (isset($active) && $active === 1) ? 'active' : '' }}">
                     <img src="{{ $page->link('assets/build/img/robotics/kids/components/s-'. str_replace(' ', '-', strtolower($component)) .'.jpg') }}"
                         alt="Symbol of {{ $component }}" 
-                        class="mx-auto d-block w-50" />
+                        class="mx-auto d-block" />
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carousel{{ str_replace(' ', '', $component) }}" data-bs-slide="prev">

@@ -14,7 +14,7 @@
 
 .layout {
     display: grid;
-    grid-template-columns: 2fr 9fr;
+    grid-template-columns: 3fr 11fr;
     grid-template-rows: auto 1fr;
     grid-template-areas: "sidebar main";
 }

@@ -1,12 +1,12 @@
 <div class="col-md-4 d-flex align-items-stretch">
     <div class="card component-card">
-        <div id="carousel{{ str_replace(' ', '', $component) }}" 
+        <div id="carousel{{ str_replace(' ', '', (isset($id) ? $id : $component)) }}" 
             class="carousel slide card-img-top mx-auto" 
             data-bs-ride="carousel" 
             data-bs-interval="false">
             <div class="carousel-indicators">
                 <button type="button" 
-                    data-bs-target="#carousel{{ str_replace(' ', '', $component) }}" 
+                    data-bs-target="#carousel{{ str_replace(' ', '', (isset($id) ? $id : $component)) }}" 
                     data-bs-slide-to="0" 
                     @if ((isset($active) && $active == 0) || !isset($active))
                         class="active component-picture"
@@ -17,7 +17,7 @@
                     >
                 </button>
                 <button type="button" 
-                    data-bs-target="#carousel{{ str_replace(' ', '', $component) }}" 
+                    data-bs-target="#carousel{{ str_replace(' ', '', (isset($id) ? $id : $component)) }}" 
                     data-bs-slide-to="1" 
                     @if (isset($active) && $active == 1)
                         class="active component-symbol"
@@ -42,14 +42,14 @@
             </div>
             <button class="carousel-control-prev" 
                 type="button" 
-                data-bs-target="#carousel{{ str_replace(' ', '', $component) }}" 
+                data-bs-target="#carousel{{ str_replace(' ', '', (isset($id) ? $id : $component)) }}" 
                 data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
             <button class="carousel-control-next" 
                 type="button" 
-                data-bs-target="#carousel{{ str_replace(' ', '', $component) }}" 
+                data-bs-target="#carousel{{ str_replace(' ', '', (isset($id) ? $id : $component)) }}" 
                 data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>

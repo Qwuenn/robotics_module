@@ -1,6 +1,9 @@
 <div class="col-md-4 d-flex align-items-stretch">
     <div class="card component-card">
-        <div id="carousel{{ str_replace(' ', '', $component) }}" class="carousel slide card-img-top mx-auto" data-bs-ride="carousel" data-bs-interval="false">
+        <div id="carousel{{ str_replace(' ', '', $component) }}" 
+            class="carousel slide card-img-top mx-auto" 
+            data-bs-ride="carousel" 
+            data-bs-interval="false">
             <div class="carousel-indicators">
                 <button type="button" 
                     data-bs-target="#carousel{{ str_replace(' ', '', $component) }}" 
@@ -37,11 +40,17 @@
                         class="mx-auto d-block" />
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carousel{{ str_replace(' ', '', $component) }}" data-bs-slide="prev">
+            <button class="carousel-control-prev" 
+                type="button" 
+                data-bs-target="#carousel{{ str_replace(' ', '', $component) }}" 
+                data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carousel{{ str_replace(' ', '', $component) }}" data-bs-slide="next">
+            <button class="carousel-control-next" 
+                type="button" 
+                data-bs-target="#carousel{{ str_replace(' ', '', $component) }}" 
+                data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>

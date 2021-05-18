@@ -3,10 +3,11 @@
 
 // Global Variables
 @import "variables";
-@import "colors";
 
-// Custom bootstrap
+// Utilities
 @import "custom";
+@import "colors";
+@import "font";
 
 // Partials
 @import "header";

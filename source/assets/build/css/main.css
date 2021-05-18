@@ -11433,6 +11433,14 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.rounded-5 {
+  border-radius: 1rem;
+}
+
+.rounded-6 {
+  border-radius: 1.5rem;
+}
+
 .bg-default-black {
   background-color: #002639 !important;
 }
@@ -11488,12 +11496,12 @@ textarea.form-control-lg {
   border-color: #fcc741 !important;
 }
 
-.rounded-5 {
-  border-radius: 1rem;
+.fw-medium {
+  font-weight: 500 !important;
 }
 
-.rounded-6 {
-  border-radius: 1.5rem;
+.fw-semibold {
+  font-weight: 600 !important;
 }
 
 .header .navbar-toggler {

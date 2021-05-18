@@ -7,7 +7,7 @@
     <link rel="canonical" href="{{ $page->getUrl() }}">
     <link rel="icon" href="{{ $page->link('favicon.svg') }}">
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,300i,400,400i,700,700i,800,800i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i" rel="stylesheet">
     <title>{{ $page->title }}</title>
     <link rel="stylesheet" href="{{ $page->link(mix('css/main.css', 'assets/build')) }}">
     @stack('styles')

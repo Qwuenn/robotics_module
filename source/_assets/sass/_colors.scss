@@ -13,8 +13,8 @@
     background-color: $yellow !important;
 }
 
-.bg-sky-blue {
-    background-color: $sky-blue !important;
+.bg-default-sky-blue {
+    background-color: $default-sky-blue !important;
 }
 
 // Buttons
@@ -33,6 +33,11 @@
     color: $default-black !important;
 }
 
+.btn-default-sky-blue {
+    background-color: $default-yellow !important;
+    color: $white !important;
+}
+
 // Text
 .text-default-black {
     color: $default-black !important;
@@ -46,6 +51,10 @@
     color: $default-yellow !important;
 }
 
+.text-default-sky-blue {
+    color : $default-sky-blue !important;
+}
+
 // Border
 .border-default-black {
     border-color: $default-black !important;
@@ -57,4 +66,8 @@
 
 .border-default-yellow {
     border-color: $default-yellow !important;
+}
+
+.border-default-sky-blue {
+    border-color: $default-sky-blue !important;
 }

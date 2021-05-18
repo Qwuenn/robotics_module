@@ -1,7 +1,7 @@
 .hero-header {
     display: inline-flex;
     height: 615px;
-    background: linear-gradient(165deg, #3d8bff 49.8%, transparent 50%);
+    background: linear-gradient(165deg, $default-sky-blue 49.8%, transparent 50%);
 
     .hero-vector {
         height: 400px;
@@ -17,7 +17,7 @@
 @include media-breakpoint-down(md) {
     .hero-header {
         height: 100%;
-        background: linear-gradient(165deg, #3d8bff 39.8%, transparent 40%);
+        background: linear-gradient(165deg, $default-sky-blue 39.8%, transparent 40%);
     }
 }
 

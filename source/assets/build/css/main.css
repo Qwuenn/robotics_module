@@ -11453,7 +11453,7 @@ textarea.form-control-lg {
   background-color: #ffc107 !important;
 }
 
-.bg-sky-blue {
+.bg-default-sky-blue {
   background-color: #3d8bff !important;
 }
 
@@ -11472,6 +11472,11 @@ textarea.form-control-lg {
   color: #002639 !important;
 }
 
+.btn-default-sky-blue {
+  background-color: #fcc741 !important;
+  color: #fff !important;
+}
+
 .text-default-black {
   color: #002639 !important;
 }
@@ -11484,6 +11489,10 @@ textarea.form-control-lg {
   color: #fcc741 !important;
 }
 
+.text-default-sky-blue {
+  color: #3d8bff !important;
+}
+
 .border-default-black {
   border-color: #002639 !important;
 }
@@ -11494,6 +11503,10 @@ textarea.form-control-lg {
 
 .border-default-yellow {
   border-color: #fcc741 !important;
+}
+
+.border-default-sky-blue {
+  border-color: #3d8bff !important;
 }
 
 .fw-medium {

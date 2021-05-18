@@ -6,6 +6,13 @@ $default-blue: #3d84c8;
 $default-yellow: #fcc741; 
 $default-sky-blue: #3d8bff;
 
+$default-theme-colors: (
+  "black"   :    $default-black,
+  "blue"    :    $default-blue,
+  "yellow"  :    $default-yellow,
+  "sky-blue":    $default-sky-blue
+) !default;
+
 // Fonts
 $font-weight-medium: 500 !default;
 $font-weight-semibold: 600 !default;

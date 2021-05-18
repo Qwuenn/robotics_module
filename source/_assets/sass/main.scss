@@ -9,10 +9,14 @@
 @import "colors";
 @import "font";
 
+// Components
+@import "card";
+@import "buttons";
+
 // Partials
 @import "header";
 @import "footer";
-@import "card";
+
 
 body {
     color: $default-black;

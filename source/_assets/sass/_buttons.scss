@@ -1,0 +1,11 @@
+@each $color, $value in $default-theme-colors {
+    .btn-default-#{$color} {
+        @include button-variant($value, $value);
+    }
+}
+  
+// @each $color, $value in $default-theme-colors {
+//     .btn-outline-default-#{$color} {
+//         @include button-outline-variant($value);
+//     }
+// }

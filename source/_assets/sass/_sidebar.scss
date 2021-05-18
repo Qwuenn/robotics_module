@@ -4,7 +4,6 @@
     .navbar-brand {
         font-size: 1rem;
         margin: 0.5rem 1rem;
-        color: $blue-500;
         font-weight: $font-weight-bold;
         border-bottom: 1px solid $blue-500;
     }
@@ -15,7 +14,6 @@
 
     .nav-link {
         color: $default-black;
-        font-weight: bold;
 
         transition: margin-left 0.2s;
 
@@ -26,13 +24,12 @@
 
     .selected .nav-link:before {
         content: "• ";
-        color: $blue-500;
+        color: $primary;
     }
       
 
     .btn-toggle-nav {
         .nav-link {
-            // padding: 0.1875rem 0.5rem;
             margin-left: 1.05rem;
             font-weight: initial;
         

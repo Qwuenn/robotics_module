@@ -1,4 +1,4 @@
-<footer class="mt-auto pt-5 pb-3 text-white" style="background-color: #1a3a57">
+<footer class="mt-auto pt-5 pb-3 bg-default-black text-white">
     <div class="container-lg">
         <div class="row gy-5 gx-lg-5">
             <div class="col-lg-4">
@@ -27,20 +27,20 @@
                 </div>
             </div>
 
-            <div class="col-lg-4">
+            <div class="col-lg-4 fw-light">
                 <h5 class="pb-2 border-bottom border-white mb-3">Contact</h4>
                 <p class="mt-3">
-                    <b>Location:</b>
+                    <span class="fw-semibold">Location:</span>
                     <a class="nav-link"
                         href="https://goo.gl/maps/KRJ4rUowxattN2Z1A">
                         Unit D 2476 P. Urdaneta Rd., Guadalupe Nuevo, Makati City 1212 Makati, Philippines
                     </a>
                 </p>
                 <p class="text-white">
-                    <b>Email:</b> erovoutika@gmail.com
+                    <span class="fw-semibold">Email:</span> erovoutika@gmail.com
                 </p>
                 <p class="text-white">
-                    <b>Phone:</b> +(02)8370 1811
+                    <span class="fw-semibold">Phone:</span> +(02)8370 1811
                 </p>
             </div>
         </div>

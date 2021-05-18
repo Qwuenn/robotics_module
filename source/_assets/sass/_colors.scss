@@ -1,73 +1,22 @@
 @import "variables";
 
-// Background color
-.bg-default-black {
-    background-color: $default-black !important;
-}
-
-.bg-default-blue {
-    background-color: $default-blue !important;
-}
-
-.bg-default-yellow {
-    background-color: $yellow !important;
-}
-
-.bg-default-sky-blue {
-    background-color: $default-sky-blue !important;
-}
-
-// Buttons
-.btn-default-black {
-    background-color: $default-black !important;
-    color: $white;
-}
-
-.btn-default-blue {
-    background-color: $default-blue !important;
-    color: $white;
-}
-
-.btn-default-yellow {
-    background-color: $default-yellow !important;
-    color: $default-black !important;
-}
-
-.btn-default-sky-blue {
-    background-color: $default-yellow !important;
-    color: $white !important;
+// Background 
+@each $color, $value in $default-theme-colors {
+    .bg-default-#{$color} {
+        background-color: $value !important;
+    }
 }
 
 // Text
-.text-default-black {
-    color: $default-black !important;
-}
-
-.text-default-blue {
-    color: $default-blue !important;
-}
-
-.text-default-yellow {
-    color: $default-yellow !important;
-}
-
-.text-default-sky-blue {
-    color : $default-sky-blue !important;
+@each $color, $value in $default-theme-colors {
+    .text-default-#{$color} {
+        color: $value !important;
+    }
 }
 
 // Border
-.border-default-black {
-    border-color: $default-black !important;
-}
-
-.border-default-blue {
-    border-color: $default-blue !important;
-}
-
-.border-default-yellow {
-    border-color: $default-yellow !important;
-}
-
-.border-default-sky-blue {
-    border-color: $default-sky-blue !important;
+@each $color, $value in $default-theme-colors {
+    .border-default-#{$color} {
+        border-color: $value !important;
+    }
 }

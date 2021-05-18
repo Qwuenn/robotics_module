@@ -1,7 +1,11 @@
 .hero-header {
     display: inline-flex;
     height: 615px;
-    background: linear-gradient(165deg, $default-sky-blue 49.8%, transparent 50%);
+    background: linear-gradient(165deg, $default-black 49.8%, transparent 50%);
+
+    .hero-message {
+        color: $white;
+    }
 
     .hero-vector {
         height: 400px;
@@ -9,7 +13,8 @@
 }
 
 @include media-breakpoint-down(lg) {
-    .hero-message {
+    .hero-header .hero-message {
+        color: $default-black;
         text-align: center;
     }
 }
@@ -17,7 +22,7 @@
 @include media-breakpoint-down(md) {
     .hero-header {
         height: 100%;
-        background: linear-gradient(165deg, $default-sky-blue 39.8%, transparent 40%);
+        background: linear-gradient(165deg, $default-black 39.8%, transparent 40%);
     }
 }
 

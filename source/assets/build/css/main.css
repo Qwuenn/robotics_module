@@ -660,14 +660,6 @@ THEMES:
   border-color: #3d8bff !important;
 }
 
-.fw-medium {
-  font-weight: 500 !important;
-}
-
-.fw-semibold {
-  font-weight: 600 !important;
-}
-
 /*!
  * Bootstrap v5.0.1 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -7927,6 +7919,14 @@ textarea.form-control-lg {
 
 .fw-bolder {
   font-weight: bolder !important;
+}
+
+.fw-medium {
+  font-weight: 500 !important;
+}
+
+.fw-semibold {
+  font-weight: 600 !important;
 }
 
 .lh-1 {

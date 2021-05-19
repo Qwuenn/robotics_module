@@ -1,7 +1,7 @@
 .hero-header {
   display: inline-flex;
   height: 615px;
-  background: linear-gradient(165deg, #002639 49.8%, transparent 50%);
+  background: linear-gradient(165deg, #1a3a57 49.8%, transparent 50%);
 }
 .hero-header .hero-message {
   color: #fff;
@@ -12,14 +12,14 @@
 
 @media (max-width: 991.98px) {
   .hero-header .hero-message {
-    color: #002639;
+    color: #1a3a57;
     text-align: center;
   }
 }
 @media (max-width: 767.98px) {
   .hero-header {
     height: 100%;
-    background: linear-gradient(165deg, #002639 39.8%, transparent 40%);
+    background: linear-gradient(165deg, #1a3a57 39.8%, transparent 40%);
   }
 }
 @media (max-width: 575.98px) {

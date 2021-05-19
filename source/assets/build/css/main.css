@@ -11442,7 +11442,7 @@ textarea.form-control-lg {
 }
 
 .bg-default-black {
-  background-color: #002639 !important;
+  background-color: #1a3a57 !important;
 }
 
 .bg-default-blue {
@@ -11458,7 +11458,7 @@ textarea.form-control-lg {
 }
 
 .text-default-black {
-  color: #002639 !important;
+  color: #1a3a57 !important;
 }
 
 .text-default-blue {
@@ -11474,7 +11474,7 @@ textarea.form-control-lg {
 }
 
 .border-default-black {
-  border-color: #002639 !important;
+  border-color: #1a3a57 !important;
 }
 
 .border-default-blue {
@@ -11518,32 +11518,32 @@ textarea.form-control-lg {
 
 .btn-default-black {
   color: #fff;
-  background-color: #002639;
-  border-color: #002639;
+  background-color: #1a3a57;
+  border-color: #1a3a57;
 }
 .btn-default-black:hover {
   color: #fff;
-  background-color: #002030;
-  border-color: #001e2e;
+  background-color: #16314a;
+  border-color: #152e46;
 }
 .btn-check:focus + .btn-default-black, .btn-default-black:focus {
   color: #fff;
-  background-color: #002030;
-  border-color: #001e2e;
-  box-shadow: 0 0 0 0.25rem rgba(38, 71, 87, 0.5);
+  background-color: #16314a;
+  border-color: #152e46;
+  box-shadow: 0 0 0 0.25rem rgba(60, 88, 112, 0.5);
 }
 .btn-check:checked + .btn-default-black, .btn-check:active + .btn-default-black, .btn-default-black:active, .btn-default-black.active, .show > .btn-default-black.dropdown-toggle {
   color: #fff;
-  background-color: #001e2e;
-  border-color: #001d2b;
+  background-color: #152e46;
+  border-color: #142c41;
 }
 .btn-check:checked + .btn-default-black:focus, .btn-check:active + .btn-default-black:focus, .btn-default-black:active:focus, .btn-default-black.active:focus, .show > .btn-default-black.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.25rem rgba(38, 71, 87, 0.5);
+  box-shadow: 0 0 0 0.25rem rgba(60, 88, 112, 0.5);
 }
 .btn-default-black:disabled, .btn-default-black.disabled {
   color: #fff;
-  background-color: #002639;
-  border-color: #002639;
+  background-color: #1a3a57;
+  border-color: #1a3a57;
 }
 
 .btn-default-blue {
@@ -11741,7 +11741,7 @@ footer .nav-link:hover {
 }
 
 body {
-  color: #002639;
+  color: #1a3a57;
   font-family: Poppins, sans-serif;
 }
 

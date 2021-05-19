@@ -30,5 +30,38 @@ $utilities: map-merge(
                 ),
             ),
         ),
+
+        // Additional font colors
+        "color": map-merge(
+            map-get($utilities, "color"),
+            (
+                values: map-merge(
+                map-get(map-get($utilities, "color"), "values"), 
+                    $default-theme-colors
+                ),
+            ),
+        ),
+
+        // Additional background colors
+        "background-color": map-merge(
+            map-get($utilities, "background-color"),
+            (
+                values: map-merge(
+                    map-get(map-get($utilities, "background-color"), "values"), 
+                        $default-theme-colors
+                ),
+            ),
+        ),
+
+        // Additional border colors
+        "border-color": map-merge(
+            map-get($utilities, "border-color"),
+            (
+                values: map-merge(
+                    map-get(map-get($utilities, "border-color"), "values"), 
+                        $default-theme-colors
+                ),
+            ),
+        ),
     )
 );

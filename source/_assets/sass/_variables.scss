@@ -7,10 +7,10 @@ $default-yellow: #fcc741;
 $default-sky-blue: #3d8bff;
 
 $default-theme-colors: (
-  "black"   :    $default-black,
-  "blue"    :    $default-blue,
-  "yellow"  :    $default-yellow,
-  "sky-blue":    $default-sky-blue
+  "default-black"   :    $default-black,
+  "default-blue"    :    $default-blue,
+  "default-yellow"  :    $default-yellow,
+  "default-sky-blue":    $default-sky-blue
 ) !default;
 
 // Fonts

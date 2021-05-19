@@ -1,0 +1,20 @@
+$utilities: map-merge(
+    $utilities,
+    (
+        // Responsive width
+        "width": map-merge(
+            map-get($utilities, "width"),
+            (
+                responsive: true
+            ),
+        ),
+
+        // Responsive height
+        "height": map-merge(
+            map-get($utilities, "height"),
+            (
+                responsive: true
+            ),
+        ),
+    )
+);

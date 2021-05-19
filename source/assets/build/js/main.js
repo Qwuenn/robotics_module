@@ -14,13 +14,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var overlayscrollbars__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! overlayscrollbars */ "./node_modules/overlayscrollbars/js/OverlayScrollbars.js");
 /* harmony import */ var overlayscrollbars__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(overlayscrollbars__WEBPACK_IMPORTED_MODULE_1__);
 
- // Initialize OverlayScrollbars on body element
+
+var osBody = new Object(); // Initialize OverlayScrollbars on body element
 
 document.addEventListener('DOMContentLoaded', function () {
   //The 1st argument are the elements to which the plugin shall be initialized
   //The 2nd argument has to be at least a empty object or a object with your desired options
-  OverlayScrollbars(document.querySelectorAll('body'), {});
+  osBody = OverlayScrollbars(document.querySelectorAll('body'), {});
   OverlayScrollbars(document.querySelectorAll('.modal-body'), {});
+});
+var modal = document.querySelector('.modal');
+modal.addEventListener('show.bs.modal', function (event) {
+  osBody.options('scrollbars.visibility', 'hidden');
+});
+modal.addEventListener('hide.bs.modal', function (event) {
+  osBody.options('scrollbars.visibility', 'auto');
 });
 
 /***/ }),

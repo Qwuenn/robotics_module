@@ -1,13 +1,19 @@
-@import "bootstrap";
-@import "~overlayscrollbars/css/OverlayScrollbars.css";
+// Required Bootstrap Imports
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/utilities";
 
 // Global Variables
 @import "variables";
 
-// Utilities
+// Custom Utilities
 @import "custom";
 @import "colors";
 @import "font";
+
+// Plugins/Frameworks
+@import "bootstrap";
+@import "~overlayscrollbars/css/OverlayScrollbars.css";
 
 // Components
 @import "card";

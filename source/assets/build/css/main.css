@@ -604,14 +604,6 @@ THEMES:
 }
 
 @charset "UTF-8";
-.rounded-5 {
-  border-radius: 1rem;
-}
-
-.rounded-6 {
-  border-radius: 1.5rem;
-}
-
 /*!
  * Bootstrap v5.0.1 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -8154,6 +8146,18 @@ textarea.form-control-lg {
 
 .rounded-pill {
   border-radius: 50rem !important;
+}
+
+.rounded-4 {
+  border-radius: 0.75rem !important;
+}
+
+.rounded-5 {
+  border-radius: 1rem !important;
+}
+
+.rounded-6 {
+  border-radius: 1.5rem !important;
 }
 
 .rounded-top {

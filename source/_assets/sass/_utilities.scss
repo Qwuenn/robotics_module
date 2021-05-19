@@ -63,5 +63,20 @@ $utilities: map-merge(
                 ),
             ),
         ),
+
+        // Additional border radius
+        "rounded": map-merge(
+            map-get($utilities, "rounded"),
+            (
+                values: map-merge(
+                    map-get(map-get($utilities, "rounded"), "values"), 
+                       (
+                           4: 0.75rem, 
+                           5: 1rem,
+                           6: 1.5rem,
+                       )
+                ),
+            ),
+        ),
     )
 );

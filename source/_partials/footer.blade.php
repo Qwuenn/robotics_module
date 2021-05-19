@@ -19,8 +19,6 @@
                         <a class="nav-link" href="{{ $page->link('/') }}">Home</a>
                         <a class="nav-link" href="{{ $page->link('robotics/kids/introduction') }}">Robotics for Kids!</a>
                         <a class="nav-link" href="#">Robotics for Teens!</a>
-                    </nav>
-                    <nav class="nav flex-column flex-fill">
                         <a class="nav-link" href="#">Robotics for Adults</a>
                     </nav>
                 </div>

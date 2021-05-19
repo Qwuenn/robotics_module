@@ -25,18 +25,33 @@
                 <li class="nav-item">
                     <a class="nav-link" 
                         href="https://www.erovoutika.ph">
+                        {!! $page->svg('icon-globe', [
+                            'css' => [
+                                'height' => '1rem'
+                            ]
+                        ]) !!}
                         Main Website
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" 
                         href="https://www.facebook.com/erovoutika">
+                        {!! $page->svg('icon-facebook', [
+                            'css' => [
+                                'height' => '1rem'
+                            ]
+                        ]) !!}
                         Facebook
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" 
                         href="https://www.youtube.com/channel/UC405vJKrS2r20iFV_5ccgVg">
+                        {!! $page->svg('icon-youtube', [
+                            'css' => [
+                                'height' => '1rem'
+                            ]
+                        ]) !!}
                         Youtube
                     </a>
                 </li>

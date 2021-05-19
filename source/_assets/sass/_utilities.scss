@@ -78,5 +78,13 @@ $utilities: map-merge(
                 ),
             ),
         ),
+
+        // Cursor
+        "cursor": (
+            property: cursor,
+            class: cursor,
+            responsive: true,
+            values: auto pointer grab,
+        )
     )
 );

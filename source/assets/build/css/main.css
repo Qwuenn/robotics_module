@@ -8188,6 +8188,19 @@ textarea.form-control-lg {
   visibility: hidden !important;
 }
 
+.cursor-auto {
+  cursor: auto !important;
+}
+
+.cursor-pointer {
+  cursor: pointer !important;
+}
+
+.cursor-grab {
+  cursor: -webkit-grab !important;
+  cursor: grab !important;
+}
+
 @media (min-width: 576px) {
   .float-sm-start {
     float: left !important;
@@ -8877,6 +8890,19 @@ textarea.form-control-lg {
 
   .text-sm-center {
     text-align: center !important;
+  }
+
+  .cursor-sm-auto {
+    cursor: auto !important;
+  }
+
+  .cursor-sm-pointer {
+    cursor: pointer !important;
+  }
+
+  .cursor-sm-grab {
+    cursor: -webkit-grab !important;
+    cursor: grab !important;
   }
 }
 @media (min-width: 768px) {
@@ -9569,6 +9595,19 @@ textarea.form-control-lg {
   .text-md-center {
     text-align: center !important;
   }
+
+  .cursor-md-auto {
+    cursor: auto !important;
+  }
+
+  .cursor-md-pointer {
+    cursor: pointer !important;
+  }
+
+  .cursor-md-grab {
+    cursor: -webkit-grab !important;
+    cursor: grab !important;
+  }
 }
 @media (min-width: 992px) {
   .float-lg-start {
@@ -10259,6 +10298,19 @@ textarea.form-control-lg {
 
   .text-lg-center {
     text-align: center !important;
+  }
+
+  .cursor-lg-auto {
+    cursor: auto !important;
+  }
+
+  .cursor-lg-pointer {
+    cursor: pointer !important;
+  }
+
+  .cursor-lg-grab {
+    cursor: -webkit-grab !important;
+    cursor: grab !important;
   }
 }
 @media (min-width: 1200px) {
@@ -10951,6 +11003,19 @@ textarea.form-control-lg {
   .text-xl-center {
     text-align: center !important;
   }
+
+  .cursor-xl-auto {
+    cursor: auto !important;
+  }
+
+  .cursor-xl-pointer {
+    cursor: pointer !important;
+  }
+
+  .cursor-xl-grab {
+    cursor: -webkit-grab !important;
+    cursor: grab !important;
+  }
 }
 @media (min-width: 1400px) {
   .float-xxl-start {
@@ -11641,6 +11706,19 @@ textarea.form-control-lg {
 
   .text-xxl-center {
     text-align: center !important;
+  }
+
+  .cursor-xxl-auto {
+    cursor: auto !important;
+  }
+
+  .cursor-xxl-pointer {
+    cursor: pointer !important;
+  }
+
+  .cursor-xxl-grab {
+    cursor: -webkit-grab !important;
+    cursor: grab !important;
   }
 }
 @media (min-width: 1200px) {

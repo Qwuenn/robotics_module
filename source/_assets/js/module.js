@@ -15,8 +15,8 @@ function mediaBreakpointDownLarge() {
         osToc.destroy();
         osSidebar.destroy();
     } else {
-        osToc = OverlayScrollbars(document.querySelector('#table-of-contents'), { });
-        osSidebar = OverlayScrollbars(document.querySelector('#sidebar'), { });
+        osToc = OverlayScrollbars(document.getElementById('table-of-contents'), { });
+        osSidebar = OverlayScrollbars(document.getElementById('sidebar'), { });
     }
 }
 

@@ -17,7 +17,6 @@
                 <div class="d-flex flex-row">
                     <nav class="nav flex-column flex-fill">
                         <a class="nav-link" href="{{ $page->link('/') }}">Home</a>
-                        <a class="nav-link" href="{{ $page->link('categories') }}">Categories</a>
                         <a class="nav-link" href="{{ $page->link('robotics/kids/introduction') }}">Robotics for Kids!</a>
                         <a class="nav-link" href="#">Robotics for Teens!</a>
                     </nav>

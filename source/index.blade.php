@@ -20,7 +20,7 @@
                     </p>
                     <div class="d-grid gap-2 d-sm-block">
                         <a class="btn btn-lg btn-default-yellow fw-medium shadow-sm" 
-                            href="{{ $page->link('categories') }}" 
+                            href="#categories" 
                             role="button">
                             Get Started
                         </a>
@@ -31,7 +31,7 @@
     </div>
 
     {{-- Categories --}}
-    <div class="container-lg py-5">
+    <div class="container-lg py-5" id="categories">
         <h2 class="pb-2 border-bottom mb-2">Categories</h2>
         <div class="row pt-3 pb-5 gy-5">
             <div class="col-md-4 d-flex align-items-stretch">

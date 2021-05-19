@@ -23,12 +23,6 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link {{ $page->selected('categories') }}" 
-                        href="{{ $page->link('categories') }}">
-                        Categories
-                    </a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link" 
                         href="https://www.erovoutika.ph">
                         Main Website

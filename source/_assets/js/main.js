@@ -1,6 +1,5 @@
 import 'bootstrap/dist/js/bootstrap.bundle';
 import 'overlayscrollbars';
-import OverlayScrollbars from 'overlayscrollbars';
 
 // Initialize OverlayScrollbars on body element
 document.addEventListener('DOMContentLoaded', function() {

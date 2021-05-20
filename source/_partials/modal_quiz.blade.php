@@ -22,7 +22,7 @@
             </div>
             <div class="modal-body">
                 <div class="d-flex flex-column justify-content-center my-2 w-md-50 mx-auto">
-                    <div id="modal-body-quiz">
+                    <div id="quiz-modal-body">
                         <div id="quiz-start-screen" class="text-center mt-5">
                             <h2 class="fw-semibold mb-3">Activity Quiz {{ $activityNo }}</h2>
                             <h5>{{ $title }}</h5>

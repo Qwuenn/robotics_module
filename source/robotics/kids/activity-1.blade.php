@@ -112,7 +112,7 @@
 @push('scripts')
     <script src="{{ $page->link(mix('js/quiz.js', 'assets/build')) }}"></script>
     <script>
-        $('#modal-body-quiz').quiz({
+        $('#quiz-modal-body').quiz({
             questions: [
                 {
                     'q': 'Which component serves as the detector of the black line?',

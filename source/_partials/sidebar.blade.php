@@ -41,6 +41,11 @@
                                 4. Motion Tracker Robot
                             </a>
                         </li>
+                        <li class="nav-item {{ $page->selected('/categories\kids/activity-5') }}">
+                            <a class="nav-link" href="{{ $page->link('categories\kids/activity-5') }}">
+                                5. Rover Robot Car
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </li>

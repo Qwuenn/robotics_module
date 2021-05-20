@@ -17,18 +17,16 @@
     <div class="modal-dialog modal-dialog-scrollable modal-fullscreen">
         <div class="modal-content">
             <div class="modal-header bg-sky-blue border-0">
-                <div class="d-flex flex-column">
-                    <h4 class="modal-title fw-semibold" id="exampleModalLabel">Robotics for Kids!</h4>
-                    <h6 class="modal-title">Activity {{ $activityNo }} - {{ $title }}</h6>
-                </div>
+                <h5 class="modal-title fw-semibold" id="exampleModalLabel">Robotics for Kids!</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
                 <div class="d-flex flex-column justify-content-center my-2 w-md-50 mx-auto">
                     <div id="modal-body-quiz">
                         <div id="quiz-start-screen" class="text-center mt-5">
-                            <h1>Pop-up Quiz {{ $activityNo }}<h1>
-                            <button id="quiz-start-btn" class="btn btn-outline-primary rounded-6 w-25 mt-5">Start</button>
+                            <h2 class="fw-semibold mb-3">Activity Quiz {{ $activityNo }}</h2>
+                            <h5>{{ $title }}</h5>
+                            <button id="quiz-start-btn" class="btn btn-outline-primary rounded-6 w-25 mt-4">Start</button>
                         </div>
                     </div>
                 </div>

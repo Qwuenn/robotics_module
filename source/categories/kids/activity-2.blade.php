@@ -138,6 +138,6 @@
                     'incorrectResponse': 'Wrong Answer'
                 },
             ]
-        })
+        });
     </script>
 @endpush

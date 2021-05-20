@@ -16,7 +16,7 @@
         <a href="#how-does-it-work">How does it work?</a>
     </li>
     <li>
-        <a href="#pop-up-quiz">Pop-up Quiz</a>
+        <a href="#quiz">Quiz</a>
     </li>
 @endSection
 

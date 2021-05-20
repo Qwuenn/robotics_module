@@ -1,5 +1,5 @@
 {{-- Heading --}}
-<h3 id="pop-up-quiz"><b>Quiz</b></h3>
+<h3 id="quiz"><b>Quiz</b></h3>
 
 {{-- Button trigger modal --}}
 <button type="button"

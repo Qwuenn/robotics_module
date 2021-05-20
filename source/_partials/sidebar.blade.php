@@ -36,6 +36,11 @@
                                 3. Light Tracker Robot
                             </a>
                         </li>
+                        <li class="nav-item {{ $page->selected('/categories\kids/activity-4') }}">
+                            <a class="nav-link" href="{{ $page->link('categories\kids/activity-4') }}">
+                                4. Motion Tracker Robot
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </li>

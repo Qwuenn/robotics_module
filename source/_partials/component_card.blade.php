@@ -30,12 +30,12 @@
             </div>
             <div class="carousel-inner mb-4 mt-3">
                 <div class="carousel-item {{ (isset($active) && $active === 0) || !isset($active) ? 'active' : '' }}">
-                    <img src="{{ $page->link('assets/build/img/robotics/kids/components/p-'. str_replace(' ', '-', strtolower($component)) .'.jpg') }}" 
+                    <img src="{{ $page->link('assets/build/img/categories/kids/components/p-'. str_replace(' ', '-', strtolower($component)) .'.jpg') }}" 
                         alt="Picture of {{ $component }}" 
                         class="mx-auto d-block" />
                 </div>
                 <div class="carousel-item {{ (isset($active) && $active === 1) ? 'active' : '' }}">
-                    <img src="{{ $page->link('assets/build/img/robotics/kids/components/s-'. str_replace(' ', '-', strtolower($component)) .'.jpg') }}"
+                    <img src="{{ $page->link('assets/build/img/categories/kids/components/s-'. str_replace(' ', '-', strtolower($component)) .'.jpg') }}"
                         alt="Symbol of {{ $component }}" 
                         class="mx-auto d-block" />
                 </div>

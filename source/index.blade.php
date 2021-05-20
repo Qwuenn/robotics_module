@@ -47,7 +47,7 @@
                         <p class="card-text text-center">
                             Learn how to build your own robots easily with no computer programming required!
                         </p>
-                        <a href="{{ $page->link('robotics/kids/introduction') }}" class="btn btn-default-blue fw-medium text-white">Get Started</a>
+                        <a href="{{ $page->link('categories/kids/introduction') }}" class="btn btn-default-blue fw-medium text-white">Get Started</a>
                     </div>
                 </div>
             </div>

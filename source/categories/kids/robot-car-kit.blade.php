@@ -104,17 +104,17 @@
     <div class="container-fluid text-center p-0">
         <div class="row row-cols-1 gy-4">
             <div class="col">
-                <img src="{{ $page->link('assets/build/img/robotics/kids/robot-car-kit/robot-car-design-1.jpg') }}" 
+                <img src="{{ $page->link('assets/build/img/categories/kids/robot-car-kit/robot-car-design-1.jpg') }}" 
                     alt="robot-car-design-1"
                     class="img-fluid rounded-2" />
             </div>
             <div class="col">
-                <img src="{{ $page->link('assets/build/img/robotics/kids/robot-car-kit/robot-car-design-2.jpg') }}" 
+                <img src="{{ $page->link('assets/build/img/categories/kids/robot-car-kit/robot-car-design-2.jpg') }}" 
                     alt="robot-car-design-2"
                     class="img-fluid rounded-2" />
             </div>
             <div class="col">
-                <img src="{{ $page->link('assets/build/img/robotics/kids/robot-car-kit/robot-car-design-3.jpg') }}" 
+                <img src="{{ $page->link('assets/build/img/categories/kids/robot-car-kit/robot-car-design-3.jpg') }}" 
                     alt="robot-car-design-3"
                     class="img-fluid rounded-2" />
             </div>

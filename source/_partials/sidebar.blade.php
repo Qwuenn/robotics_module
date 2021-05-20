@@ -26,8 +26,10 @@
                                 1 - Line Following Robot
                             </a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Sub Menu</a>
+                        <li class="nav-item {{ $page->selected('/robotics\kids/activity-2') }}">
+                            <a class="nav-link" href="{{ $page->link('robotics\kids/activity-2') }}">
+                                2 - Obstacle Avoidance Robot
+                            </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Sub Menu</a>

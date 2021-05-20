@@ -22,7 +22,7 @@
             </div>
             <div class="modal-body">
                 <div class="d-flex flex-column justify-content-center my-5 w-md-50 mx-auto">
-                    <div id="quiz">
+                    <div id="modal-body-quiz">
                         <div id="quiz-start-screen" class="text-center mt-5">
                             <h1>Pop-up Quiz {{ $activityNo }}<h1>
                             <button id="quiz-start-btn" class="btn btn-outline-primary rounded-6 w-25 mt-5">Start</button>

@@ -1,7 +1,9 @@
 {
-    "/js/main.js": "/js/main.js?id=86ff9f10d726e19c1940",
+    "/js/main.js": "/js/main.js?id=e8cc77487db481a762a1",
     "/js/module.js": "/js/module.js?id=60291eed37e54728ec4f",
+    "/js/quiz.js": "/js/quiz.js?id=2c7b4be69bae5d834a6d",
     "/css/main.css": "/css/main.css?id=93ddced57a1266d80660",
+    "/css/quiz.css": "/css/quiz.css?id=e1dfe40b3c00dfe7f720",
     "/css/module.css": "/css/module.css?id=bca4d3a7dc1624f91d27",
     "/css/index.css": "/css/index.css?id=884d4b01aa969e4ae26f"
 }

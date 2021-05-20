@@ -31,8 +31,10 @@
                                 2 - Obstacle Avoidance Robot
                             </a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Sub Menu</a>
+                        <li class="nav-item {{ $page->selected('/categories\kids/activity-3') }}">
+                            <a class="nav-link" href="{{ $page->link('categories\kids/activity-3') }}">
+                                3 - Light Tracker Robot
+                            </a>
                         </li>
                     </ul>
                 </div>

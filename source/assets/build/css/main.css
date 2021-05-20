@@ -12021,6 +12021,9 @@ footer .nav-link {
 footer .nav-link:hover {
   color: #fcc741;
 }
+footer .selected {
+  color: #fcc741;
+}
 
 body {
   color: #1a3a57;

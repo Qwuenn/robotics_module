@@ -16,8 +16,8 @@
                 <h5 class="pb-2 border-bottom border-white mb-3">Quick Links</h4>
                 <div class="d-flex flex-row">
                     <nav class="nav flex-column flex-fill">
-                        <a class="nav-link" href="{{ $page->link('/') }}">Home</a>
-                        <a class="nav-link" href="{{ $page->link('categories/kids/introduction') }}">Robotics for Kids!</a>
+                        <a class="nav-link {{ empty($page->getPath()) ? 'selected' : ''}}" href="{{ $page->link('/') }}">Home</a>
+                        <a class="nav-link {{ $page->selected('/categories\kids') }}" href="{{ $page->link('categories/kids/introduction') }}">Robotics for Kids!</a>
                         <a class="nav-link" href="#">Robotics for Teens!</a>
                         <a class="nav-link" href="#">Robotics for Adults</a>
                     </nav>

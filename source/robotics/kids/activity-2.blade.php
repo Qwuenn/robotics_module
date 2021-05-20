@@ -63,15 +63,15 @@
             ])
 
             @include('_partials.component_card', [
-                'component' => 'Battery',
-                'id' => 'BatteryHolder',
+                'component' => 'Battery Holder',
                 'title' => '1pc Battery Holder',
                 'active' => 1
             ])
 
             @include('_partials.component_card', [
                 'component' => 'Battery',
-                'title' => '4pcs AA Battery'
+                'title' => '4pcs AA Battery',
+                'active' => 1
             ])
         </div>
     </div>

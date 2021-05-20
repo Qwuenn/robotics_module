@@ -1,5 +1,5 @@
 <div id="sidebar" class="sidebar d-lg-block collapse mt-lg-5">
-    <div class="position-sticky ps-lg-3 py-lg-0 py-4 px-2">
+    <div class="position-sticky px-lg-2 py-lg-0 py-4 px-2">
         <div class="navbar-brand border-bottom border-primary text-primary fw-semibold mb-1 pt-lg-0 pt-2 pb-1">Robotics for Kids!</div>
         <ul class="nav flex-column fw-medium">
             <li class="nav-item {{ $page->selected('/categories\kids/introduction') }}">
@@ -23,17 +23,17 @@
                     <ul class="nav flex-column btn-toggle-nav">
                         <li class="nav-item {{ $page->selected('/categories\kids/activity-1') }}">
                             <a class="nav-link" href="{{ $page->link('categories\kids/activity-1') }}">
-                                1 - Line Following Robot
+                                1. Line Following Robot
                             </a>
                         </li>
                         <li class="nav-item {{ $page->selected('/categories\kids/activity-2') }}">
                             <a class="nav-link" href="{{ $page->link('categories\kids/activity-2') }}">
-                                2 - Obstacle Avoidance Robot
+                                2. Obstacle Avoidance Robot
                             </a>
                         </li>
                         <li class="nav-item {{ $page->selected('/categories\kids/activity-3') }}">
                             <a class="nav-link" href="{{ $page->link('categories\kids/activity-3') }}">
-                                3 - Light Tracker Robot
+                                3. Light Tracker Robot
                             </a>
                         </li>
                     </ul>

@@ -16,7 +16,7 @@
         <a href="#how-does-it-work">How does it work?</a>
     </li>
     <li>
-        <a href="#quiz">Quiz</a>
+        <a href="#pop-up-quiz">Pop-up Quiz</a>
     </li>
 @endSection
 
@@ -106,6 +106,51 @@
 
     <p>&nbsp</p>
 
-    <h3 id="quiz"><b>Quiz</b></h3>
-    <button class="btn btn-primary">Click to answer</button>
+    @include('_partials.modal_quiz', [ 'activityNo' => 1, 'title' => 'Line Following Robot'])
 @endsection
+
+@push('scripts')
+    <script src="{{ $page->link(mix('js/quiz.js', 'assets/build')) }}"></script>
+    <script>
+        $('#quiz').quiz({
+            questions: [
+                {
+                    'q': 'Which component serves as the detector of the black line?',
+                    'options': [
+                        'Diode',
+                        'IR Sensor',
+                        'MOSFET',
+                        'Resistor'
+                    ],
+                    'correctIndex': 1,
+                    'correctResponse': 'Correct!',
+                    'incorrectResponse': 'Wrong Answer'
+                },
+                {
+                    'q': 'What will happen if the right sensor detects a black line?',
+                    'options': [
+                        'It will stop',
+                        'The robot goes straight',
+                        'The robot turns left',
+                        'The robot turns right'
+                    ],
+                    'correctIndex': 3,
+                    'correctResponse': 'Correct!',
+                    'incorrectResponse': 'Wrong Answer'
+                },
+                {
+                    'q': 'What will happen if before the robot turns right?',
+                    'options': [
+                        'Move forward',
+                        'Drive at full speed',
+                        'It will slow down',
+                        'It will stop',
+                    ],
+                    'correctIndex': 2,
+                    'correctResponse': 'Correct!',
+                    'incorrectResponse': 'Wrong Answer'
+                },
+            ]
+        })
+    </script>
+@endpush

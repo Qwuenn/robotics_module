@@ -11,7 +11,6 @@ mix.jigsaw()
     .sass('source/_assets/sass/main.scss', 'css')
     .sass('source/_assets/sass/index.scss', 'css')
     .sass('source/_assets/sass/module.scss', 'css')
-    .sass('source/_assets/sass/quiz.scss', 'css')
     .options({
         processCssUrls: false,
     })

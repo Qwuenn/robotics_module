@@ -90,6 +90,11 @@
                 'component' => 'Battery',
                 'description' => 'It produces a direct current (DC) that stores electrical energy.'
             ])
+
+            @include('_partials.component_card', [
+                'component' => 'Battery Holder',
+                'description' => 'A battery holder is a compartment that holds a battery.'
+            ])
         </div>
     </div>
 

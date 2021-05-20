@@ -43,7 +43,7 @@ window.$ = window.jQuery = require('jquery');
                     base.methods.home();
                 });
 
-                $(document).on('click', '.answers a', function (e) {
+                $(document).on('click', '.answers div', function (e) {
                     e.preventDefault();
                     base.methods.answerQuestion(this);
                 });
@@ -67,35 +67,35 @@ window.$ = window.jQuery = require('jquery');
                 var quizHtml = '';
 
                 if (base.options.counter) {
-                    quizHtml += '<div id="quiz-counter"></div>';
+                    quizHtml += '<div class="mb-3" id="quiz-counter"></div>';
                 }
 
                 quizHtml += '<div id="questions">';
                 $.each(questions, function (i, question) {
                     quizHtml += '<div class="question-container">';
-                    quizHtml += '<p class="question">' + question.q + '</p>';
-                    quizHtml += '<ul class="answers">';
+                    quizHtml += '<h5 class="question">' + question.q + '</h5>';
+                    quizHtml += '<div class="answers mt-5 d-grid gap-3 text-decoration-none">';
                     $.each(question.options, function (index, answer) {
-                        quizHtml += '<li><a href="#" data-index="' + index + '">' + answer + '</a></li>';
+                        quizHtml += '<div class="p-3 border shadow-sm rounded-3 cursor-pointer choice" data-index="' + index + '">' + answer + '</div>';
                     });
-                    quizHtml += '</ul>';
+                    quizHtml += '</div>';
                     quizHtml += '</div>';
                 });
                 quizHtml += '</div>';
 
                 // if results screen not in DOM, add it
                 if ($(resultsScreen).length === 0) {
-                    quizHtml += '<div id="' + resultsScreen.substr(1) + '">';
-                    quizHtml += '<p id="quiz-results"></p>';
+                    quizHtml += '<div id="' + resultsScreen.substr(1) + '"class="mt-5">';
+                    quizHtml += '<h4 id="quiz-results" class="text-center"></h4>';
                     quizHtml += '</div>';
                 }
 
-                quizHtml += '<div id="quiz-controls">';
+                quizHtml += '<div id="quiz-controls" class="text-center mt-4">';
                 quizHtml += '<p id="quiz-response"></p>';
                 quizHtml += '<div id="quiz-buttons">';
-                quizHtml += '<a href="#" id="quiz-next-btn">' + nextButtonText + '</a>';
-                quizHtml += '<a href="#" id="quiz-finish-btn">' + finishButtonText + '</a>';
-                quizHtml += '<a href="#" id="quiz-restart-btn">' + restartButtonText + '</a>';
+                quizHtml += '<button id="quiz-next-btn" class="btn btn-outline-primary rounded-6 w-25">' + nextButtonText + '</button>';
+                quizHtml += '<button id="quiz-finish-btn" class="btn btn-outline-primary rounded-6 w-25">' + finishButtonText + '</button>';
+                quizHtml += '<button id="quiz-restart-btn" class="btn btn-outline-primary rounded-6 w-25">' + restartButtonText + '</button>';
                 quizHtml += '</div>';
                 quizHtml += '</div>';
 
@@ -135,11 +135,11 @@ window.$ = window.jQuery = require('jquery');
                     correct = questions[currentQuestionIndex].correctIndex;
 
                 if (selected === correct) {
-                    $answerEl.addClass('correct');
+                    $answerEl.addClass('bg-success border-success text-white');
                     response = questions[currentQuestionIndex].correctResponse;
                     score++;
                 } else {
-                    $answerEl.addClass('incorrect');
+                    $answerEl.addClass('bg-danger border-danger text-white');
                     response = questions[currentQuestionIndex].incorrectResponse;
                     if (!base.options.allowIncorrect) {
                         base.methods.gameOver(response);
@@ -222,7 +222,7 @@ window.$ = window.jQuery = require('jquery');
                 answerLocked = false;
                 currentQuestion = 1;
                 score = 0;
-                $('.answers a').removeClass('correct incorrect');
+                $('.answers div').removeClass('bg-success bg-danger border-success border-danger text-white');
                 base.$el.removeClass().addClass('quiz-container');
                 $('#quiz-restart-btn').hide();
                 $(gameOverScreen).hide();
@@ -258,7 +258,8 @@ window.$ = window.jQuery = require('jquery');
     $.quiz.defaultOptions = {
         allowIncorrect: true,
         counter: true,
-        counterFormat: '%current/%total',
+        // counterFormat: '%current/%total',
+        counterFormat: 'Question %current of %total',
         startScreen: '#quiz-start-screen',
         startButton: '#quiz-start-btn',
         homeButton: '#quiz-home-btn',

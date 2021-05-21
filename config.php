@@ -9,6 +9,11 @@ return [
     'description' => 'Website description.',
     'collections' => [],
 
+    // Navigation
+    'navigation' => [
+        'kids' => require_once('./navigation/kids.php')
+    ],
+
     // Helpers
     'selected' => function ($page, $section) {
         return Str::contains($page->getPath(), $section) ? 'selected' : '';

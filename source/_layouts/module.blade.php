@@ -18,7 +18,9 @@
     </header>
     <div class="container-xxl layout px-0">
         {{-- Sidebar --}}
-        @include('_partials.sidebar')
+        @if (str_contains($page->getPath(), 'categories\kids'))
+            @include('_nav.nav', ['title' => 'Robotics for Kids!', 'items' => $page->navigation['kids']])
+        @endif
         
         <main class="mx-0 p-lg-5 py-5 px-3 shadow-sm">
 

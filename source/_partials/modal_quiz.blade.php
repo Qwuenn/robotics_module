@@ -24,7 +24,7 @@
                 <div class="d-flex flex-column justify-content-center my-2 w-md-50 mx-auto">
                     <div id="quiz-modal-body">
                         <div id="quiz-start-screen" class="text-center mt-5">
-                            <h2 class="fw-semibold mb-3">Activity Quiz {{ $activityNo }}</h2>
+                            <h2 class="fw-semibold mb-3">Activity {{ $activityNo }} Quiz</h2>
                             <h5>{{ $title }}</h5>
                             <button id="quiz-start-btn" class="btn btn-outline-primary rounded-6 w-25 mt-4">Start</button>
                         </div>

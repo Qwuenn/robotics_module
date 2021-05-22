@@ -20,6 +20,8 @@
         {{-- Sidebar --}}
         @if (str_contains($page->getPath(), 'categories\kids'))
             @include('_nav.nav', ['title' => 'Robotics for Kids!', 'items' => $page->navigation['kids']])
+        @elseif (str_contains($page->getPath(), 'categories\teens'))
+            @include('_nav.nav', ['title' => 'Robotics for Teens!', 'items' => $page->navigation['teens']])
         @endif
         
         <main class="mx-0 p-lg-5 py-5 px-3 shadow-sm">

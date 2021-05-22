@@ -64,7 +64,7 @@
                         <p class="card-text text-center">
                             Some quick example text to build on the card title and make up the bulk of the card's content.
                         </p>
-                        <a href="#" class="btn btn-default-blue fw-medium text-white">Get Started</a>
+                        <a href="{{ $page->link('categories/teens/introduction') }}" class="btn btn-default-blue fw-medium text-white">Get Started</a>
                     </div>
                 </div>
             </div>

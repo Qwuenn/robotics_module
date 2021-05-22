@@ -2,7 +2,7 @@
 
 @section('introduction')
     <h1 id="introduction">Introduction to Robotics</h1>
-    <h5>Discusses the concept of Robotics that can be assembled by kids with no computer programming required.</h5>
+    <p class="fs-5">Discusses the concept of Robotics that can be assembled by kids with no computer programming required.</p>
     <p>&nbsp</p>
 @endsection
 

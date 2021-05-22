@@ -40,6 +40,10 @@ main {
     grid-area: content;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-weight: $font-weight-semibold;
+}
+
 @include media-breakpoint-down(lg) {
     .layout {
         grid-template-areas: 

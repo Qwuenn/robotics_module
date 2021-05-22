@@ -1,7 +1,7 @@
 @extends('_layouts.module')
 
 @section('introduction')
-    <h1><b>Rover Robot Car</b></h1>
+    <h1>Rover Robot Car</h1>
     <p>&nbsp</p>
 @endsection
 
@@ -21,7 +21,7 @@
 @endSection
 
 @section('content')
-    <h3 id="components"><b>Components</b></h3>
+    <h3 id="components">Components</h3>
 
     <div class="container-fluid mt-3 p-0">
         <div class="row gy-5">
@@ -65,14 +65,14 @@
 
     <p>&nbsp</p>
 
-    <h3 id="circuit-diagram"><b>Circuit Diagram</b></h3>
+    <h3 id="circuit-diagram">Circuit Diagram</h3>
     <div class="container-fluid text-center my-3 p-0">
         <img src="{{ $page->link('assets/build/img/categories/kids/circuit-diagram/activity-5.jpg') }}" 
             alt="robot-car-design-1"
             class="img-fluid rounded-2" />
     </div>
 
-    <h5 id="how-does-it-work"><b>How Does It Work?</b></h5>
+    <h5 id="how-does-it-work">How Does It Work?</h5>
     <p> This is just a simple rover robot car because it only relies on the potentiometer. The speed of the robot will
         depend on the potentiometer so the kids can adjust the speed of the robot whenever they want. If they switch the
         potentiometer to ‘high’, the motor will accelerate its speed and if they switch the potentiometer to ‘low’, the

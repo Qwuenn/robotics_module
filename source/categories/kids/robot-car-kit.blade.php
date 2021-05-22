@@ -1,7 +1,7 @@
 @extends('_layouts.module')
 
 @section('introduction')
-    <h1><b>Robot Car Kit</b></h1>
+    <h1>Robot Car Kit</h1>
     <p>&nbsp</p>
 @endsection
 
@@ -15,7 +15,7 @@
 @endSection
 
 @section('content')
-    <h3 id="components"><b>Components</b></h3>
+    <h3 id="components">Components</h3>
     <p>This Robot Car Kit is composed of several components where you can do different activities. The components are the
         following:
     </p>
@@ -100,7 +100,7 @@
 
     <p>&nbsp</p>
 
-    <h3 id="design"><b>Design</b></h3>
+    <h3 id="design">Design</h3>
     <div class="container-fluid text-center p-0">
         <div class="row row-cols-1 gy-4">
             <div class="col">

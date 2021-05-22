@@ -1,7 +1,7 @@
 @extends('_layouts.module')
 
 @section('introduction')
-    <h1><b>Line Following Robot</b></h1>
+    <h1>Line Following Robot</h1>
     <p>&nbsp</p>
 @endsection
 
@@ -21,7 +21,7 @@
 @endSection
 
 @section('content')
-    <h3 id="components"><b>Components</b></h3>
+    <h3 id="components">Components</h3>
 
     <div class="container-fluid mt-3 p-0">
         <div class="row gy-5">
@@ -90,14 +90,14 @@
 
     <p>&nbsp</p>
 
-    <h3 id="circuit-diagram"><b>Circuit Diagram</b></h3>
+    <h3 id="circuit-diagram">Circuit Diagram</h3>
     <div class="container-fluid text-center my-3 p-0">
         <img src="{{ $page->link('assets/build/img/categories/kids/circuit-diagram/activity-1.jpg') }}" 
             alt="robot-car-design-1"
             class="img-fluid rounded-2" />
     </div>
 
-    <h5 id="how-does-it-work"><b>How Does It Work?</b></h5>
+    <h5 id="how-does-it-work">How Does It Work?</h5>
     <p> The IR (infrared) sensor, which senses light, is used by the robot. Each sensor controls the speed of the robot. When
         all sensors "detect" white, the robot drives straight and both wheels rotate at maximum speed. When one of the
         sensors detects the black line, it forces one of the robot's wheels to slow down, causing the robot to move so that

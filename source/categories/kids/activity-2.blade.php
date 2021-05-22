@@ -6,18 +6,10 @@
 @endsection
 
 @section('table_of_contents')
-    <li>
-        <a href="#components">Components</a>
-    </li>
-    <li>
-        <a href="#circuit-diagram">Circuit Diagram</a>
-    </li>
-    <li>
-        <a href="#how-does-it-work">How does it work?</a>
-    </li>
-    <li>
-        <a href="#quiz">Quiz</a>
-    </li>
+    <li><a href="#components">Components</a></li>
+    <li><a href="#circuit-diagram">Circuit Diagram</a></li>
+    <li><a href="#how-does-it-work">How does it work?</a></li>
+    <li><a href="#quiz">Quiz</a></li>
 @endSection
 
 @section('content')

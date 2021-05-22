@@ -7,12 +7,8 @@
 @endsection
 
 @section('table_of_contents')
-    <li>
-        <a href="#introduction">Introduction</a>
-    </li>
-    <li>
-        <a href="#what-is-robotics">What is Robotics?</a>
-    </li>
+    <li><a href="#introduction">Introduction</a></li>
+    <li><a href="#what-is-robotics">What is Robotics?</a></li>
     <li>
         <a href="#types-of-robots">Types of Robots</a>
         <ul>

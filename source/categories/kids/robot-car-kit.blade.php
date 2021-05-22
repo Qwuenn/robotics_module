@@ -6,12 +6,8 @@
 @endsection
 
 @section('table_of_contents')
-    <li>
-        <a href="#components">Components</a>
-    </li>
-    <li>
-        <a href="#design">Design</a>
-    </li>
+    <li><a href="#components">Components</a></li>
+    <li><a href="#design">Design</a></li>
 @endSection
 
 @section('content')

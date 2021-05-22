@@ -3,7 +3,7 @@
 @section('introduction')
     <h1 id="introduction">Introduction to Robotics</h1>
     <p>&nbsp</p>
-    <h3 id="intended-learning-outcomes">Intended Learning Outcome(s)</h3>
+    <h3 id="intended-learning-outcomes">Intended Learning Outcomes</h3>
     <p class="mb-0">After successful completion of this module, the student will be able to:</p>
     <ul>
         <li>Understand the concept and characteristics of Robotics.</li>

@@ -51,6 +51,9 @@
   height: calc(100vh - 7rem);
 }
 .table-of-contents nav ul {
+  display: grid;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
   list-style-type: none;
 }
 .table-of-contents nav ul:first-child {

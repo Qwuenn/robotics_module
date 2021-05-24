@@ -10,6 +10,11 @@
     height: calc(100vh - 7rem);
 
     nav ul {
+        display: grid;
+        gap: map-get($spacers, 2);
+
+        margin-top: map-get($spacers, 2);
+
         &:first-child {
             padding-left: 0;
         }

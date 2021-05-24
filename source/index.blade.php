@@ -36,12 +36,11 @@
         <div class="row pt-3 pb-5 gy-5">
             <div class="col-md-4 d-flex align-items-stretch">
                 <div class="card shadow">
-                    {!! $page->svg('erovoutika-icon(white)', [
-                        'class' => 'card-img-top bg-default-blue p-3',
-                        'css' => [
-                            'height' => '192px'
-                        ]
-                    ]) !!}
+                    <div class="card-img-top bg-default-blue">
+                        <img src="{{ $page->link('assets/build/img/robot-car.png') }}" 
+                            class="mx-auto d-block"
+                            style="height: 192px; width: 192px" />
+                    </div>
                     <div class="card-body">
                         <h5 class="card-title text-center fw-semibold">Robotics for Kids!</h5>
                         <p class="card-text text-center">
@@ -53,12 +52,11 @@
             </div>
             <div class="col-md-4 d-flex align-items-stretch">
                 <div class="card shadow">
-                    {!! $page->svg('erovoutika-icon(white)', [
-                        'class' => 'card-img-top bg-default-blue p-3',
-                        'css' => [
-                            'height' => '192px'
-                        ]
-                    ]) !!}
+                    <div class="card-img-top bg-default-blue">
+                        <img src="{{ $page->link('assets/build/img/sumobot-barry.png') }}" 
+                            class="mx-auto d-block"
+                            style="height: 192px; width: 192px" />
+                    </div>
                     <div class="card-body">
                         <h5 class="card-title text-center fw-semibold">Robotics for Teens!</h5>
                         <p class="card-text text-center">

@@ -7,6 +7,7 @@ return [
     'baseUrl' => '',
     'title' => 'Robotics Academy',
     'description' => 'Website description.',
+    'developer' => 'Kim S. Sto. Tomas',
     'collections' => [],
 
     // Navigation

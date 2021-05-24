@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="{{ $page->description }}">
+    <meta name="developer" content="{{ $page->developer }}">
     <link rel="canonical" href="{{ $page->getUrl() }}">
     <link rel="icon" href="{{ $page->link('favicon.svg') }}">
     <link rel="dns-prefetch" href="//fonts.gstatic.com">

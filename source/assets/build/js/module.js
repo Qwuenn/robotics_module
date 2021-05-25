@@ -21,9 +21,12 @@ function mediaBreakpointDownLarge() {
     osToc = OverlayScrollbars(document.getElementById('table-of-contents'), {});
     osSidebar = OverlayScrollbars(document.getElementById('sidebar'), {});
   }
-} // Show sidebar collapse menu if link is selected
+} // Check if element exists
 
 
-document.querySelector('.btn-toggle-nav .selected').closest('.collapse').classList.add('show');
+if (document.querySelector('.btn-toggle-nav')) {
+  // Show sidebar collapse menu if link is selected
+  document.querySelector('.btn-toggle-nav .selected').closest('.collapse').classList.add('show');
+}
 /******/ })()
 ;

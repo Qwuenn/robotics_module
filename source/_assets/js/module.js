@@ -20,5 +20,8 @@ function mediaBreakpointDownLarge() {
     }
 }
 
-// Show sidebar collapse menu if link is selected
-document.querySelector('.btn-toggle-nav .selected').closest('.collapse').classList.add('show');
+// Check if element exists
+if (document.querySelector('.btn-toggle-nav')) {
+    // Show sidebar collapse menu if link is selected
+    document.querySelector('.btn-toggle-nav .selected').closest('.collapse').classList.add('show');
+}

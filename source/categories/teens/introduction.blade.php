@@ -1,7 +1,7 @@
 @extends('_layouts.module')
 
 @section('introduction')
-    <h1 id="introduction">Introduction to Robotics</h1>
+    <h1>Introduction to Robotics</h1>
     <p>&nbsp</p>
     <h3 id="intended-learning-outcomes">Intended Learning Outcomes</h3>
     <p class="mb-0">After successful completion of this module, the student will be able to:</p>
@@ -15,7 +15,6 @@
 @endsection
 
 @section('table_of_contents')
-    <li><a href="#introduction">Introduction</a></li>
     <li><a href="#intended-learning-outcomes">Intended Learning Outcomes</a></li>
     <li><a href="#what-is-robotics">What is Robotics?</a></li>
     <li><a href="#three-laws-of-robotics">Three Laws of Robotics</a></li>

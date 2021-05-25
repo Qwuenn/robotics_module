@@ -1,7 +1,7 @@
 @extends('_layouts.module')
 
 @section('introduction')
-    <h1 id="introduction">Arduino</h1>
+    <h1>Arduino</h1>
     <p>&nbsp</p>
 @endsection
 

@@ -21,7 +21,10 @@
                             href="{{ $page->link('categories/kids/introduction') }}">
                             Robotics for Kids!
                         </a>
-                        <a class="nav-link" href="#">Robotics for Teens!</a>
+                        <a class="nav-link {{ $page->selected('/categories\teens') }}" 
+                            href="{{ $page->link('categories/teens/introduction') }}">
+                            Robotics for Teens!
+                        </a>
                         <a class="nav-link" href="#">Robotics for Adults</a>
                     </nav>
                 </div>

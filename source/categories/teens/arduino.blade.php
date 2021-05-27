@@ -13,8 +13,8 @@
         <a href="#setting-up-arduino">Setting Up Arduino</a>
         <ul>
             <li><a href="#materials-needed">Materials Needed</a></li>
-            <li><a href="#setting-up-arduino-uno-r3-and-arduino-desktop-ide">Setting Up Arduino UNO <br/>R3 and Arduino Desktop IDE</a></li>
-            <li><a href="#configuring-and-testing-arduino-desktop-ide">Configuring and Testing <br/>Arduino Desktop IDE</a></li>
+            <li><a href="#setting-up-arduino-uno-r3-and-arduino-desktop-ide">Setting Up Arduino UNO <br>R3 and Arduino Desktop IDE</a></li>
+            <li><a href="#configuring-and-testing-arduino-desktop-ide">Configuring and Testing <br>Arduino Desktop IDE</a></li>
         </ul>
     </li>
 @endSection
@@ -97,7 +97,7 @@
     <ol class="d-grid gap-4">
         <li>
             Download and install the latest version of the Arduino IDE from the <a href="https://www.arduino.cc/en/software">official website</a>. 
-            Choose the one that is suited to your laptop/desktop operating system. <br />
+            Choose the one that is suited to your laptop/desktop operating system. <br>
             <img src="{{ $page->link('assets/build/img/categories/teens/arduino/arduino-setup-1.png') }}" 
                 alt="Figure 2.3.2.A.1: Official Download Site of Arduino IDE"
                 class="img-fluid rounded-2 text-center my-4" />

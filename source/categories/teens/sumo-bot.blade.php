@@ -11,16 +11,16 @@
     <li>
         <a href="#designs-of-sumo-bot">Designs of Sumo Bot</a>
         <ul>
-            <li><a href="#design-based-on-speed-(barry)">Design Based on<br>Speed (Barry)</a></li>
-            <li><a href="#design-based-on-power-(bruce)">Design Based on Power<br>(Bruce) </a></li>
-            <li><a href="#design-based-on-both-power-and-speed-(clark)">Design Based on Both<br>Power and Speed<br>(Clark)</a></li>
+            <li><a href="#design-based-on-speed-(barry)">Design Based on Speed (Barry)</a></li>
+            <li><a href="#design-based-on-power-(bruce)">Design Based on Power (Bruce) </a></li>
+            <li><a href="#design-based-on-both-power-and-speed-(clark)">Design Based on Both Power and Speed (Clark)</a></li>
         </ul>
     </li>
     <li>
         <a href="#assembly">Assembly</a>
         <ul>
-            <li><a href="#connecting-and-testing-the-components">Connecting and <br>Testing the Components</a></li>
-            <li><a href="#assembly-of-the-sumo-bot-and-testing">Assembly of the Sumo<br>Bot and Testing</a></li>
+            <li><a href="#connecting-and-testing-the-components">Connecting and Testing the Components</a></li>
+            <li><a href="#assembly-of-the-sumo-bot-and-testing">Assembly of the Sumo Bot and Testing</a></li>
         </ul>
     </li>
 @endSection

@@ -13,8 +13,8 @@
         <a href="#setting-up-arduino">Setting Up Arduino</a>
         <ul>
             <li><a href="#materials-needed">Materials Needed</a></li>
-            <li><a href="#setting-up-arduino-uno-r3-and-arduino-desktop-ide">Setting Up Arduino UNO <br>R3 and Arduino Desktop IDE</a></li>
-            <li><a href="#configuring-and-testing-arduino-desktop-ide">Configuring and Testing <br>Arduino Desktop IDE</a></li>
+            <li><a href="#setting-up-arduino-uno-r3-and-arduino-desktop-ide">Setting Up Arduino UNO R3 and Arduino Desktop IDE</a></li>
+            <li><a href="#configuring-and-testing-arduino-desktop-ide">Configuring and Testing Arduino Desktop IDE</a></li>
         </ul>
     </li>
 @endSection

@@ -60,7 +60,7 @@
                     <div class="card-body">
                         <h5 class="card-title text-center fw-semibold">Robotics for Teens!</h5>
                         <p class="card-text text-center">
-                            Some quick example text to build on the card title and make up the bulk of the card's content.
+                            Learn how to build and code your own personalized Sumo Bot using Arduino.
                         </p>
                         <a href="{{ $page->link('categories/teens/introduction') }}" class="btn btn-default-blue fw-medium text-white">Get Started</a>
                     </div>

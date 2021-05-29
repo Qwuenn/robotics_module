@@ -1,0 +1,56 @@
+// Required Bootstrap Imports
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/utilities";
+
+// Custom global variables
+@import "variables";
+
+// Prism
+@import "~prismjs/themes/prism-okaidia";
+@import "~prismjs/plugins/line-numbers/prism-line-numbers";
+@import "~prismjs/plugins/toolbar/prism-toolbar";
+
+div.code-toolbar {
+    > .toolbar {
+        opacity: 1;
+
+        button {
+            &:hover, &:focus {
+                color: $white;
+            }
+        }
+    }
+}
+
+pre {
+    scrollbar-color: dark;
+    scrollbar-width: thin;
+
+    &::-webkit-scrollbar {
+        height: 8px;
+        width: 8px;
+    }
+
+    &::-webkit-scrollbar-track {
+        background-color: #21221f;        /* color of the tracking area */
+    }
+      
+    &::-webkit-scrollbar-thumb {
+        background-color: #787877; /* color of the scroll thumb */
+        border-radius: 1rem;         /* roundness of the scroll thumb */
+    }
+
+    &::-webkit-scrollbar-thumb:hover {
+        background-color: #656564; /* color of the scroll thumb */
+        border-radius: 1rem;         /* roundness of the scroll thumb */
+    }
+
+    &::-webkit-scrollbar-thumb:active {
+        background-color: #434342;
+    }
+
+    &::-webkit-scrollbar-corner {
+        background-color: #21221f;
+    }
+}

@@ -6817,6 +6817,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./source/_assets/sass/codebox.scss":
+/*!******************************************!*\
+  !*** ./source/_assets/sass/codebox.scss ***!
+  \******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }),
+
 /***/ "./node_modules/overlayscrollbars/js/OverlayScrollbars.js":
 /*!****************************************************************!*\
   !*** ./node_modules/overlayscrollbars/js/OverlayScrollbars.js ***!
@@ -13596,6 +13609,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;/*!
 /******/ 		var installedChunks = {
 /******/ 			"/js/main": 0,
 /******/ 			"css/main": 0,
+/******/ 			"css/codebox": 0,
 /******/ 			"css/module": 0,
 /******/ 			"css/index": 0
 /******/ 		};
@@ -13645,10 +13659,11 @@ var __WEBPACK_AMD_DEFINE_RESULT__;/*!
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	__webpack_require__.O(undefined, ["css/main","css/module","css/index"], () => (__webpack_require__("./source/_assets/js/main.js")))
-/******/ 	__webpack_require__.O(undefined, ["css/main","css/module","css/index"], () => (__webpack_require__("./source/_assets/sass/main.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/main","css/module","css/index"], () => (__webpack_require__("./source/_assets/sass/index.scss")))
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/main","css/module","css/index"], () => (__webpack_require__("./source/_assets/sass/module.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/main","css/codebox","css/module","css/index"], () => (__webpack_require__("./source/_assets/js/main.js")))
+/******/ 	__webpack_require__.O(undefined, ["css/main","css/codebox","css/module","css/index"], () => (__webpack_require__("./source/_assets/sass/main.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/main","css/codebox","css/module","css/index"], () => (__webpack_require__("./source/_assets/sass/index.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/main","css/codebox","css/module","css/index"], () => (__webpack_require__("./source/_assets/sass/module.scss")))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/main","css/codebox","css/module","css/index"], () => (__webpack_require__("./source/_assets/sass/codebox.scss")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()

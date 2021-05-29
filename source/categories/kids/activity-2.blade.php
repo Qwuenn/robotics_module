@@ -17,50 +17,50 @@
 
     <div class="container-fluid mt-3 p-0">
         <div class="row gy-5">
-            @include('_partials.component_card', [
+            @include('_partials.kids.component_card', [
                 'component' => 'Power Switch',
                 'title' => '1pc Power Switch',
                 'active' => 1
             ])
     
-            @include('_partials.component_card', [
+            @include('_partials.kids.component_card', [
                 'component' => 'Jumping Wires',
                 'title' => '11pcs Jumping Wires',
                 'active' => 1
             ])
 
-            @include('_partials.component_card', [
+            @include('_partials.kids.component_card', [
                 'component' => 'H-Bridge Motor Driver',
                 'title' => '1pc L293D H-bridge Motor Driver',
                 'active' => 1
             ])
 
-            @include('_partials.component_card', [
+            @include('_partials.kids.component_card', [
                 'component' => 'Resistor',
                 'id' => 'SecondResistor',
                 'title' => '4pcs 10 kΩ Resistor',
                 'active' => 1
             ])
 
-            @include('_partials.component_card', [
+            @include('_partials.kids.component_card', [
                 'component' => 'Limit Switch',
                 'title' => '2pcs Limit Switch',
                 'active' => 1
             ])
 
-            @include('_partials.component_card', [
+            @include('_partials.kids.component_card', [
                 'component' => 'DC Motor',
                 'title' => '2pcs 12v DC Motor',
                 'active' => 1
             ])
 
-            @include('_partials.component_card', [
+            @include('_partials.kids.component_card', [
                 'component' => 'Battery Holder',
                 'title' => '1pc Battery Holder',
                 'active' => 1
             ])
 
-            @include('_partials.component_card', [
+            @include('_partials.kids.component_card', [
                 'component' => 'Battery',
                 'title' => '4pcs AA Battery',
                 'active' => 1

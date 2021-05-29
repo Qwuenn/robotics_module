@@ -17,56 +17,56 @@
 
     <div class="container-fluid mt-3 p-0">
         <div class="row gy-5">
-            @include('_partials.component_card', [
+            @include('_partials.kids.component_card', [
                 'component' => 'Power Switch',
                 'title' => '1pc Power Switch',
                 'active' => 1
             ])
 
-            @include('_partials.component_card', [
+            @include('_partials.kids.component_card', [
                 'component' => 'Jumping Wires',
                 'title' => '7pcs Jumping Wires',
                 'active' => 1
             ])
 
-            @include('_partials.component_card', [
+            @include('_partials.kids.component_card', [
                 'component' => 'Jumping Wires',
                 'id' => 'MaleFemaleJumperWire',
                 'title' => 'Male-Female Jumper Wire',
                 'active' => 1
             ])
 
-            @include('_partials.component_card', [
+            @include('_partials.kids.component_card', [
                 'component' => 'MOSFET',
                 'title' => '2pcs P16NF06L MOSFET',
                 'active' => 1
             ])
 
-            @include('_partials.component_card', [
+            @include('_partials.kids.component_card', [
                 'component' => 'Diode',
                 'title' => '2pcs PN Diode',
                 'active' => 1
             ])
 
-            @include('_partials.component_card', [
+            @include('_partials.kids.component_card', [
                 'component' => 'PIR Sensor',
                 'title' => '1pc PIR Sensor',
                 'active' => 1
             ])
 
-            @include('_partials.component_card', [
+            @include('_partials.kids.component_card', [
                 'component' => 'DC Motor',
                 'title' => '2pcs DC Motor',
                 'active' => 1
             ])
 
-            @include('_partials.component_card', [
+            @include('_partials.kids.component_card', [
                 'component' => 'Battery Holder',
                 'title' => '1pc Battery Holder',
                 'active' => 1
             ])
 
-            @include('_partials.component_card', [
+            @include('_partials.kids.component_card', [
                 'component' => 'Battery',
                 'title' => '4pcs AA Battery',
                 'active' => 1

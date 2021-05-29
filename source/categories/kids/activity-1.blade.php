@@ -17,62 +17,62 @@
 
     <div class="container-fluid mt-3 p-0">
         <div class="row gy-5">
-            @include('_partials.component_card', [
+            @include('_partials.kids.component_card', [
                 'component' => 'Power Switch',
                 'title' => '1pc Power Switch',
                 'active' => 1
             ])
     
-            @include('_partials.component_card', [
+            @include('_partials.kids.component_card', [
                 'component' => 'Jumping Wires',
                 'title' => '5pcs Jumping Wires',
                 'active' => 1
             ])
         
-            @include('_partials.component_card', [
+            @include('_partials.kids.component_card', [
                 'component' => 'MOSFET',
                 'title' => '2pcs P16NF06L MOSFET',
                 'active' => 1
             ])
 
-            @include('_partials.component_card', [
+            @include('_partials.kids.component_card', [
                 'component' => 'Diode',
                 'title' => '2pcs PN Diode',
                 'active' => 1
             ])
 
-            @include('_partials.component_card', [
+            @include('_partials.kids.component_card', [
                 'component' => 'Resistor',
                 'title' => '2pcs 4.7k Ω Resistor',
                 'active' => 1
             ])
 
-            @include('_partials.component_card', [
+            @include('_partials.kids.component_card', [
                 'component' => 'Resistor',
                 'id' => 'SecondResistor',
                 'title' => '2pcs 220 Ω Resistor',
                 'active' => 1
             ])
 
-            @include('_partials.component_card', [
+            @include('_partials.kids.component_card', [
                 'component' => 'IR Sensor',
                 'title' => '2pcs RPR220 Optoelectronic IR Sensor',
                 'active' => 1
             ])
         
-            @include('_partials.component_card', [
+            @include('_partials.kids.component_card', [
                 'component' => 'DC Motor',
                 'title' => '2pcs 12v DC Motor',
                 'active' => 1
             ])
 
-            @include('_partials.component_card', [
+            @include('_partials.kids.component_card', [
                 'component' => 'Battery Holder',
                 'title' => '1pc Battery Holder',
                 'active' => 1
             ])
 
-            @include('_partials.component_card', [
+            @include('_partials.kids.component_card', [
                 'component' => 'Battery',
                 'title' => '4pcs AA Battery',
                 'active' => 1

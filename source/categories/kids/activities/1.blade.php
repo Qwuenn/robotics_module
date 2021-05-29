@@ -2,7 +2,7 @@
 
 @section('introduction')
     <h1>Line Following Robot</h1>
-    <p>&nbsp</p>
+    <p>&nbsp;</p>
 @endsection
 
 @section('table_of_contents')
@@ -80,7 +80,7 @@
         </div>
     </div>
 
-    <p>&nbsp</p>
+    <p>&nbsp;</p>
 
     <h3 id="circuit-diagram">Circuit Diagram</h3>
     <div class="container-fluid text-center my-3 p-0">
@@ -96,7 +96,7 @@
         it can continue to follow the line.
     </p>
 
-    <p>&nbsp</p>
+    <p>&nbsp;</p>
 
     @include('_partials.modal_quiz', [ 'activityNo' => 1, 'title' => 'Line Following Robot'])
 @endsection

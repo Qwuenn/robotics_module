@@ -2,7 +2,7 @@
 
 @section('introduction')
     <h1>Sumo Bot (Sumo Robot)</h1>
-    <p>&nbsp</p>
+    <p>&nbsp;</p>
 @endsection
 
 @section('table_of_contents')
@@ -34,7 +34,7 @@
         with two victorious rounds wins the match.
     </p>
 
-    <p>&nbsp</p>
+    <p>&nbsp;</p>
 
     <h3 id="components">Components</h3>
     <p>
@@ -124,9 +124,9 @@
         </div>
     </div>
 
-    <p>&nbsp</p>
-    <p>&nbsp</p>
-    <p>&nbsp</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
 
     <h3 id="designs-of-sumo-bot">Designs of Sumo Bot</h3>
     <p>
@@ -134,7 +134,7 @@
         compatibility with the preferred fighting style.
     </p>
 
-    <p>&nbsp</p>
+    <p>&nbsp;</p>
 
     <h5 id="design-based-on-speed-(barry)" class="mb-4">Design Based on Speed (Barry)</h5>
     <p>
@@ -159,7 +159,7 @@
         </div>
     </div>
 
-    <p>&nbsp</p>
+    <p>&nbsp;</p>
 
     <h5 id="design-based-on-power-(bruce)" class="mb-4">Design Based on Power (Bruce)</h5>
     <p>
@@ -185,7 +185,7 @@
         </div>
     </div>
 
-    <p>&nbsp</p>
+    <p>&nbsp;</p>
 
     <h5 id="design-based-on-both-power-and-speed-(clark)" class="mb-4">Design Based on Both Power and Speed (Clark)</h5>
     <p>
@@ -209,11 +209,11 @@
         </div>
     </div>
 
-    <p>&nbsp</p>
+    <p>&nbsp;</p>
 
     <h3 id="assembly">Assembly</h3>
 
-    <p>&nbsp</p>
+    <p>&nbsp;</p>
 
     <h5 id="connecting-and-testing-the-components" class="mb-4">Connecting and Testing the Components</h5>
     <ol class="d-grid gap-4">
@@ -237,7 +237,7 @@
         </li>
     </ol>
 
-    <p>&nbsp</p>
+    <p>&nbsp;</p>
 
     <h5 id="assembly-of-the-sumo-bot-and-testing" class="mb-4">Assembly of the Sumo Bot and Testing</h5>
     <ol class="d-grid gap-4">

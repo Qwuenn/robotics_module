@@ -2,7 +2,7 @@
 
 @section('introduction')
     <h1>Rover Robot Car</h1>
-    <p>&nbsp</p>
+    <p>&nbsp;</p>
 @endsection
 
 @section('table_of_contents')
@@ -55,7 +55,7 @@
         </div>
     </div>
 
-    <p>&nbsp</p>
+    <p>&nbsp;</p>
 
     <h3 id="circuit-diagram">Circuit Diagram</h3>
     <div class="container-fluid text-center my-3 p-0">
@@ -71,7 +71,7 @@
         motor will slow down.
     </p>
 
-    <p>&nbsp</p>
+    <p>&nbsp;</p>
 
     @include('_partials.modal_quiz', [ 'activityNo' => 5, 'title' => 'Rover Robot Car'])
 @endsection

@@ -2,7 +2,7 @@
 
 @section('introduction')
     <h1>Robot Car Kit</h1>
-    <p>&nbsp</p>
+    <p>&nbsp;</p>
 @endsection
 
 @section('table_of_contents')
@@ -94,7 +94,7 @@
         </div>
     </div>
 
-    <p>&nbsp</p>
+    <p>&nbsp;</p>
 
     <h3 id="design">Design</h3>
     <div class="container-fluid text-center p-0">

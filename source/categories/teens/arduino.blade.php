@@ -2,7 +2,7 @@
 
 @section('introduction')
     <h1>Arduino</h1>
-    <p>&nbsp</p>
+    <p>&nbsp;</p>
 @endsection
 
 @section('table_of_contents')
@@ -29,7 +29,7 @@
         a computer and is used to create and send a program to the physical board.
     </p>
 
-    <p>&nbsp</p>
+    <p>&nbsp;</p>
 
     <h3 id="arduino-boards">Arduino Boards</h3>
     <p>
@@ -64,7 +64,7 @@
         For this module, Arduino UNO R3 will be used for the development of the Sumo Bot.
     </p>
 
-    <p>&nbsp</p>
+    <p>&nbsp;</p>
 
     <h3 id="arduino-uno-r3-pin-configuration">Arduino UNO R3 Pin Configuration</h3>
     <p>
@@ -78,11 +78,11 @@
         alt="Figure 2.2.1 Arduino UNO R3 Pin Configuration"
         class="img-fluid rounded-2 text-center my-4" />
 
-    <p>&nbsp</p>
+    <p>&nbsp;</p>
 
     <h3 id="setting-up-arduino">Setting Up Arduino</h3>
 
-    <p>&nbsp</p>
+    <p>&nbsp;</p>
 
     <h5 id="materials-needed" class="mb-4">Materials Needed</h5>
     <ul>
@@ -91,7 +91,7 @@
         <li>Laptop or Desktop.</li>
     </ul>
 
-    <p>&nbsp</p>
+    <p>&nbsp;</p>
 
     <h5 id="setting-up-arduino-uno-r3-and-arduino-desktop-ide" class="mb-4">Setting Up Arduino UNO R3 and Arduino Desktop IDE</h5>
     <ol class="d-grid gap-4">
@@ -113,7 +113,7 @@
         </li>
     </ol>
 
-    <p>&nbsp</p>
+    <p>&nbsp;</p>
 
     <h5 id="configuring-and-testing-arduino-desktop-ide" class="mb-4">Configuring and Testing Arduino Desktop IDE</h5>
     <ol class="d-grid gap-4">

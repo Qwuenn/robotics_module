@@ -10,7 +10,7 @@
         As proposed, there should be many programs available for every Sumo Bot to modify its behavior when battling. The users
         can pick their Sumo Bot’s fighting style based on their preference.
     </p>
-    <p>&nbsp</p>
+    <p>&nbsp;</p>
 @endsection
 
 @section('table_of_contents')
@@ -212,7 +212,7 @@ void Stop() {
 '
 ])
 
-&nbsp;
+<p>&nbsp;</p>
 
 <h3 id="code-2">Code 2</h3>
 @include('_partials.teens.codebox', [ 'code' =>
@@ -443,7 +443,7 @@ void Stop() {
 '
 ])
 
-&nbsp;
+<p>&nbsp;</p>
 
 <h3 id="code-3">Code 3</h3>
 @include('_partials.teens.codebox', [ 'code' =>

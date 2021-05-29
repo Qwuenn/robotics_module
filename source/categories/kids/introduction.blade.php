@@ -3,7 +3,7 @@
 @section('introduction')
     <h1 id="introduction">Introduction to Robotics</h1>
     <p class="fs-5">Discusses the concept of Robotics that can be assembled by kids with no computer programming required.</p>
-    <p>&nbsp</p>
+    <p>&nbsp;</p>
 @endsection
 
 @section('table_of_contents')
@@ -28,7 +28,7 @@
         Driving, carrying, speaking, cognition, and some other human behaviour are all performed by these robots.
     </p>
 
-    <p>&nbsp</p>
+    <p>&nbsp;</p>
 
     <h3 id="types-of-robots">Types of Robots</h3>
     <p>
@@ -71,7 +71,7 @@
         redefining civilization and making humans faster and stronger.
     </p>
 
-    <p>&nbsp</p>
+    <p>&nbsp;</p>
 
     <h3 id="uses-of-robots">Uses of Robots</h3>
     <p>

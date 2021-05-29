@@ -2,7 +2,7 @@
 
 @section('introduction')
     <h1>Introduction to Robotics</h1>
-    <p>&nbsp</p>
+    <p>&nbsp;</p>
     <h3 id="intended-learning-outcomes">Intended Learning Outcomes</h3>
     <p class="mb-0">After successful completion of this module, the student will be able to:</p>
     <ul>
@@ -11,7 +11,7 @@
         <li>Understand what Arduino is.</li>
         <li>Build and code a personalized Sumo Bot.</li>
     </ul>
-    <p>&nbsp</p>
+    <p>&nbsp;</p>
 @endsection
 
 @section('table_of_contents')
@@ -35,7 +35,7 @@
         which are inspired by nature, constitute most of today's robots.
     </p>
 
-    <p>&nbsp</p>
+    <p>&nbsp;</p>
 
     <h3 id="three-laws-of-robotics">Three Laws of Robotics</h3>
     <p>
@@ -60,7 +60,7 @@
         for humans, and the need for high-accuracy performance that humans cannot achieve.
     </p>
 
-    <p>&nbsp</p>
+    <p>&nbsp;</p>
 
     <h3 id="characteristics">Characteristics</h3>
     <p>
@@ -99,7 +99,7 @@
         what type of software is installed within the robot.
     </p>
 
-    <p>&nbsp</p>
+    <p>&nbsp;</p>
 
     <h3 id="applications">Applications</h3>
     <p>
@@ -136,7 +136,7 @@
         and planets.
     </p>
 
-    <p>&nbsp</p>
+    <p>&nbsp;</p>
 
     <h3 id="advantages-disadvantages">Advantages and Disadvantages</h3>
     <p>

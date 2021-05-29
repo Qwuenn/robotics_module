@@ -43,7 +43,7 @@
 
     <div class="container-fluid">
         <div class="row row-cols-1 gy-5">
-            @include('categories.teens._partials.component_card', [
+            @include('_partials.teens.component_card', [
                 'component' => 'Arduino Uno R3',
                 'title' => 'Arduino UNO R3 Controller Board',
                 'description' => '
@@ -53,7 +53,7 @@
                 '
             ])
 
-            @include('categories.teens._partials.component_card', [
+            @include('_partials.teens.component_card', [
                 'component' => 'L298N Motor Driver',
                 'description' => '
                     The L298N Motor Driver is used for controlling up to 4 DC motors with directional and speed control. The L298N motor
@@ -62,7 +62,7 @@
                 '
             ])
 
-            @include('categories.teens._partials.component_card', [
+            @include('_partials.teens.component_card', [
                 'component' => 'Ultrasonic Sensor (HC-SR04)',
                 'description' => '
                     The HC-SR04 ultrasonic sensor makes use of sonar to figure out the distance to an object. It gives better non-contact
@@ -71,7 +71,7 @@
                 '
             ])
 
-            @include('categories.teens._partials.component_card', [
+            @include('_partials.teens.component_card', [
                 'component' => 'IR Sensor (TCRT5000)',
                 'description' => '
                     The TCRT5000 IR sensor can detect the location of an object or other reflective surface in front of it. Also, with some
@@ -80,7 +80,7 @@
                 '
             ])
 
-            @include('categories.teens._partials.component_card', [
+            @include('_partials.teens.component_card', [
                 'component' => '12V Geared DC Motor',
                 'description' => '
                     The 12V Geared DC motor is a small and low-cost but powerful motor used mainly for small to medium size RC applications.
@@ -89,7 +89,7 @@
                 '
             ])
 
-            @include('categories.teens._partials.component_card', [
+            @include('_partials.teens.component_card', [
                 'component' => '9V Battery',
                 'description' => '
                     The 9V battery is a common size battery used mainly for electronic devices such as smoke detectors, clocks,
@@ -97,7 +97,7 @@
                 '
             ])
 
-            @include('categories.teens._partials.component_card', [
+            @include('_partials.teens.component_card', [
                 'component' => '1.5V Battery',
                 'description' => '
                     The 1.5V battery is a common household battery that powers most portable electronic devices. It can be a disposable or
@@ -106,7 +106,7 @@
                 '
             ])
 
-            @include('categories.teens._partials.component_card', [
+            @include('_partials.teens.component_card', [
                 'component' => 'Rocker Switch',
                 'description' => '
                     Rocker Switch is a type of switch that can be pressed like a seesaw to connect or disconnect an electric circuit. It
@@ -114,7 +114,7 @@
                 '
             ])
 
-            @include('categories.teens._partials.component_card', [
+            @include('_partials.teens.component_card', [
                 'component' => 'Jumper Wires',
                 'description' => '
                     Jumper Wires are electrical wires used to connect different components and microcontrollers without the hassle of

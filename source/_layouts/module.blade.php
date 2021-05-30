@@ -26,7 +26,7 @@
         
         <main class="mx-0 p-lg-5 py-5 px-3 shadow-sm">
 
-            <div class="intro pe-lg-5 d-grid gap-2">
+            <div class="intro pe-lg-5">
                 @yield('introduction')
             </div>
 

@@ -2,13 +2,13 @@
 <button type="button"
     class="btn btn-default-yellow mt-3" 
     data-bs-toggle="modal" 
-    data-bs-target="#modalQuiz">
+    data-bs-target="#{{ isset($id) ? $id : 'modalQuiz' }}">
     Click to answer
 </button>
 
 {{-- Modal Questionnaire --}}
 <div class="modal fade" 
-    id="modalQuiz" 
+    id="{{ isset($id) ? $id : 'modalQuiz' }}" 
     tabindex="-1" 
     aria-hidden="true">
     <div class="modal-dialog modal-dialog-scrollable modal-fullscreen">

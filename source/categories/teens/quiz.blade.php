@@ -2,17 +2,21 @@
 
 @section('introduction')
     <h1 id="quiz">Quiz</h1>
-    @include('_partials.modal_quiz', [ 
-        'modalTitle' => 'Robotics for Teens!',
-        'quizHeader' => 'Pop-up Quiz',
-        'quizDescription' => 'Sumo Bot' 
-    ])
     <p>&nbsp;</p>
 @endsection
 
 @section('table_of_contents')
-    <li><a href="#quiz">Quiz</a></li>
+    <li><a href="#pop-up-quiz">Pop-up Quiz</a></li>
 @endSection
+
+@section('content')
+    <h3 id="pop-up-quiz"></h3>
+    @include('_partials.modal_quiz', [
+        'modalTitle' => 'Robotics for Teens!',
+        'quizHeader' => 'Pop-up Quiz',
+        'quizDescription' => 'Sumo Bot' 
+    ])
+@endsection
 
 @push('scripts')
     <script src="{{ $page->link(mix('js/quiz.js', 'assets/build')) }}"></script>

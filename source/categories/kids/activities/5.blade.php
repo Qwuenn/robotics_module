@@ -73,7 +73,12 @@
 
     <p>&nbsp;</p>
 
-    @include('_partials.modal_quiz', [ 'activityNo' => 5, 'title' => 'Rover Robot Car'])
+    <h3 id="quiz">Quiz</h3>
+    @include('_partials.modal_quiz', [ 
+        'modalTitle' => 'Robotics for Kids!',
+        'quizHeader' => 'Activity 5 Quiz', 
+        'quizDescription' => 'Rover Robot Car'
+    ])
 @endsection
 
 @push('scripts')

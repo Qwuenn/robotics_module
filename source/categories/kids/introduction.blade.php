@@ -7,10 +7,12 @@
 @endsection
 
 @section('table_of_contents')
-    <li><a href="#introduction">Introduction</a></li>
-    <li><a href="#what-is-robotics">What is Robotics?</a></li>
-    <li><a href="#types-of-robots">Types of Robots</a></li>
-    <li><a href="#uses-of-robots">Uses of Robots</a></li>
+    @include('_toc.toc', [ 'items' => [
+        'Introduction',
+        'What is Robotics?',
+        'Types of Robots',
+        'Uses of Robots'
+    ]])
 @endSection
 
 @section('content')

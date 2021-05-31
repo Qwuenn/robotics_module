@@ -14,10 +14,12 @@
 @endsection
 
 @section('table_of_contents')
-    <li><a href="#introduction">Introduction</a></li>
-    <li><a href="#code-1">Code 1</a></li>
-    <li><a href="#code-2">Code 2</a></li>
-    <li><a href="#code-3">Code 3</a></li>
+    @include('_toc.toc', ['items' => [
+        'Introduction',
+        'Code 1',
+        'Code 2',
+        'Code 3'
+    ]])
 @endsection
 
 @section('content')

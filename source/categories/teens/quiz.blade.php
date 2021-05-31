@@ -6,7 +6,9 @@
 @endsection
 
 @section('table_of_contents')
-    <li><a href="#pop-up-quiz">Pop-up Quiz</a></li>
+    @include('_toc.toc', ['items' => [
+        'Pop-up Quiz',
+    ]])
 @endSection
 
 @section('content')

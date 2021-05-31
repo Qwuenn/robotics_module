@@ -15,12 +15,14 @@
 @endsection
 
 @section('table_of_contents')
-    <li><a href="#intended-learning-outcomes">Intended Learning Outcomes</a></li>
-    <li><a href="#what-is-robotics">What is Robotics?</a></li>
-    <li><a href="#three-laws-of-robotics">Three Laws of Robotics</a></li>
-    <li><a href="#characteristics">Characteristics</a></li>
-    <li><a href="#applications">Applications</a></li>
-    <li><a href="#advantages-disadvantages">Advantages & Disadvantages</a></li>
+    @include('_toc.toc', [ 'items' => [
+        'Intended Learning Outcomes',
+        'What is Robotics?',
+        'Three Laws of Robotics',
+        'Characteristics',
+        'Applications',
+        'Advantages and Disadvantages'
+    ]])
 @endSection
 
 @section('content')
@@ -138,7 +140,7 @@
 
     <p>&nbsp;</p>
 
-    <h3 id="advantages-disadvantages">Advantages and Disadvantages</h3>
+    <h3 id="advantages-and-disadvantages">Advantages and Disadvantages</h3>
     <p>
         Since robots are replacing humans in some field of work, here are some comparison of robots versus humans:
     </p>

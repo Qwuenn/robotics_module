@@ -6,17 +6,16 @@
 @endsection
 
 @section('table_of_contents')
-    <li><a href="#what-is-arduino">What is Arduino?</a></li>
-    <li><a href="#arduino-boards">Arduino Boards</a></li>
-    <li><a href="#arduino-uno-r3-pin-configuration">Arduino Uno R3 Pin Configuration</a></li>
-    <li>
-        <a href="#setting-up-arduino">Setting Up Arduino</a>
-        <ul>
-            <li><a href="#materials-needed">Materials Needed</a></li>
-            <li><a href="#setting-up-arduino-uno-r3-and-arduino-desktop-ide">Setting Up Arduino UNO R3 and Arduino Desktop IDE</a></li>
-            <li><a href="#configuring-and-testing-arduino-desktop-ide">Configuring and Testing Arduino Desktop IDE</a></li>
-        </ul>
-    </li>
+    @include('_toc.toc', [ 'items' => [
+        'What is Arduino?',
+        'Arduino Boards',
+        'Arduino Uno R3 Pin Configuration',
+        'Setting Up Arduino' => [
+            'Materials Needed',
+            'Setting Up Arduino UNO R3 and Arduino Desktop IDE',
+            'Configuring and Testing Arduino Desktop IDE'
+        ]
+    ]])
 @endSection
 
 @section('content')

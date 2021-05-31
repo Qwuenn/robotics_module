@@ -30,16 +30,7 @@
                 @yield('introduction')
             </div>
 
-            <div id="table-of-contents" class="toc table-of-contents mb-5">
-                <div class="d-flex align-items-center pb-1 mb-1 border-bottom disabled">
-                    <span class="fw-semibold">On this page</span>
-                </div>
-                <nav>
-                    <ul>
-                        @yield('table_of_contents')
-                    </ul>
-                </nav>
-            </div>
+            @yield('table_of_contents')
 
             <div class="content pe-lg-5">
                 @yield('content')

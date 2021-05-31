@@ -6,23 +6,19 @@
 @endsection
 
 @section('table_of_contents')
-    <li><a href="#robotic-sumo">Robotic Sumo</a></li>
-    <li><a href="#components">Components</a></li>
-    <li>
-        <a href="#designs-of-sumo-bot">Designs of Sumo Bot</a>
-        <ul>
-            <li><a href="#design-based-on-speed-(barry)">Design Based on Speed (Barry)</a></li>
-            <li><a href="#design-based-on-power-(bruce)">Design Based on Power (Bruce) </a></li>
-            <li><a href="#design-based-on-both-power-and-speed-(clark)">Design Based on Both Power and Speed (Clark)</a></li>
-        </ul>
-    </li>
-    <li>
-        <a href="#assembly">Assembly</a>
-        <ul>
-            <li><a href="#connecting-and-testing-the-components">Connecting and Testing the Components</a></li>
-            <li><a href="#assembly-of-the-sumo-bot-and-testing">Assembly of the Sumo Bot and Testing</a></li>
-        </ul>
-    </li>
+    @include('_toc.toc', ['items' => [
+        'Robotic Sumo',
+        'Components',
+        'Designs of Sumo Bot' => [
+            'Design Based on Speed (Barry)',
+            'Design Based on Power (Bruce)',
+            'Design Based on Both Power and Speed (Clark)',
+        ],
+        'Assembly' => [
+            'Connecting and Testing the Components',
+            'Assembly of the Sumo Bot and Testing',
+        ]
+    ]])
 @endSection
 
 @section('content')

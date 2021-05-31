@@ -6,8 +6,10 @@
 @endsection
 
 @section('table_of_contents')
-    <li><a href="#components">Components</a></li>
-    <li><a href="#design">Design</a></li>
+    @include('_toc.toc', [ 'items' => [
+        'Components',
+        'Design'
+    ]])
 @endSection
 
 @section('content')

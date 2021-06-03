@@ -22,6 +22,8 @@
             @include('_sidebar.sidebar', ['title' => 'Robotics for Kids!', 'items' => $page->navigation['kids']])
         @elseif (str_contains($page->getPath(), 'categories\teens'))
             @include('_sidebar.sidebar', ['title' => 'Robotics for Teens!', 'items' => $page->navigation['teens']])
+        @elseif (str_contains($page->getPath(), 'categories\adults'))
+            @include('_sidebar.sidebar', ['title' => 'Robotics for Adults', 'items' => $page->navigation['adults']])
         @endif
         
         <main class="mx-0 p-lg-5 py-5 px-3 shadow-sm">

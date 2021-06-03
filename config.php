@@ -13,7 +13,8 @@ return [
     // Navigation
     'navigation' => [
         'kids' => require_once('./navigation/kids.php'),
-        'teens' => require_once('./navigation/teens.php')
+        'teens' => require_once('./navigation/teens.php'),
+        'adults' => require_once('./navigation/adults.php')
     ],
 
     // Helpers

@@ -25,6 +25,15 @@ function mediaBreakpointDownLarge() {
 
 // Check if element exists
 if (document.querySelector('.btn-toggle-nav .selected')) {
-    // Show sidebar collapse menu if link is selected
-    document.querySelector('.btn-toggle-nav .selected').closest('.collapse').classList.add('show');
+    // Show collapse menu if any of its nested children is selected
+    let element = document.querySelector('.btn-toggle-nav .selected');
+    let node = [];
+    while (!element.classList.contains('sidebar')) {
+        node.unshift(element);
+        element = element.parentNode;
+        console.log(element);
+        if (element.classList.contains('collapse')) {
+            element.classList.add('show');
+        }
+    }
 }

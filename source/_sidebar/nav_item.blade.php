@@ -1,13 +1,13 @@
 <li class="nav-item">
     @if ($url = is_string($item) ? $item : $item->url)
         {{-- Nav item with url --}}
-        <a class="nav-link {{ $level === 0 ? 'fw-medium' : '' }} {{ $page->selected($url) }}" href="{{ $page->link($url) }}">
+        <a class="nav-link {{ $level <= 1 ? 'fw-medium' : '' }} {{ $page->selected($url) }}" href="{{ $page->link($url) }}">
             {{ $label }}
         </a>
     @else
         @if (! $item->collapsible)
             {{-- Nav item without url --}}
-            <a class="nav-link pe-none {{ $level === 0 ? 'fw-medium' : '' }}">
+            <a class="nav-link pe-none {{ $level <= 1 ? 'fw-medium' : '' }}">
                 {{ $label }} 
             </a>
         @endif
@@ -16,7 +16,7 @@
     @if (! is_string($item) && $item->children)
         @if ($item->collapsible === true)
             {{-- Recursively handle children as nested collapse menu --}}
-            <a class="nav-link collapse-menu {{ $level === 0 ? 'fw-medium' : '' }}" 
+            <a class="nav-link collapse-menu {{ $level <= 1 ? 'fw-medium' : '' }}" 
                 data-bs-toggle="collapse" 
                 href="#{{ str_replace(' ', '-', strtolower($label)) }}" 
                 role="button" 

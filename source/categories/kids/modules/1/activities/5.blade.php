@@ -61,7 +61,7 @@
 
     <h3 id="circuit-diagram">Circuit Diagram</h3>
     <div class="container-fluid text-center my-3 p-0">
-        <img src="{{ $page->link('assets/build/img/categories/kids/circuit-diagram/activity-5.jpg') }}" 
+        <img src="{{ $page->link('assets/build/img/categories/kids/modules/1/circuit-diagram/activity-5.jpg') }}" 
             alt="robot-car-design-1"
             class="img-fluid rounded-2" />
     </div>

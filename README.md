@@ -383,7 +383,7 @@ Refer to this [link](https://jigsaw.tighten.co/docs/compiling-assets/).
 
 First, create a `gh-pages` branch to your own code repository before you run the command below:
 
-**WARNING**: Make sure you have pushed all commited changes to your own code repository before running the command:
+**WARNING**: Make sure you have pushed all commited changes to your own code repository before running the command.
 
 ```bash
 npm run deploy

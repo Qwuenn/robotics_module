@@ -18,12 +18,12 @@
             {{-- Recursively handle children as nested collapse menu --}}
             <a class="nav-link {{ $level <= 1 ? 'fw-medium' : '' }}" 
                 data-bs-toggle="collapse" 
-                href="#{{ str_replace(' ', '-', strtolower($label)) }}" 
+                href="#collapse-{{ str_replace(' ', '-', strtolower($label)) }}" 
                 role="button" 
                 aria-expanded="false">
                 {{ $label }}
             </a>
-            <div class="collapse" id="{{ str_replace(' ', '-', strtolower($label)) }}">
+            <div class="collapse" id="collapse-{{ str_replace(' ', '-', strtolower($label)) }}">
                 @include('_sidebar.nav', ['items' => $item->children, 'level' => ++$level])
             </div>
         @else

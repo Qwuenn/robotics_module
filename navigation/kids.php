@@ -3,7 +3,7 @@
 return [
     'Introduction' => 'categories\kids/introduction',
 
-    'Robot Car' => [
+    '5-in-1 Robot Car' => [
         'collapsible' => true,
         'children' => [
             'Robot Car Kit' => 'categories\kids\modules\1/robot-car-kit',
@@ -20,7 +20,7 @@ return [
         ]
     ],
 
-    'Robotic Arm' => [
+    '3-Axis Robotic Arm' => [
         'collapsible' => true,
         'children' => [
             'Introduction' => 'categories\kids\modules\2/introduction'

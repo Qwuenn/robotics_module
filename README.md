@@ -8,6 +8,7 @@ A web page for Erovoutika's robotics module.
 
 <p>&nbsp;</p>
 
+
 ## Requirements
 
 
@@ -16,6 +17,7 @@ This webpage is built with [Jigsaw](https://jigsaw.tighten.co/) framework and [B
 Strong knowledge on [Laravel blade templating engine](https://laravel.com/docs/8.x/blade) and [Composer](https://getcomposer.org/) is needed for this project. Knowledge on [Laravel Mix](https://laravel.com/docs/8.x/mix) and [Node Package Manager (NPM)](https://www.npmjs.com/) is optionally required if you want to compile your CSS and JavaScript using Laravel Mix.
 
 <p>&nbsp;</p>
+
 
 ## Installation
 
@@ -76,7 +78,9 @@ First, Webpack will compile your assets and store them in the `/source/assets/bu
 
 <p>&nbsp;</p>
 
+
 ## Previewing the Webpage
+
 
 #### Previewing with PHP
 
@@ -112,7 +116,9 @@ Browsersync will automatically open a new browser tab and reload the page every 
 
 <p>&nbsp;</p>
 
+
 ## Deploying the Webpage
+
 
 #### 1. Specify the base URL
 
@@ -149,7 +155,9 @@ This will generate the webpage into a new folder called `build_production`. Uplo
 
 <p>&nbsp;</p>
 
+
 ## Navigation
+
 
 The navigation menu in the left-hand sidebar of the module layout is defined using an array in the `.php` files within the `/navigation` folder. Nested pages can be added by using the `children` associative array.
 
@@ -275,7 +283,9 @@ return [
 
 <p>&nbsp;</p>
 
+
 ## Table of Contents
+
 
 The table of contents menu in the right-hand section of the module layout is defined using an array in the blade files. You can nest them to any amount of level you want.
 
@@ -359,7 +369,9 @@ Although this is possible, I wouldn't recommend it:
 
 <p>&nbsp;</p>
 
+
 ## Miscellaneous
+
 
 #### Compiling Assets with Laravel Mix
 

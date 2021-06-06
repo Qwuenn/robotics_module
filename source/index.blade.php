@@ -14,10 +14,7 @@
                 </div>
                 <div class="col-lg-6 order-lg-1 my-auto hero-message">
                     <h1 class="fw-medium">{{ $page->title }}</h1>
-                    <p class="fs-5">
-                        Educational robotics strengthen and support student's skills developing their knowledge through the creation, design,
-                        assembly, and operation of robots.
-                    </p>
+                    <p class="fs-5">{{ $page->description }}</p>
                     <div class="d-grid gap-2 d-sm-block">
                         <a class="btn btn-lg btn-default-yellow fw-medium shadow-sm" 
                             href="#categories" 

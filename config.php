@@ -6,7 +6,7 @@ return [
     'production' => false,
     'baseUrl' => '',
     'title' => 'Robotics Academy',
-    'description' => 'Website description.',
+    'description' => "Educational robotics strengthen and support student's skills developing their knowledge through the creation, design, assembly, and operation of robots.",
     'developer' => 'Kim S. Sto. Tomas',
     'collections' => [],
 

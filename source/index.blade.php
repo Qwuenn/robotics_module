@@ -44,7 +44,7 @@
                     <div class="card-body">
                         <h5 class="card-title text-center fw-semibold">Robotics for Kids!</h5>
                         <p class="card-text text-center">
-                            Learn how to build your own robots easily with no computer programming required!
+                            Learn robotics easily by building your own robots hands-on!
                         </p>
                         <a href="{{ $page->link('categories/kids/modules/1/introduction') }}" class="btn btn-default-blue fw-medium text-white">Get Started</a>
                     </div>

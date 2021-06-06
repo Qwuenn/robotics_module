@@ -1,3 +1,7 @@
+<p align="center">
+	<img src="https://qwuenn.github.io/robotics_module/assets/build/img/robot.svg" height="320" />
+</p>
+
 # Robotics Webpage
 
 A web page for Erovoutika's robotics module.

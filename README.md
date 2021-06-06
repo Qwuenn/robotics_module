@@ -128,7 +128,7 @@ Define the `baseUrl` of the webpage in `config.production.php`.
 <?php
 
 return [
-    'baseUrl' => 'https://www.erovoutika.ph/', // Example
+    'baseUrl' => 'https://www.erovoutika.ph/robotics', // Example
     'production' => true,
 ];
 ```

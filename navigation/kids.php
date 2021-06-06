@@ -17,5 +17,12 @@ return [
                 ]
             ]
         ]
+    ],
+
+    'Module 2 - Robotic Arm' => [
+        'collapsible' => true,
+        'children' => [
+            'Introduction' => 'categories\kids\modules\2/introduction'
+        ]
     ]
 ];

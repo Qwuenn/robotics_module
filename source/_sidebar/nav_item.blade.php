@@ -16,7 +16,7 @@
     @if (! is_string($item) && $item->children)
         @if ($item->collapsible === true)
             {{-- Recursively handle children as nested collapse menu --}}
-            <a class="nav-link collapse-menu {{ $level <= 1 ? 'fw-medium' : '' }}" 
+            <a class="nav-link {{ $level <= 1 ? 'fw-medium' : '' }}" 
                 data-bs-toggle="collapse" 
                 href="#{{ str_replace(' ', '-', strtolower($label)) }}" 
                 role="button" 

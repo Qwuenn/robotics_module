@@ -43,7 +43,7 @@
                         <p class="card-text text-center">
                             Learn robotics easily by building your own robots hands-on!
                         </p>
-                        <a href="{{ $page->link('categories/kids/modules/1/introduction') }}" class="btn btn-default-blue fw-medium text-white">Get Started</a>
+                        <a href="{{ $page->link('categories/kids/introduction') }}" class="btn btn-default-blue fw-medium text-white">Get Started</a>
                     </div>
                 </div>
             </div>

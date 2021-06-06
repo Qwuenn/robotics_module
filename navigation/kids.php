@@ -1,10 +1,11 @@
 <?php
 
 return [
-    'Module 1 - Robot Car' => [
+    'Introduction' => 'categories\kids/introduction',
+
+    'Robot Car' => [
         'collapsible' => true,
         'children' => [
-            'Introduction' => 'categories\kids\modules\1/introduction',
             'Robot Car Kit' => 'categories\kids\modules\1/robot-car-kit',
             'Activities' => [
                 'collapsible' => true,
@@ -19,7 +20,7 @@ return [
         ]
     ],
 
-    'Module 2 - Robotic Arm' => [
+    'Robotic Arm' => [
         'collapsible' => true,
         'children' => [
             'Introduction' => 'categories\kids\modules\2/introduction'

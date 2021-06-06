@@ -9,12 +9,12 @@
     <meta property="og:title" content="{{ $page->title }}"/>
     <meta property="og:description" content="{{ $page->description }}"/>
     <meta property="og:url" content="{{ $page->getUrl() }}"/>
-    <meta property="og:image" content="{{ $page->link('assets/img/robot-hero-vector.svg') }}"/>
+    <meta property="og:image" content="{{ $page->link('assets/build/img/robot.png') }}"/>
     <meta property="og:type" content="website"/>
 
     <meta name="twitter:title" content="{{ $page->title }}">
     <meta name="twitter:description" content="{{ $page->description }}">
-    <meta name="twitter:image" content="{{ $page->link('assets/img/robot-hero-vector.svg') }}">
+    <meta name="twitter:image" content="{{ $page->link('assets/build/img/robot.png') }}">
     <meta name="twitter:image:alt" content="{{ $page->title }}">
     <meta name="twitter:card" content="summary_large_image">
 
@@ -26,7 +26,7 @@
     <link rel="stylesheet" href="{{ $page->link(mix('css/main.css', 'assets/build')) }}">
 
     <title>{{ $page->title }}</title>
-    
+
     @stack('styles')
 </head>
 <body class="antialiased">

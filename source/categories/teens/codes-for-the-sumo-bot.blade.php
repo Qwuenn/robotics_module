@@ -24,7 +24,7 @@
 
 @section('content')
 <h3 id="code-1">Code 1</h3>
-@include('_partials.teens.codebox', [ 'code' => 
+@include('_partials.codebox', [ 'code' => 
 '//===========================================================
 // Erovoutika Sumo Bot 1
 
@@ -217,7 +217,7 @@ void Stop() {
 <p>&nbsp;</p>
 
 <h3 id="code-2">Code 2</h3>
-@include('_partials.teens.codebox', [ 'code' =>
+@include('_partials.codebox', [ 'code' =>
 '//===========================================================
 // Erovoutika Sumo Bot 1
 
@@ -448,7 +448,7 @@ void Stop() {
 <p>&nbsp;</p>
 
 <h3 id="code-3">Code 3</h3>
-@include('_partials.teens.codebox', [ 'code' =>
+@include('_partials.codebox', [ 'code' =>
 '//===========================================================
 // Erovoutika Sumo Bot 1
 

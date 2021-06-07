@@ -23,7 +23,8 @@ return [
     '3-Axis Robotic Arm' => [
         'collapsible' => true,
         'children' => [
-            'Introduction' => 'categories\kids\modules\2/introduction'
+            'Introduction' => 'categories\kids\modules\2/introduction',
+            'Robotic Arm Kit' => 'categories\kids\modules\2/robotic-arm-kit'
         ]
     ]
 ];

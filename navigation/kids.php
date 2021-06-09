@@ -24,7 +24,8 @@ return [
         'collapsible' => true,
         'children' => [
             'Introduction' => 'categories\kids\modules\2/introduction',
-            'Robotic Arm Kit' => 'categories\kids\modules\2/robotic-arm-kit'
+            'Robotic Arm Kit' => 'categories\kids\modules\2/robotic-arm-kit',
+            'Activity' => 'categories\kids\modules\2/activity'
         ]
     ]
 ];

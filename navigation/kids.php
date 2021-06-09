@@ -25,7 +25,8 @@ return [
         'children' => [
             'Introduction' => 'categories\kids\modules\2/introduction',
             'Robotic Arm Kit' => 'categories\kids\modules\2/robotic-arm-kit',
-            'Activity' => 'categories\kids\modules\2/activity'
+            'Activity' => 'categories\kids\modules\2/activity',
+            'Quiz' => 'categories\kids\modules\2/quiz'
         ]
     ]
 ];

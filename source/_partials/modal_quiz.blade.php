@@ -3,7 +3,7 @@
     class="btn btn-default-yellow mt-3" 
     data-bs-toggle="modal" 
     data-bs-target="#{{ isset($id) ? $id : 'modalQuiz' }}">
-    Click to answer
+    {{ isset($buttonText) ? $buttonText : 'Click to answer' }}
 </button>
 
 {{-- Modal Questionnaire --}}

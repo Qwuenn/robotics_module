@@ -3,12 +3,6 @@
     font-size: $small-font-size;
     color: $gray-600;
 
-    position: sticky;
-    top: 2rem;
-    right: 0;
-    z-index: 2;
-    height: calc(100vh - 7rem);
-
     min-width: 0;
     min-height: 0;
 
@@ -35,10 +29,12 @@
     }
 }
 
-@include media-breakpoint-down(lg) {
+@include media-breakpoint-up(lg) {
     .table-of-contents {
-        position: relative;
-        top: 0;
-        height: inherit;
+        position: sticky;
+        top: 2rem;
+        right: 0;
+        z-index: 2;
+        height: calc(100vh - 7rem);
     }
 }

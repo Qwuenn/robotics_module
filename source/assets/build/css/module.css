@@ -39,11 +39,6 @@
   grid-area: toc;
   font-size: 0.875em;
   color: #6c757d;
-  position: sticky;
-  top: 2rem;
-  right: 0;
-  z-index: 2;
-  height: calc(100vh - 7rem);
   min-width: 0;
   min-height: 0;
 }
@@ -64,11 +59,13 @@
   color: #343a40;
 }
 
-@media (max-width: 991.98px) {
+@media (min-width: 992px) {
   .table-of-contents {
-    position: relative;
-    top: 0;
-    height: inherit;
+    position: sticky;
+    top: 2rem;
+    right: 0;
+    z-index: 2;
+    height: calc(100vh - 7rem);
   }
 }
 .subnavbar .navbar-toggler {

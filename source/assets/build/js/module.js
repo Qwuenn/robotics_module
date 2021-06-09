@@ -32,10 +32,9 @@ if (document.querySelector('.btn-toggle-nav .selected')) {
   var element = document.querySelector('.btn-toggle-nav .selected');
   var node = [];
 
-  while (!element.classList.contains('sidebar')) {
+  while (!element.classList.contains('module-nav')) {
     node.unshift(element);
     element = element.parentNode;
-    console.log(element);
 
     if (element.classList.contains('collapse')) {
       element.classList.add('show');

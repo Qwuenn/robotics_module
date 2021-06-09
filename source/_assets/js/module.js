@@ -28,10 +28,9 @@ if (document.querySelector('.btn-toggle-nav .selected')) {
     // Show collapse menu if any of its nested children is selected
     let element = document.querySelector('.btn-toggle-nav .selected');
     let node = [];
-    while (!element.classList.contains('sidebar')) {
+    while (!element.classList.contains('module-nav')) {
         node.unshift(element);
         element = element.parentNode;
-        console.log(element);
         if (element.classList.contains('collapse')) {
             element.classList.add('show');
         }

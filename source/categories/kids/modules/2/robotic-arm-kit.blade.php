@@ -15,7 +15,7 @@
 @section('content')
     <h3 id="components">Components</h3>
 
-    <div class="container-fluid mt-4 p-0">
+    <div class="container-fluid mt-4">
         <div class="row row-cols-1 gy-5">
             @include('_partials.component_card', [
                 'img' => $page->link('assets/build/img/components/arduino-uno-r3.png'),

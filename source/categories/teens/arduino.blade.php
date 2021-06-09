@@ -73,10 +73,13 @@
         pins, a USB connection, an ICSP (In-circuit serial programming) header, reset button, and a power barrel jack.
     </p>
 
-    <img src="{{ $page->link('assets/build/img/categories/teens/arduino/arduino-uno-r3-pin-configuration.jpg') }}" 
-        alt="Figure 2.2.1 Arduino UNO R3 Pin Configuration"
-        class="img-fluid rounded-2 text-center my-4" />
+    @include('_partials.image', [
+        'img' => $page->link('assets/build/img/categories/teens/arduino/arduino-uno-r3-pin-configuration.jpg'),
+        'alt' => 'Arduino UNO R3 Pin Configuration',
+        'label' => 'Arduino UNO R3 Pin Configuration'
+    ])
 
+    <p>&nbsp;</p>
     <p>&nbsp;</p>
 
     <h3 id="setting-up-arduino">Setting Up Arduino</h3>
@@ -95,20 +98,32 @@
     <h5 id="setting-up-arduino-uno-r3-and-arduino-desktop-ide" class="mb-4">Setting Up Arduino UNO R3 and Arduino Desktop IDE</h5>
     <ol class="d-grid gap-4">
         <li>
-            Download and install the latest version of the Arduino IDE from the <a href="https://www.arduino.cc/en/software">official website</a>. 
-            Choose the one that is suited to your laptop/desktop operating system. <br>
-            <img src="{{ $page->link('assets/build/img/categories/teens/arduino/arduino-setup-1.png') }}" 
-                alt="Figure 2.3.2.A.1: Official Download Site of Arduino IDE"
-                class="img-fluid rounded-2 text-center my-4" />
-            <span class="fw-semibold">NOTE:</span> If downloading and installing files is not your style, you can try Arduino Web IDE by following this 
-            <a href="https://create.arduino.cc/projecthub/Arduino_Genuino/getting-started-with-arduino-web-editor-on-various-platforms-4b3e4a">link</a>.
+            <p>
+                Download and install the latest version of the Arduino IDE from the <a href="https://www.arduino.cc/en/software">official website</a>. 
+                Choose the one that is suited to your laptop/desktop operating system.
+            </p>
+
+            @include('_partials.image', [
+                'img' => $page->link('assets/build/img/categories/teens/arduino/arduino-setup-1.png'),
+                'alt' => 'Official Download Site of Arduino IDE',
+                'label' => 'Official Download Site of Arduino IDE'
+            ])
+            
+            <p>
+                <span class="fw-semibold">NOTE:</span> If downloading and installing files is not your style, you can try Arduino Web IDE by following this 
+                <a href="https://create.arduino.cc/projecthub/Arduino_Genuino/getting-started-with-arduino-web-editor-on-various-platforms-4b3e4a">link</a>.
+            </p>
         </li>
         <li>
-            Using the USB printer cable, connect the Arduino to the laptop/desktop. The green LED (PWR) will turn on if the
-            Arduino is successfully connected to the laptop/desktop.
+            <p>
+                Using the USB printer cable, connect the Arduino to the laptop/desktop. The green LED (PWR) will turn on if the
+                Arduino is successfully connected to the laptop/desktop.
+            </p>
         </li>
         <li>
-            Open the Arduino IDE and it will automatically install the driver to the board.
+            <p>
+                Open the Arduino IDE and it will automatically install the driver to the board.
+            </p>
         </li>
     </ol>
 
@@ -117,56 +132,91 @@
     <h5 id="configuring-and-testing-arduino-desktop-ide" class="mb-4">Configuring and Testing Arduino Desktop IDE</h5>
     <ol class="d-grid gap-4">
         <li>
-            Open the Arduino Desktop IDE and click <span class="fw-semibold">Sketch > Include Library</span>. 
-            Some sensors require certain libraries before they can work. It can also be installed manually.
-            <img src="{{ $page->link('assets/build/img/categories/teens/arduino/arduino-setup-2.png') }}" 
-                alt="Figure 2.3.2.B.1 Exploring the library section of Arduino Desktop IDE"
-                class="img-fluid rounded-2 text-center my-4" />
+            <p>
+                Open the Arduino Desktop IDE and click <span class="fw-semibold">Sketch > Include Library</span>. 
+                Some sensors require certain libraries before they can work. It can also be installed manually.
+            </p>
+
+            @include('_partials.image', [
+                'img' => $page->link('assets/build/img/categories/teens/arduino/arduino-setup-2.png'),
+                'alt' => 'Exploring the library section of Arduino Desktop IDE',
+                'label' => 'Exploring the library section of Arduino Desktop IDE'
+            ])
         </li>
         <li>
-            Some sample activities are precoded for easy use and for guiding beginners. 
-            <span class="fw-semibold">Open File > Examples</span>.
-            <img src="{{ $page->link('assets/build/img/categories/teens/arduino/arduino-setup-3.png') }}" 
-                alt="Figure 2.3.2.B.2 Samples Activities included in the IDE"
-                class="img-fluid rounded-2 text-center my-4" />
+            <p>
+                Some sample activities are precoded for easy use and for guiding beginners. 
+                <span class="fw-semibold">Open File > Examples</span>.
+            </p>
+
+            @include('_partials.image', [
+                'img' => $page->link('assets/build/img/categories/teens/arduino/arduino-setup-3.png'),
+                'alt' => 'Samples Activities included in the IDE',
+                'label' => 'Samples Activities included in the IDE'
+            ])
         </li>
         <li>
-            Select the right Arduino Board in <span class="fw-semibold">Tools > Board</span> and select the board for this module, 
-            Arduino Uno. This is done to avoid errors in uploading codes to the Arduino board.
-            <img src="{{ $page->link('assets/build/img/categories/teens/arduino/arduino-setup-4.png') }}" 
-                alt="Figure 2.3.2.B.3 Choosing of the right Arduino board in the IDE"
-                class="img-fluid rounded-2 text-center my-4" />
+            <p>
+                Select the right Arduino Board in <span class="fw-semibold">Tools > Board</span> and select the board for this module, 
+                Arduino Uno. This is done to avoid errors in uploading codes to the Arduino board.
+            </p>
+
+            @include('_partials.image', [
+                'img' => $page->link('assets/build/img/categories/teens/arduino/arduino-setup-4.png'),
+                'alt' => 'Choosing of the right Arduino board in the IDE',
+                'label' => 'Choosing of the right Arduino board in the IDE'
+            ])
         </li>
         <li>
-            Select the port where the Arduino Uno is connected to the computer. Go to 
-            <span class="fw-semibold">Tools > Port > Select COM3 (Arduino Genuino Uno)</span>.
-            <img src="{{ $page->link('assets/build/img/categories/teens/arduino/arduino-setup-5.png') }}" 
-                alt="Figure 2.3.2.B.4 The location of the port on the IDE"
-                class="img-fluid rounded-2 text-center my-4" />
+            <p>
+                Select the port where the Arduino Uno is connected to the computer. Go to 
+                <span class="fw-semibold">Tools > Port > Select COM3 (Arduino Genuino Uno)</span>.
+            </p>
+
+            @include('_partials.image', [
+                'img' => $page->link('assets/build/img/categories/teens/arduino/arduino-setup-5.png'),
+                'alt' => 'The location of the port on the IDE',
+                'label' => 'The location of the port on the IDE'
+            ])
         </li>
         <li>
-            After coding with the IDE, verify first before uploading to the Arduino board. It will check the code for error and
-            it will be shown on the black space below the sketch.
-            <img src="{{ $page->link('assets/build/img/categories/teens/arduino/arduino-setup-6.png') }}" 
-                alt="Figure 2.3.2.B.5 An example of verifying a program on IDE"
-                class="img-fluid rounded-2 text-center my-4" />
+            <p>
+                After coding with the IDE, verify first before uploading to the Arduino board. It will check the code for error and
+                it will be shown on the black space below the sketch.
+            </p>
+
+            @include('_partials.image', [
+                'img' => $page->link('assets/build/img/categories/teens/arduino/arduino-setup-6.png'),
+                'alt' => 'An example of verifying a program on IDE',
+                'label' => 'An example of verifying a program on IDE'
+            ])
         </li>
         <li>
-            A most common error like missing semicolon “; ” on a line. The software will help locate where the error takes place.
-            In the photo below, the error is located above the red line. There are also other errors like variable declaration
-            error, wherein a variable is used without declaration and missing brackets { }, wherein a function is missing an
-            opening/closing bracket that will result in more errors. The latter can be fixed by using 
-            <span class="fw-semibold">CTRL + T</span> or AutoFormat and locate and check every bracket. 
-            All opening brackets ( { ) must have closing brackets ( } ).
-            <img src="{{ $page->link('assets/build/img/categories/teens/arduino/arduino-setup-7.png') }}" 
-                alt="Figure 2.3.2.B.6 A missing semicolon have been found in the example above"
-                class="img-fluid rounded-2 text-center my-4" />
+            <p>
+                A most common error like missing semicolon “; ” on a line. The software will help locate where the error takes place.
+                In the photo below, the error is located above the red line. There are also other errors like variable declaration
+                error, wherein a variable is used without declaration and missing brackets { }, wherein a function is missing an
+                opening/closing bracket that will result in more errors. The latter can be fixed by using 
+                <span class="fw-semibold">CTRL + T</span> or AutoFormat and locate and check every bracket. 
+                All opening brackets ( { ) must have closing brackets ( } ).
+            </p>
+
+            @include('_partials.image', [
+                'img' => $page->link('assets/build/img/categories/teens/arduino/arduino-setup-7.png'),
+                'alt' => 'A missing semicolon have been found in the example above',
+                'label' => 'A missing semicolon have been found in the example above'
+            ])
         </li>
         <li>
-            If there’s no error detected, press the upload button to send the program to the board.
-            <img src="{{ $page->link('assets/build/img/categories/teens/arduino/arduino-setup-8.png') }}" 
-                alt="Figure 2.3.2.B.7 A successful upload of a program is shown above"
-                class="img-fluid rounded-2 text-center my-4" />
+            <p>
+                If there’s no error detected, press the upload button to send the program to the board.
+            </p>
+
+            @include('_partials.image', [
+                'img' => $page->link('assets/build/img/categories/teens/arduino/arduino-setup-8.png'),
+                'alt' => 'A successful upload of a program is shown above',
+                'label' => 'A successful upload of a program is shown above'
+            ])
         </li>
     </ol>
 @endsection

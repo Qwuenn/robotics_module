@@ -4,5 +4,6 @@
     </div>
     <nav>
         @include('_toc.list')
+        <p>&nbsp;</p>
     </nav>
 </div>

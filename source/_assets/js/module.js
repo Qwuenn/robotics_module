@@ -13,8 +13,10 @@ window.addEventListener('resize', function() {
 function mediaBreakpointDownLarge() {
     if (window.innerWidth <= 991.98) {
         // Check if OverlayScrollbars is initialized in the two elements
-        if (osToc && osSidebar) {
+        if (osToc) {
             osToc.destroy();
+        }
+        if (osSidebar) {
             osSidebar.destroy();
         }
     } else {

@@ -1,12 +1,12 @@
 @extends('_layouts.module')
 
 @section('introduction')
-    <h1 id="quiz">Quiz</h1>
+    <h1>Quiz</h1>
     <p>&nbsp;</p>
 @endsection
 
 @section('content')
-    <h5 id="pop-up-quiz">Click here to begin.</h5>
+    <h5>Click here to begin.</h5>
     @include('_partials.modal_quiz', [
         'modalTitle' => 'Robotics for Kids!',
         'quizHeader' => 'Pop-up Quiz',

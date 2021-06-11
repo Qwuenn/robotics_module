@@ -148,18 +148,23 @@
     </p>
     <div class="container-fluid text-center p-0">
         <div class="row row-cols-1 gy-4">
-            <div class="col">
-                <img src="{{ $page->link('assets/build/img/categories/teens/design/barry-isometric.png') }}" 
-                    alt="Barry Isometric View"
-                    class="img-fluid rounded-2" />
-                <p class="fst-italic">Isometric View</p>
-            </div>
-            <div class="col">
-                <img src="{{ $page->link('assets/build/img/categories/teens/design/barry-side.png') }}" 
-                    alt="Barry Side View"
-                    class="img-fluid rounded-2" />
-                <p class="fst-italic">Side View</p>
-            </div>
+            @include('_partials.image', [
+                'img' => $page->link('assets/build/img/categories/teens/modules/1/design/barry-isometric-south-east.png'),
+                'alt' => 'Barry South East Isometric View',
+                'label' => 'South East Isometric View'
+            ])
+
+            @include('_partials.image', [
+                'img' => $page->link('assets/build/img/categories/teens/modules/1/design/barry-isometric-south-west.png'),
+                'alt' => 'Barry South West Isometric View',
+                'label' => 'South West Isometric View'
+            ])
+
+            @include('_partials.image', [
+                'img' => $page->link('assets/build/img/categories/teens/modules/1/design/barry-right.png'),
+                'alt' => 'Barry Right Side View',
+                'label' => 'Right Side View'
+            ])
         </div>
     </div>
 
@@ -174,18 +179,23 @@
     </p>
     <div class="container-fluid text-center p-0">
         <div class="row row-cols-1 gy-4">
-            <div class="col">
-                <img src="{{ $page->link('assets/build/img/categories/teens/design/bruce-isometric.png') }}" 
-                    alt="Bruce Isometric View"
-                    class="img-fluid rounded-2" />
-                <p class="fst-italic">Isometric View</p>
-            </div>
-            <div class="col">
-                <img src="{{ $page->link('assets/build/img/categories/teens/design/bruce-side.png') }}" 
-                    alt="Bruce Side View"
-                    class="img-fluid rounded-2" />
-                <p class="fst-italic">Side View</p>
-            </div>
+            @include('_partials.image', [
+                'img' => $page->link('assets/build/img/categories/teens/modules/1/design/bruce-isometric-south-east.png'),
+                'alt' => 'Bruce South East Isometric View',
+                'label' => 'South East Isometric View'
+            ])
+
+            @include('_partials.image', [
+                'img' => $page->link('assets/build/img/categories/teens/modules/1/design/bruce-isometric-south-west.png'),
+                'alt' => 'Bruce South West Isometric View',
+                'label' => 'South West Isometric View'
+            ])
+
+            @include('_partials.image', [
+                'img' => $page->link('assets/build/img/categories/teens/modules/1/design/bruce-left.png'),
+                'alt' => 'Bruce Left Side View',
+                'label' => 'Left Side View'
+            ])
         </div>
     </div>
 
@@ -198,18 +208,23 @@
     </p>
     <div class="container-fluid text-center p-0">
         <div class="row row-cols-1 gy-4">
-            <div class="col">
-                <img src="{{ $page->link('assets/build/img/categories/teens/design/clark-isometric.png') }}" 
-                    alt="Clark Isometric View"
-                    class="img-fluid rounded-2" />
-                <p class="fst-italic">Isometric View</p>
-            </div>
-            <div class="col">
-                <img src="{{ $page->link('assets/build/img/categories/teens/design/clark-top.png') }}" 
-                    alt="Clark Side View"
-                    class="img-fluid rounded-2" />
-                <p class="fst-italic">Top View</p>
-            </div>
+            @include('_partials.image', [
+                'img' => $page->link('assets/build/img/categories/teens/modules/1/design/clark-isometric-south-east.png'),
+                'alt' => 'Clark South East Isometric View',
+                'label' => 'South East Isometric View'
+            ])
+
+            @include('_partials.image', [
+                'img' => $page->link('assets/build/img/categories/teens/modules/1/design/clark-isometric-south-west.png'),
+                'alt' => 'Clark South West Isometric View',
+                'label' => 'South West Isometric View'
+            ])
+
+            @include('_partials.image', [
+                'img' => $page->link('assets/build/img/categories/teens/modules/1/design/clark-top.png'),
+                'alt' => 'Clark Side View',
+                'label' => 'Top View'
+            ])
         </div>
     </div>
 
@@ -223,9 +238,11 @@
     <ol class="d-grid gap-4">
         <li>
             Using a breadboard and jumper wires, connect every component as what is shown on the circuit diagram.
-            <img src="{{ $page->link('assets/build/img/categories/teens/assembly.png') }}" 
-                alt="Fritzing"
-                class="img-fluid rounded-2 text-center my-4" />
+            @include('_partials.image', [
+                'img' => $page->link('assets/build/img/categories/teens/modules/1/assembly.png'),
+                'alt' => 'Fritzing',
+                'label' => 'Top View'
+            ])
         </li>
         <li>
             Power up Arduino UNO by connecting it to your desktop/laptop. Open Arduino Desktop IDE. Select a code from one to

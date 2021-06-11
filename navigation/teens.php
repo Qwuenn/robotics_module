@@ -9,7 +9,7 @@ return [
             'Sumo Bot Kit' => 'categories\teens\modules\1/sumo-bot-kit',
             'Designs' => 'categories\teens\modules\1/designs',
             'Assembly' => 'categories\teens\modules\1/assembly',
-            'Codes for the Sumo Bot' => 'categories\teens\modules\1/codes-for-the-sumo-bot',
+            'Codes' => 'categories\teens\modules\1/codes',
             'Quiz' => 'categories\teens\modules\1/quiz'
         ]
     ]

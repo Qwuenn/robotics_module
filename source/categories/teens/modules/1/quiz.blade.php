@@ -1,22 +1,17 @@
 @extends('_layouts.module')
 
 @section('introduction')
-    <h1 id="quiz">Quiz</h1>
+    <h1>Quiz</h1>
     <p>&nbsp;</p>
 @endsection
 
-@section('table_of_contents')
-    @include('_toc.toc', ['items' => [
-        'Pop-up Quiz',
-    ]])
-@endSection
-
 @section('content')
-    <h3 id="pop-up-quiz"></h3>
+    <h5>Click here to begin.</h5>
     @include('_partials.modal_quiz', [
         'modalTitle' => 'Robotics for Teens!',
         'quizHeader' => 'Pop-up Quiz',
-        'quizDescription' => 'Sumo Bot' 
+        'quizDescription' => 'Robotic Sumo',
+        'buttonText' => 'Pop-up Quiz' 
     ])
 @endsection
 

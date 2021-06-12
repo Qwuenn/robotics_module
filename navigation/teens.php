@@ -13,5 +13,12 @@ return [
             'Codes' => 'categories\teens\modules\1/codes',
             'Quiz' => 'categories\teens\modules\1/quiz'
         ]
+    ],
+
+    'Camera Drone' => [
+        'collapsible' => true,
+        'children' => [
+            'Introduction' => 'categories\teens\modules\2/introduction'
+        ]
     ]
 ];

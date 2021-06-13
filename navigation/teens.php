@@ -18,7 +18,8 @@ return [
     'Camera Drone' => [
         'collapsible' => true,
         'children' => [
-            'Introduction' => 'categories\teens\modules\2/introduction'
+            'Introduction' => 'categories\teens\modules\2/introduction',
+            'Classification' => 'categories\teens\modules\2/classification'
         ]
     ]
 ];

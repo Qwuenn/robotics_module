@@ -19,7 +19,8 @@ return [
         'collapsible' => true,
         'children' => [
             'Introduction' => 'categories\teens\modules\2/introduction',
-            'Classification' => 'categories\teens\modules\2/classification'
+            'Classification' => 'categories\teens\modules\2/classification',
+            'Multirotor Drones' => 'categories\teens\modules\2/multirotor-drones',
         ]
     ]
 ];

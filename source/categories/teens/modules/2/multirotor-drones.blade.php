@@ -29,9 +29,9 @@
     </p>
 
     <p>
-        This module will be using a drone that falls under multirotor classification, a quadcopter in specific, small in size,
-        for very close range, and is a fully RCV. Thus, below is the list of comparisons of multirotor vs other categories (e.g
-        single-rotor).
+        This module will be using a drone that falls under <b>multirotor</b> classification, a <b>quadcopter</b> in specific,
+        <b>small</b> in size, for <b>very close range</b>, and is a <b>fully RCV</b>. Thus, below is the list of comparisons of
+        multirotor vs other categories (e.g single-rotor).
     </p>
 
     <p>&nbsp;</p>

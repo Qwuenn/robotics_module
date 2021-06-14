@@ -151,18 +151,18 @@
         The equation for Endurance or the amount of time a drone can stay in that air is given by:
     </p> 
     <p>
-        $$
+        \[
             \sf{Endurance(hours)} = \mathsf{Battery \; Capacity \; (Ampere - hours) \over Current \; (Ampere)}
-        $$
+        \]
     </p>
 
     <p>
         As for the Range or the measurement of how far a drone can fly from its controller is estimated by:
     </p>
     <p>
-        $$
+        \[
             \sf{Range(miles)} = \mathsf{Endurance \times Pitch \times 60 \times 1V \times kV \over 12 \times 5260}
-        $$
+        \]
     </p> 
 
     <p>where:</p>

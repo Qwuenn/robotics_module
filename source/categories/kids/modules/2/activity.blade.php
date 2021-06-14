@@ -101,7 +101,7 @@
         <li>
             <p>
                 Open the Arduino IDE on your desktop or laptop. Then configure it based on your device you use. Go to 
-                <span class="fw-semibold">Tools → Board → Choose 'Arduino Uno'</span>.
+                <b>Tools → Board → Choose 'Arduino Uno'</b>.
             </p>
 
             @include('_partials.image', [
@@ -115,7 +115,7 @@
         <li>
             <p>
                 You must select the port which the Arduino is on. To find the COM port, go to 
-                <span class="fw-semibold">Device Manager → Ports (COM & LPT)</span> then click where the Arduino is connected.
+                <b>Device Manager → Ports (COM & LPT)</b> then click where the Arduino is connected.
             </p>
 
             @include('_partials.image', [
@@ -127,7 +127,7 @@
 
             <p>
                 Next, go back to Arduino IDE and select the port where the Arduino is on. Go to
-                <span class="fw-semibold">Tools → Port → Choose the correct port</span>.
+                <b>Tools → Port → Choose the correct port</b>.
             </p>
 
             @include('_partials.image', [

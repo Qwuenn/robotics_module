@@ -133,7 +133,7 @@
     <ol class="d-grid gap-4">
         <li>
             <p>
-                Open the Arduino Desktop IDE and click <span class="fw-semibold">Sketch > Include Library</span>. 
+                Open the Arduino Desktop IDE and click <b>Sketch > Include Library</b>. 
                 Some sensors require certain libraries before they can work. It can also be installed manually.
             </p>
 
@@ -146,7 +146,7 @@
         <li>
             <p>
                 Some sample activities are precoded for easy use and for guiding beginners. 
-                <span class="fw-semibold">Open File > Examples</span>.
+                <b>Open File > Examples</b>.
             </p>
 
             @include('_partials.image', [
@@ -157,7 +157,7 @@
         </li>
         <li>
             <p>
-                Select the right Arduino Board in <span class="fw-semibold">Tools > Board</span> and select the board for this module, 
+                Select the right Arduino Board in <b>Tools > Board</b> and select the board for this module, 
                 Arduino Uno. This is done to avoid errors in uploading codes to the Arduino board.
             </p>
 
@@ -170,7 +170,7 @@
         <li>
             <p>
                 Select the port where the Arduino Uno is connected to the computer. Go to 
-                <span class="fw-semibold">Tools > Port > Select COM3 (Arduino Genuino Uno)</span>.
+                <b>Tools > Port > Select COM3 (Arduino Genuino Uno)</b>.
             </p>
 
             @include('_partials.image', [
@@ -197,7 +197,7 @@
                 In the photo below, the error is located above the red line. There are also other errors like variable declaration
                 error, wherein a variable is used without declaration and missing brackets { }, wherein a function is missing an
                 opening/closing bracket that will result in more errors. The latter can be fixed by using 
-                <span class="fw-semibold">CTRL + T</span> or AutoFormat and locate and check every bracket. 
+                <b>CTRL + T</b> or AutoFormat and locate and check every bracket. 
                 All opening brackets ( { ) must have closing brackets ( } ).
             </p>
 

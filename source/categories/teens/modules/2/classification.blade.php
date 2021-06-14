@@ -95,7 +95,7 @@
             < 50cm in length, < 250g in weight
         </li>
         <li>
-            <span class="fw-semibold">Common Application:</span> Spying (hidden surveillance)
+            <b>Common Application:</b> Spying (hidden surveillance)
         </li>
     </ul>
 
@@ -105,7 +105,7 @@
             a little above 50cm in length, up to 25kg in weight
         </li>
         <li>
-            <span class="fw-semibold">Common Application:</span> Recreational purposes
+            <b>Common Application:</b> Recreational purposes
         </li>
     </ul>
 
@@ -115,7 +115,7 @@
             up to 200kg in weight
         </li>
         <li>
-            <span class="fw-semibold">Common Application:</span> Package carrier
+            <b>Common Application:</b> Package carrier
         </li>
     </ul>
 
@@ -125,7 +125,7 @@
             usually comparable to a size of an aircraft (> 200kg)
         </li>
         <li>
-            <span class="fw-semibold">Common Application:</span> Military purposes
+            <b>Common Application:</b> Military purposes
         </li>
     </ul>
 
@@ -168,15 +168,15 @@
     <p>where:</p>
     <ul>
         <li>
-            <span class="fw-semibold">kV (kiloVolt)</span>
+            <b>kV (kiloVolt)</b>
             - number of RPM (Revolutions Per Minute) the motor will turn when 1V of voltage is applied.
         </li>
         <li>
-            <span class="fw-semibold">Pitch</span>
+            <b>Pitch</b>
             - pitch of propeller in inches
         </li>
         <li>
-            <span class="fw-semibold">Endurance</span>
+            <b>Endurance</b>
             - number of hours a drone can stay in mid-air
         </li>
     </ul>

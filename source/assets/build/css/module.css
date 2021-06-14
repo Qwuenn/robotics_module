@@ -144,6 +144,10 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
 }
 
+b {
+  font-weight: 600;
+}
+
 @media (max-width: 991.98px) {
   .layout {
     grid-template-areas: "sidebar sidebar" "main main";

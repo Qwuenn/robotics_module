@@ -152,9 +152,7 @@
     </p>
 
     @include('_partials.equation', [ 'equation' => '
-        \[
-            \sf{Endurance(hours)} = \mathsf{Battery \; Capacity \; (Ampere - hours) \over Current \; (Ampere)}
-        \]
+        \sf{Endurance(hours)} = \mathsf{Battery \; Capacity \; (Ampere - hours) \over Current \; (Ampere)}
     '])
 
     <p>
@@ -162,9 +160,7 @@
     </p>
 
     @include('_partials.equation', ['equation' => '
-        \[
-            \sf{Range(miles)} = \mathsf{Endurance \times Pitch \times 60 \times 1V \times kV \over 12 \times 5260}
-        \]
+        \sf{Range(miles)} = \mathsf{Endurance \times Pitch \times 60 \times 1V \times kV \over 12 \times 5260}
     '])
 
     <p>where:</p>

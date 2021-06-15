@@ -21,6 +21,7 @@ return [
             'Introduction' => 'categories\teens\modules\2/introduction',
             'Classification' => 'categories\teens\modules\2/classification',
             'Multirotor Drones' => 'categories\teens\modules\2/multirotor-drones',
+            'Quadcopter' => 'categories\teens\modules\2/quadcopter'
         ]
     ]
 ];

@@ -21,7 +21,8 @@ return [
             'Introduction' => 'categories\teens\modules\2/introduction',
             'Classification' => 'categories\teens\modules\2/classification',
             'Multirotor Drones' => 'categories\teens\modules\2/multirotor-drones',
-            'Quadcopter' => 'categories\teens\modules\2/quadcopter'
+            'Quadcopter' => 'categories\teens\modules\2/quadcopter',
+            'Camera Drone Kit' => 'categories\teens\modules\2/camera-drone-kit'
         ]
     ]
 ];

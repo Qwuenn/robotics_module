@@ -23,7 +23,8 @@ return [
             'Multirotor Drones' => 'categories\teens\modules\2/multirotor-drones',
             'Quadcopter' => 'categories\teens\modules\2/quadcopter',
             'Camera Drone Kit' => 'categories\teens\modules\2/camera-drone-kit',
-            'Design' => 'categories\teens\modules\2/design'
+            'Design' => 'categories\teens\modules\2/design',
+            'Assembly' => 'categories\teens\modules\2/assembly'
         ]
     ]
 ];

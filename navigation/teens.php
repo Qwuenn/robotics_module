@@ -22,6 +22,8 @@ return [
             'Classification' => 'categories\teens\modules\2/classification',
             'Multirotor Drones' => 'categories\teens\modules\2/multirotor-drones',
             'Quadcopter' => 'categories\teens\modules\2/quadcopter',
+            'Drone Movements' => 'categories\teens\modules\2/drone-movements',
+            'Application' => 'categories\teens\modules\2/application',
             'Camera Drone Kit' => 'categories\teens\modules\2/camera-drone-kit',
             'Design' => 'categories\teens\modules\2/design',
             'Assembly' => 'categories\teens\modules\2/assembly',

@@ -26,7 +26,8 @@ return [
             'Design' => 'categories\teens\modules\2/design',
             'Assembly' => 'categories\teens\modules\2/assembly',
             'Code' => 'categories\teens\modules\2/code',
-            'Rules and Safety' => 'categories\teens\modules\2/rules-and-safety'
+            'Rules and Safety' => 'categories\teens\modules\2/rules-and-safety',
+            'Quiz' => 'categories\teens\modules\2/quiz'
         ]
     ]
 ];

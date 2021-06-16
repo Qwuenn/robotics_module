@@ -25,7 +25,8 @@ return [
             'Camera Drone Kit' => 'categories\teens\modules\2/camera-drone-kit',
             'Design' => 'categories\teens\modules\2/design',
             'Assembly' => 'categories\teens\modules\2/assembly',
-            'Code' => 'categories\teens\modules\2/code'
+            'Code' => 'categories\teens\modules\2/code',
+            'Rules and Safety' => 'categories\teens\modules\2/rules-and-safety'
         ]
     ]
 ];

@@ -136,11 +136,11 @@ window.$ = window.jQuery = require('jquery');
 
                 if (selected === correct) {
                     $answerEl.addClass('bg-success border-success text-white');
-                    response = questions[currentQuestionIndex].correctResponse;
+                    response = questions[currentQuestionIndex].correctResponse ? questions[currentQuestionIndex].correctResponse : 'Correct!';
                     score++;
                 } else {
                     $answerEl.addClass('bg-danger border-danger text-white');
-                    response = questions[currentQuestionIndex].incorrectResponse;
+                    response = questions[currentQuestionIndex].incorrectResponse ? questions[currentQuestionIndex].incorrectResponse : 'Wrong Answer';
                     if (!base.options.allowIncorrect) {
                         base.methods.gameOver(response);
                         return;

@@ -28,9 +28,7 @@
                         'These robots that have been designed to perform a specific task or job effectively, efficiently, and precisely.',
                         'It is a system for controlling the humidity, ventilation, and temperature in a building or a vehicle, typically to maintain a cool atmosphere in warm conditions.'
                     ],
-                    'correctIndex': 2,
-                    'correctResponse': 'Correct!',
-                    'incorrectResponse': 'Wrong Answer'
+                    'correctIndex': 2
                 },
                 {
                     'q': 'It is a robot with rotary joints. For example, this may be used to open doors or pass delicate bombs.',
@@ -40,9 +38,7 @@
                         'Cylindrical Robot Arm',
                         'Articulated Robot Arm'
                     ],
-                    'correctIndex': 3,
-                    'correctResponse': 'Correct!',
-                    'incorrectResponse': 'Wrong Answer'
+                    'correctIndex': 3
                 },
                 {
                     'q': 'It is capable of performing tasks that require high speed and accuracy.',
@@ -52,9 +48,7 @@
                         'Cylindrical Robot Arm',
                         'Articulated Robot Arm'
                     ],
-                    'correctIndex': 1,
-                    'correctResponse': 'Correct!',
-                    'incorrectResponse': 'Wrong Answer'
+                    'correctIndex': 1
                 },
                 {
                     'q': 'It is an open-source electronics application that uses simple hardware and software to make it convenient to use.',
@@ -64,9 +58,7 @@
                         'SG-90 Servo Motor',
                         'Potentiometer'
                     ],
-                    'correctIndex': 0,
-                    'correctResponse': 'Correct!',
-                    'incorrectResponse': 'Wrong Answer'
+                    'correctIndex': 0
                 },
                 {
                     'q': 'It is a three-terminal variable resistor with a resistance that can be manually adjusted to regulate the flow of electric current.',
@@ -76,9 +68,7 @@
                         'Breadboard',
                         'USB Printer Cable'
                     ],
-                    'correctIndex': 1,
-                    'correctResponse': 'Correct!',
-                    'incorrectResponse': 'Wrong Answer'
+                    'correctIndex': 1
                 },
                 {
                     'q': 'Which part of the robot arm has the control on the servo motor?',
@@ -88,9 +78,7 @@
                         'Potentiometer',
                         'USB Printer Cable'
                     ],
-                    'correctIndex': 2,
-                    'correctResponse': 'Correct!',
-                    'incorrectResponse': 'Wrong Answer'
+                    'correctIndex': 2
                 },
                 {
                     'q': 'Which part of the robot arm that moves left to right?',
@@ -100,9 +88,7 @@
                         'Grip',
                         'Knee'
                     ],
-                    'correctIndex': 0,
-                    'correctResponse': 'Correct!',
-                    'incorrectResponse': 'Wrong Answer'
+                    'correctIndex': 0
                 },
                 {
                     'q': 'Which part of the robot arm that moves up and down?',
@@ -112,9 +98,7 @@
                         'Grip',
                         'Knee'
                     ],
-                    'correctIndex': 1,
-                    'correctResponse': 'Correct!',
-                    'incorrectResponse': 'Wrong Answer'
+                    'correctIndex': 1
                 },
                 {
                     'q': 'Which part of the robot arm that widens the clamp?',
@@ -124,9 +108,7 @@
                         'Grip',
                         'Knee'
                     ],
-                    'correctIndex': 2,
-                    'correctResponse': 'Correct!',
-                    'incorrectResponse': 'Wrong Answer'
+                    'correctIndex': 2
                 },
                 {
                     'q': 'Which robot arm is common in the food processing and packaging, chemical, medicinal, and electronics industries because they can perform fast, accurate, and gentle movements?',
@@ -136,9 +118,7 @@
                         'Delta Robot Arm',
                         'Cartesian Robot Arm'
                     ],
-                    'correctIndex': 2,
-                    'correctResponse': 'Correct!',
-                    'incorrectResponse': 'Wrong Answer'
+                    'correctIndex': 2
                 },
             ]
         });

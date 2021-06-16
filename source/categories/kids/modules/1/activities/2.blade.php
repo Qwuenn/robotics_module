@@ -108,9 +108,7 @@
                         'It moves on the opposite side of the wheel',
                         'It keeps moving forward'
                     ],
-                    'correctIndex': 2,
-                    'correctResponse': 'Correct!',
-                    'incorrectResponse': 'Wrong Answer'
+                    'correctIndex': 2
                 },
                 {
                     'q': 'Which components serve as the sensor in avoiding obstacles?',
@@ -120,9 +118,7 @@
                         'Jumping Wires',
                         '10 kΩ Resistor'
                     ],
-                    'correctIndex': 0,
-                    'correctResponse': 'Correct!',
-                    'incorrectResponse': 'Wrong Answer'
+                    'correctIndex': 0
                 },
                 {
                     'q': 'What parameter does the sensor used in this circuit detects?',
@@ -132,9 +128,7 @@
                         'Obstacle',
                         'Distance',
                     ],
-                    'correctIndex': 2,
-                    'correctResponse': 'Correct!',
-                    'incorrectResponse': 'Wrong Answer'
+                    'correctIndex': 2
                 },
             ]
         });

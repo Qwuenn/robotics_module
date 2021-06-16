@@ -121,9 +121,7 @@
                         'MOSFET',
                         'Resistor'
                     ],
-                    'correctIndex': 1,
-                    'correctResponse': 'Correct!',
-                    'incorrectResponse': 'Wrong Answer'
+                    'correctIndex': 1
                 },
                 {
                     'q': 'What will happen if the right sensor detects a black line?',
@@ -133,9 +131,7 @@
                         'The robot turns left',
                         'The robot turns right'
                     ],
-                    'correctIndex': 3,
-                    'correctResponse': 'Correct!',
-                    'incorrectResponse': 'Wrong Answer'
+                    'correctIndex': 3
                 },
                 {
                     'q': 'What will happen if before the robot turns right?',
@@ -145,9 +141,7 @@
                         'It will slow down',
                         'It will stop',
                     ],
-                    'correctIndex': 2,
-                    'correctResponse': 'Correct!',
-                    'incorrectResponse': 'Wrong Answer'
+                    'correctIndex': 2
                 },
             ]
         });

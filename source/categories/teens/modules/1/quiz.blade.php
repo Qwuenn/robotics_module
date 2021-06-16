@@ -28,9 +28,7 @@
                         'Kendo',
                         'Judo'
                     ],
-                    'correctIndex': 1,
-                    'correctResponse': 'Correct!',
-                    'incorrectResponse': 'Wrong Answer'
+                    'correctIndex': 1
                 },
                 {
                     'q': 'It’s a circular ring where the Sumo contenders held their match. This is also where the Sumo Bots push each other to win.',
@@ -40,9 +38,7 @@
                         'Doyho',
                         'Doyoh'
                     ],
-                    'correctIndex': 0,
-                    'correctResponse': 'Correct!',
-                    'incorrectResponse': 'Wrong Answer'
+                    'correctIndex': 0
                 },
                 {
                     'q': 'The contest ring is designed in a certain size and it has two colors, the filling is black and the frame is white. This sensor can distinguish between the colors of the ring.',
@@ -52,9 +48,7 @@
                         'Color Sensor',
                         'PIR Sensor'
                     ],
-                    'correctIndex': 0,
-                    'correctResponse': 'Correct!',
-                    'incorrectResponse': 'Wrong Answer'
+                    'correctIndex': 0
                 },
                 {
                     'q': 'An electronic device that uses sonar to determine the distance of a target object and converts the reflected sound into an electrical signal.',
@@ -64,9 +58,7 @@
                         'Color Sensor',
                         'PIR Sensor'
                     ],
-                    'correctIndex': 1,
-                    'correctResponse': 'Correct!',
-                    'incorrectResponse': 'Wrong Answer'
+                    'correctIndex': 1
                 },
                 {
                     'q': 'This electrical component helps the sumo bot to maneuver and move within the ring of the component.',
@@ -76,9 +68,7 @@
                         'AC Motor',
                         'DC Motor'
                     ],
-                    'correctIndex': 1,
-                    'correctResponse': 'Correct!',
-                    'incorrectResponse': 'Wrong Answer'
+                    'correctIndex': 1
                 },
                 {
                     'q': 'A driver that controls the speed and direction of the two DC Geared Motors and provides a constant voltage to the motors.',
@@ -88,9 +78,7 @@
                         'L289N Motor Driver',
                         'L298N Motor Driver'
                     ],
-                    'correctIndex': 3,
-                    'correctResponse': 'Correct!',
-                    'incorrectResponse': 'Wrong Answer'
+                    'correctIndex': 3
                 },
                 {
                     'q': 'The most used microcontroller among its variant and based on the ATmega328 AVR microcontroller.',
@@ -100,9 +88,7 @@
                         'Beaglebone Black',
                         'Adafruit Flora'
                     ],
-                    'correctIndex': 1,
-                    'correctResponse': 'Correct!',
-                    'incorrectResponse': 'Wrong Answer'
+                    'correctIndex': 1
                 },
                 {
                     'q': 'A software that is downloaded and installed from a website to be able to communicate and code with Arduino.',
@@ -112,9 +98,7 @@
                         'Arduino Portable IDE',
                         'Arduino Android IDE'
                     ],
-                    'correctIndex': 1,
-                    'correctResponse': 'Correct!',
-                    'incorrectResponse': 'Wrong Answer'
+                    'correctIndex': 1
                 },
                 {
                     'q': 'What should you consider when designing a robot to fight another robot by attempting to force it out of a ring?',
@@ -124,9 +108,7 @@
                         'Gear Ratio',
                         'All of the above.'
                     ],
-                    'correctIndex': 3,
-                    'correctResponse': 'Correct!',
-                    'incorrectResponse': 'Wrong Answer'
+                    'correctIndex': 3
                 },
                 {
                     'q': 'How do you use the gear ratios to your beneﬁt during a competition?',
@@ -136,9 +118,7 @@
                         'Use a medium gear ration and balance between both power and speed.',
                         'All of the above.'
                     ],
-                    'correctIndex': 3,
-                    'correctResponse': 'Correct!',
-                    'incorrectResponse': 'Wrong Answer'
+                    'correctIndex': 3
                 },
             ]
         });

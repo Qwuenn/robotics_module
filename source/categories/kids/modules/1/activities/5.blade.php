@@ -96,9 +96,7 @@
                         'DC Motor',
                         'IR Sensor'
                     ],
-                    'correctIndex': 0,
-                    'correctResponse': 'Correct!',
-                    'incorrectResponse': 'Wrong Answer'
+                    'correctIndex': 0
                 },
                 {
                     'q': 'What will happen if you turn the potentiometer to \'high\'?',
@@ -108,9 +106,7 @@
                         'It will accelerate',
                         'It will turn right'
                     ],
-                    'correctIndex': 2,
-                    'correctResponse': 'Correct!',
-                    'incorrectResponse': 'Wrong Answer'
+                    'correctIndex': 2
                 },
                 {
                     'q': 'What will happen if you turn the potentiometer to \'low\'?',
@@ -120,9 +116,7 @@
                         'It will accelerate',
                         'It will turn right',
                     ],
-                    'correctIndex': 1,
-                    'correctResponse': 'Correct!',
-                    'incorrectResponse': 'Wrong Answer'
+                    'correctIndex': 1
                 },
             ]
         });

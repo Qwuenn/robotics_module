@@ -114,9 +114,7 @@
                         'Thermistor',
                         'PIR Sensor'
                     ],
-                    'correctIndex': 3,
-                    'correctResponse': 'Correct!',
-                    'incorrectResponse': 'Wrong Answer'
+                    'correctIndex': 3
                 },
                 {
                     'q': 'What will happen if the sensor detects a person who does not move?',
@@ -126,9 +124,7 @@
                         'It will stop',
                         'It will reverse'
                     ],
-                    'correctIndex': 2,
-                    'correctResponse': 'Correct!',
-                    'incorrectResponse': 'Wrong Answer'
+                    'correctIndex': 2
                 },
                 {
                     'q': 'What will happen if the sensor detects a person moving?',
@@ -138,9 +134,7 @@
                         'It will stop',
                         'It will reverse',
                     ],
-                    'correctIndex': 0,
-                    'correctResponse': 'Correct!',
-                    'incorrectResponse': 'Wrong Answer'
+                    'correctIndex': 0
                 },
             ]
         });

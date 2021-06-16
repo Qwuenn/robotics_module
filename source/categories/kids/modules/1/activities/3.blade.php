@@ -107,9 +107,7 @@
                         'MOSFET',
                         'Diode'
                     ],
-                    'correctIndex': 0,
-                    'correctResponse': 'Correct!',
-                    'incorrectResponse': 'Wrong Answer'
+                    'correctIndex': 0
                 },
                 {
                     'q': 'What parameter does the sensor used in this circuit detects?',
@@ -119,9 +117,7 @@
                         'Obstacle',
                         'Speed'
                     ],
-                    'correctIndex': 1,
-                    'correctResponse': 'Correct!',
-                    'incorrectResponse': 'Wrong Answer'
+                    'correctIndex': 1
                 },
                 {
                     'q': 'What component is used to adjust the light sensitivity?',
@@ -131,9 +127,7 @@
                         'MOSFET',
                         'Diode',
                     ],
-                    'correctIndex': 1,
-                    'correctResponse': 'Correct!',
-                    'incorrectResponse': 'Wrong Answer'
+                    'correctIndex': 1
                 },
             ]
         });

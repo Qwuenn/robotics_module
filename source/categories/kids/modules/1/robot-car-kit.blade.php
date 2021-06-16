@@ -5,13 +5,6 @@
     <p>&nbsp;</p>
 @endsection
 
-@section('table_of_contents')
-    @include('_toc.toc', [ 'items' => [
-        'Components',
-        'Design'
-    ]])
-@endSection
-
 @section('content')
     <h3 id="components">Components</h3>
     <p>This Robot Car Kit is composed of several components where you can do different activities. The components are the
@@ -93,29 +86,6 @@
                 'component' => 'Battery Holder',
                 'description' => 'A battery holder is a compartment that holds a battery.'
             ])
-        </div>
-    </div>
-
-    <p>&nbsp;</p>
-
-    <h3 id="design">Design</h3>
-    <div class="container-fluid text-center p-0">
-        <div class="row row-cols-1 gy-4">
-            <div class="col">
-                <img src="{{ $page->link('assets/build/img/categories/kids/modules/1/design/robot-car-design-1.jpg') }}" 
-                    alt="robot-car-design-1"
-                    class="img-fluid rounded-2" />
-            </div>
-            <div class="col">
-                <img src="{{ $page->link('assets/build/img/categories/kids/modules/1/design/robot-car-design-2.jpg') }}" 
-                    alt="robot-car-design-2"
-                    class="img-fluid rounded-2" />
-            </div>
-            <div class="col">
-                <img src="{{ $page->link('assets/build/img/categories/kids/modules/1/design/robot-car-design-3.jpg') }}" 
-                    alt="robot-car-design-3"
-                    class="img-fluid rounded-2" />
-            </div>
         </div>
     </div>
 @endsection

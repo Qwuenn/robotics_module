@@ -7,6 +7,7 @@ return [
         'collapsible' => true,
         'children' => [
             'Robot Car Kit' => 'categories\kids\modules\1/robot-car-kit',
+            'Design' => 'categories\kids\modules\1/design',
             'Activities' => [
                 'collapsible' => true,
                 'children' => [
@@ -25,6 +26,7 @@ return [
         'children' => [
             'Introduction' => 'categories\kids\modules\2/introduction',
             'Robotic Arm Kit' => 'categories\kids\modules\2/robotic-arm-kit',
+            'Design' => 'categories\kids\modules\2/design',
             'Activity' => 'categories\kids\modules\2/activity',
             'Quiz' => 'categories\kids\modules\2/quiz'
         ]

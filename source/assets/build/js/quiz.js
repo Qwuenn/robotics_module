@@ -11054,7 +11054,9 @@ window.$ = window.jQuery = __webpack_require__(/*! jquery */ "./node_modules/jqu
           score++;
         } else {
           $answerEl.addClass('bg-danger border-danger text-white');
-          response = questions[currentQuestionIndex].incorrectResponse ? questions[currentQuestionIndex].incorrectResponse : 'Wrong Answer';
+          response = questions[currentQuestionIndex].incorrectResponse ? questions[currentQuestionIndex].incorrectResponse : 'Wrong Answer'; // Show correct answer
+
+          $('.active-question .answers div').eq(correct).addClass('bg-success border-success text-white');
 
           if (!base.options.allowIncorrect) {
             base.methods.gameOver(response);

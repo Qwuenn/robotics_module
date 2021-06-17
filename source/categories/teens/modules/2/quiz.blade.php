@@ -76,7 +76,7 @@
                         'Check the weather.',
                         'Ensure your drone\'s battery is fully charged.',
                         'Check the propellers are secured.',
-                        'All of the Above.'
+                        'All of the above.'
                     ],
                     'correctIndex': 3
                 },

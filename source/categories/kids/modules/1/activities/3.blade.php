@@ -19,49 +19,49 @@
 
     <div class="container-fluid mt-3 p-0">
         <div class="row gy-5">
-            @include('_partials.kids.component_card', [
+            @include('_partials.kids.component_symbol', [
                 'component' => 'Power Switch',
                 'title' => '1pc Power Switch',
                 'active' => 1
             ])
     
-            @include('_partials.kids.component_card', [
+            @include('_partials.kids.component_symbol', [
                 'component' => 'Jumping Wires',
                 'title' => '9pcs Jumping Wires',
                 'active' => 1
             ])
         
-            @include('_partials.kids.component_card', [
+            @include('_partials.kids.component_symbol', [
                 'component' => 'Potentiometer',
                 'title' => '2pcs Potentiometer',
                 'active' => 1
             ])
 
-            @include('_partials.kids.component_card', [
+            @include('_partials.kids.component_symbol', [
                 'component' => 'MOSFET',
                 'title' => '2pcs P16NF06L MOSFET',
                 'active' => 1
             ])
 
-            @include('_partials.kids.component_card', [
+            @include('_partials.kids.component_symbol', [
                 'component' => 'Photoresistor',
                 'title' => '2pcs Photoresistor',
                 'active' => 1
             ])
 
-            @include('_partials.kids.component_card', [
+            @include('_partials.kids.component_symbol', [
                 'component' => 'Diode',
                 'title' => '2pcs Diode',
                 'active' => 1
             ])
 
-            @include('_partials.kids.component_card', [
+            @include('_partials.kids.component_symbol', [
                 'component' => 'Battery Holder',
                 'title' => '1pc Battery Holder',
                 'active' => 1
             ])
 
-            @include('_partials.kids.component_card', [
+            @include('_partials.kids.component_symbol', [
                 'component' => 'Battery',
                 'title' => '4pcs Battery',
                 'active' => 1

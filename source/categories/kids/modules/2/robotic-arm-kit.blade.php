@@ -10,7 +10,7 @@
 
     <div class="container-fluid mt-4">
         <div class="row row-cols-1 gy-5">
-            @include('_partials.component_card', [
+            @include('_partials.component', [
                 'img' => $page->link('assets/build/img/components/arduino-uno-r3.png'),
                 'title' => 'Arduino Uno - R3',
                 'description' => '
@@ -18,7 +18,7 @@
                 '
             ])
 
-            @include('_partials.component_card', [
+            @include('_partials.component', [
                 'img' => $page->link('assets/build/img/components/breadboard.png'),
                 'title' => 'Breadboard',
                 'description' => '
@@ -27,7 +27,7 @@
                 '
             ])
 
-            @include('_partials.component_card', [
+            @include('_partials.component', [
                 'img' => $page->link('assets/build/img/components/sg90-servo-motor.png'),
                 'title' => 'SG90 Servo Motor',
                 'description' => '
@@ -35,7 +35,7 @@
                 '
             ])
 
-            @include('_partials.component_card', [
+            @include('_partials.component', [
                 'img' => $page->link('assets/build/img/components/potentiometer.png'),
                 'title' => 'Potentiometer',
                 'description' => '

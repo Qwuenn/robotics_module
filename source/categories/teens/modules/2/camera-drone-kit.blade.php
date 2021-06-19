@@ -32,7 +32,7 @@
 
     <div class="container-fluid mt-4">
         <div class="row row-cols-1 gy-5">
-            @include('_partials.component_card', [
+            @include('_partials.component', [
                 'img' => $page->link('assets/build/img/components/arduino-nano.png'),
                 'title' => 'Arduino Nano',
                 'description' => '
@@ -43,7 +43,7 @@
                 '
             ])
 
-            @include('_partials.component_card', [
+            @include('_partials.component', [
                 'img' => $page->link('assets/build/img/components/emax-mt2204-brushless-motor.png'),
                 'title' => 'EMAX MT2204 2300KV Brushless Motor',
                 'description' => '
@@ -54,7 +54,7 @@
                 '
             ])
 
-            @include('_partials.component_card', [
+            @include('_partials.component', [
                 'img' => $page->link('assets/build/img/components/emax-12a-blheli-electronic-speed-controller.png'),
                 'title' => 'EMAX 12A BLHeli Electronic Speed Controller',
                 'description' => '
@@ -65,7 +65,7 @@
                 '
             ])
 
-            @include('_partials.component_card', [
+            @include('_partials.component', [
                 'img' => $page->link('assets/build/img/components/mpu6050.png'),
                 'title' => 'MPU6050',
                 'description' => '
@@ -76,7 +76,7 @@
                 '
             ])
 
-            @include('_partials.component_card', [
+            @include('_partials.component', [
                 'img' => $page->link('assets/build/img/components/tattu-11.1v-1300mah-75c-3s-lipo-battery-pack.png'),
                 'title' => 'Tattu 11.1V 1300mAh 75C 3S LiPo Battery Pack',
                 'description' => '
@@ -85,7 +85,7 @@
                 '
             ])
 
-            @include('_partials.component_card', [
+            @include('_partials.component', [
                 'img' => $page->link('assets/build/img/components/nrf24l01-module-with-antenna.png'),
                 'title' => 'NRF24L01 Module with Antenna',
                 'description' => '
@@ -96,7 +96,7 @@
                 '
             ])
 
-            @include('_partials.component_card', [
+            @include('_partials.component', [
                 'img' => $page->link('assets/build/img/components/pnzeo-w3-camera.png'),
                 'title' => 'PNZEO W3 Camera',
                 'description' => '
@@ -119,7 +119,7 @@
 
     <div class="container-fluid mt-4">
         <div class="row row-cols-1 gy-5">
-            @include('_partials.component_card', [
+            @include('_partials.component', [
                 'img' => $page->link('assets/build/img/components/arduino-pro-mini-v3.png'),
                 'title' => 'Arduino Pro Mini V3',
                 'description' => '
@@ -131,7 +131,7 @@
                 '
             ])
 
-            @include('_partials.component_card', [
+            @include('_partials.component', [
                 'img' => $page->link('assets/build/img/components/ps2-joystick-module.png'),
                 'title' => 'PS2 Joystick Module',
                 'description' => '
@@ -140,7 +140,7 @@
                 '
             ])
 
-            @include('_partials.component_card', [
+            @include('_partials.component', [
                 'img' => $page->link('assets/build/img/components/10k-potentiometer.png'),
                 'title' => 'Potentiometer',
                 'description' => '
@@ -149,7 +149,7 @@
                 '
             ])
 
-            @include('_partials.component_card', [
+            @include('_partials.component', [
                 'img' => $page->link('assets/build/img/components/spdt-toggle-switch.png'),
                 'title' => 'Toggle Switch',
                 'description' => '

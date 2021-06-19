@@ -127,7 +127,7 @@
                 '
             ])
 
-            @include('_partials.component_card', [
+            @include('_partials.component', [
                 'img' => $page->link('assets/build/img/components/breadboard.png'),
                 'title' => 'Breadboard',
                 'description' => '

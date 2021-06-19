@@ -30,7 +30,7 @@
 
     <div class="container-fluid">
         <div class="row row-cols-1 gy-5">
-            @include('_partials.component_card', [
+            @include('_partials.component', [
                 'img' => $page->link('assets/build/img/components/arduino-uno-r3.png'),
                 'title' => 'Arduino UNO R3 Controller Board',
                 'description' => '
@@ -40,7 +40,7 @@
                 '
             ])
 
-            @include('_partials.component_card', [
+            @include('_partials.component', [
                 'img' => $page->link('assets/build/img/components/l298n-motor-driver.png'),
                 'title' => 'L298N Motor Driver',
                 'description' => '
@@ -50,7 +50,7 @@
                 '
             ])
 
-            @include('_partials.component_card', [
+            @include('_partials.component', [
                 'img' => $page->link('assets/build/img/components/ultrasonic-sensor-(hc-sr04).png'),
                 'title' => 'Ultrasonic Sensor (HC-SR04)',
                 'description' => '
@@ -60,7 +60,7 @@
                 '
             ])
 
-            @include('_partials.component_card', [
+            @include('_partials.component', [
                 'img' => $page->link('assets/build/img/components/ir-sensor-(tcrt5000).png'),
                 'title' => 'IR Sensor (TCRT5000)',
                 'description' => '
@@ -70,7 +70,7 @@
                 '
             ])
 
-            @include('_partials.component_card', [
+            @include('_partials.component', [
                 'img' => $page->link('assets/build/img/components/12v-geared-dc-motor.png'),
                 'title' => '12V Geared DC Motor',
                 'description' => '
@@ -80,7 +80,7 @@
                 '
             ])
 
-            @include('_partials.component_card', [
+            @include('_partials.component', [
                 'img' => $page->link('assets/build/img/components/9v-battery.png'),
                 'title' => '9V Battery',
                 'description' => '
@@ -89,7 +89,7 @@
                 '
             ])
 
-            @include('_partials.component_card', [
+            @include('_partials.component', [
                 'img' => $page->link('assets/build/img/components/1.5v-battery.png'),
                 'title' => '1.5V Battery',
                 'description' => '
@@ -99,7 +99,7 @@
                 '
             ])
 
-            @include('_partials.component_card', [
+            @include('_partials.component', [
                 'img' => $page->link('assets/build/img/components/rocker-switch.png'),
                 'title' => 'Rocker Switch',
                 'description' => '
@@ -108,7 +108,7 @@
                 '
             ])
 
-            @include('_partials.component_card', [
+            @include('_partials.component', [
                 'img' => $page->link('assets/build/img/components/jumper-wires.png'),
                 'title' => 'Jumper Wires',
                 'description' => '

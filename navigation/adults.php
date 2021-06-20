@@ -8,7 +8,8 @@ return [
     'Fire Fighter Robot' => [
         'collapsible' => true,
         'children' => [
-            'Circuit Diagram' => 'categories\adults\modules\2/circuit-diagram'
+            'Circuit Diagram' => 'categories\adults\modules\2/circuit-diagram',
+            'Design' => 'categories\adults\modules\2/design'
         ]
     ]
 ];

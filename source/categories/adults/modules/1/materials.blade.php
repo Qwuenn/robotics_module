@@ -98,13 +98,19 @@
                 'img' => $page->link('assets/build/img/components/breadboard.png'),
                 'title' => 'Breadboard',
                 'description' => '
-                    A breadboard, also known as a protoboard, is a building base for electronic prototyping. Originally, the term referred
-                    to a literal bread board, which was a polished piece of wood used to slice bread. The solderless breadboard (also known
-                    as a plugboard or a terminal array board) was introduced in the 1970s, and the term "breadboard" is now commonly used to
-                    refer to these. The solderless breadboard is reusable because it does not require soldering. This makes it ideal for
-                    making quick prototypes and experimenting with circuit design. As a result, solderless breadboards are popular among
-                    students and in technological education. Breadboards can be used to prototype a wide range of electronic systems, from
-                    simple analog and digital circuits to full-fledged central processing units (CPUs).
+                    <p>
+                        A breadboard, also known as a protoboard, is a building base for electronic prototyping. Originally, the term referred
+                        to a literal bread board, which was a polished piece of wood used to slice bread. The solderless breadboard (also known
+                        as a plugboard or a terminal array board) was introduced in the 1970s, and the term "breadboard" is now commonly used to
+                        refer to these.
+                    </p> 
+                    
+                    <p>
+                        The solderless breadboard is reusable because it does not require soldering. This makes it ideal for
+                        making quick prototypes and experimenting with circuit design. As a result, solderless breadboards are popular among
+                        students and in technological education. Breadboards can be used to prototype a wide range of electronic systems, from
+                        simple analog and digital circuits to full-fledged central processing units (CPUs).
+                    </p>
 
                 '
             ])

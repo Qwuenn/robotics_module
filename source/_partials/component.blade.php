@@ -6,6 +6,6 @@
         <h4 class="mt-2 mb-3">{{ $title }}</h4>
     @endisset
     @isset ($description)
-        <p class="text-justify">{{ $description }}</p>
+        <p class="text-justify">{!! $description !!}</p>
     @endisset
 </div>

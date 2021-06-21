@@ -9,7 +9,8 @@ return [
         'children' => [
             'Introduction to Mobility' => 'categories\adults\modules\2/introduction-to-mobility',
             'Circuit Diagram' => 'categories\adults\modules\2/circuit-diagram',
-            'Design' => 'categories\adults\modules\2/design'
+            'Design' => 'categories\adults\modules\2/design',
+            'Materials' => 'categories\adults\modules\2/materials'
         ]
     ]
 ];

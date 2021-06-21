@@ -73,7 +73,7 @@
                     <div class="card-body">
                         <h5 class="card-title text-center fw-semibold">Robotics for Adults</h5>
                         <p class="card-text text-center">
-                            Learn advanced robotics and automation. Build your own Fire Fighter Robot and Gimbal Stabilizers.
+                            Learn advanced robotics and automation and build your own Fire Fighter Robot.
                         </p>
                         <a href="{{ $page->link('categories/adults/introduction') }}" class="btn btn-default-blue fw-medium text-white">Get Started</a>
                     </div>

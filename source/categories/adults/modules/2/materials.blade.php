@@ -74,7 +74,7 @@
                 '
             ])
 
-            @include('_partials.component_symbol', [
+            @include('_partials.component', [
                 'img' => $page->link('assets/build/img/components/submersible-pump.png'),
                 'title' => 'Submersible Pump',
                 'description' => '

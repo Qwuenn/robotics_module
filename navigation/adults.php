@@ -11,7 +11,8 @@ return [
             'Circuit Diagram' => 'categories\adults\modules\2/circuit-diagram',
             'Design' => 'categories\adults\modules\2/design',
             'Materials' => 'categories\adults\modules\2/materials',
-            'Procedure' => 'categories\adults\modules\2/procedure'
+            'Procedure' => 'categories\adults\modules\2/procedure',
+            'Quiz' => 'categories\adults\modules\2/quiz'
         ]
     ]
 ];

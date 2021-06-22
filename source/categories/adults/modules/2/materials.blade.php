@@ -58,9 +58,9 @@
             ])
 
             @include('_partials.component_symbol', [
-                'img' => $page->link('assets/build/img/components/l293d-driver-module.png'),
-                'symbol' => $page->link('assets/build/img/components/symbols/l293d-driver-module.png'),
-                'title' => 'L293D Driver Module',
+                'img' => $page->link('assets/build/img/components/l293d-motor-driver.png'),
+                'symbol' => $page->link('assets/build/img/components/symbols/l293d-motor-driver.png'),
+                'title' => 'L293D Motor Driver',
                 'description' => '
                     <p>
                         The Motor Driver is a motor module that allows you to control the speed and direction of two motors at the same time.

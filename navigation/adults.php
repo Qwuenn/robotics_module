@@ -19,7 +19,8 @@ return [
     'Gimbal Stabilizer' => [
         'collapsible' => true,
         'children' => [
-            'Introduction' => 'categories\adults\modules\3/introduction'
+            'Introduction' => 'categories\adults\modules\3/introduction',
+            'Materials' => 'categories\adults\modules\3/materials'
         ]
     ]
 ];

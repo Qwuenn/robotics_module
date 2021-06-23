@@ -14,5 +14,12 @@ return [
             'Procedure' => 'categories\adults\modules\2/procedure',
             'Quiz' => 'categories\adults\modules\2/quiz'
         ]
+    ],
+
+    'Gimbal Stabilizer' => [
+        'collapsible' => true,
+        'children' => [
+            'Introduction' => 'categories\adults\modules\3/introduction'
+        ]
     ]
 ];

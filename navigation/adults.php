@@ -20,7 +20,8 @@ return [
         'collapsible' => true,
         'children' => [
             'Introduction' => 'categories\adults\modules\3/introduction',
-            'Materials' => 'categories\adults\modules\3/materials'
+            'Materials' => 'categories\adults\modules\3/materials',
+            'Mechanical Designed' => 'categories\adults\modules\3/mechanical-designed'
         ]
     ]
 ];

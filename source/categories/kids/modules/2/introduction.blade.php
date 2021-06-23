@@ -3,9 +3,6 @@
 @section('introduction')
     <h1>Introduction to Robotic Arm</h1>
     <p>&nbsp;</p>
-    <h3 id="intended-learning-outcomes">Intended Learning Outcomes</h3>
-    <p class="mb-0">Discuss the concept of Robotic Arm that can be assembled by kids with programmed Arduino.</p>
-    <p>&nbsp;</p>
 @endsection
 
 @section('table_of_contents')
@@ -17,6 +14,11 @@
 @endSection
 
 @section('content')
+    <h3 id="intended-learning-outcomes">Intended Learning Outcomes</h3>
+    <p>Discuss the concept of Robotic Arm that can be assembled by kids with programmed Arduino.</p>
+
+    <p>&nbsp;</p>
+
     <h3 id="what-is-a-robotic-arm">What is a Robotic Arm?</h3>
     <p>
         Robotic arms are robots that have been designed to perform a specific task or job effectively, efficiently, and

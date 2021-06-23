@@ -3,15 +3,6 @@
 @section('introduction')
     <h1>Introduction to Robotics</h1>
     <p>&nbsp;</p>
-    <h3 id="intended-learning-outcomes">Intended Learning Outcomes</h3>
-    <p class="mb-0">After successful completion of this module, the student will be able to:</p>
-    <ul>
-        <li>Understand the concept and characteristics of Robotics.</li>
-        <li>Distinguish the advantages/disadvantages and applications of robotics.</li>
-        <li>Understand what Arduino is.</li>
-        <li>Build and code a personalized Sumo Bot.</li>
-    </ul>
-    <p>&nbsp;</p>
 @endsection
 
 @section('table_of_contents')
@@ -26,6 +17,17 @@
 @endSection
 
 @section('content')
+    <h3 id="intended-learning-outcomes">Intended Learning Outcomes</h3>
+    <p class="mb-0">After successful completion of this module, the student will be able to:</p>
+    <ul>
+        <li>Understand the concept and characteristics of Robotics.</li>
+        <li>Distinguish the advantages/disadvantages and applications of robotics.</li>
+        <li>Understand what Arduino is.</li>
+        <li>Build and code a personalized Sumo Bot.</li>
+    </ul>
+
+    <p>&nbsp;</p>
+
     <h3 id="what-is-robotics">What is Robotics?</h3>
     <p>
         Robotics is an intersection of science and electronics and mechanical engineering that deals with the design,

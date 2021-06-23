@@ -3,12 +3,6 @@
 @section('introduction')
     <h1>Introduction to Mobility</h1>
     <p>&nbsp;</p>
-    <h3 id="learning-objectives">Learning Objectives:</h3>
-    <ul>
-        <li>To discuss one of the primary areas in Robotics.</li>
-        <li>To make mobility robots.</li>
-    </ul>
-    <p>&nbsp;</p>
 @endsection
 
 @section('table_of_contents')
@@ -19,6 +13,14 @@
 @endSection
 
 @section('content')
+    <h3 id="learning-objectives">Learning Objectives:</h3>
+    <ul>
+        <li>To discuss one of the primary areas in Robotics.</li>
+        <li>To make mobility robots.</li>
+    </ul>
+
+    <p>&nbsp;</p>
+
     <h3 id="what-does-mobility-mean">What Does Mobility Mean?</h3>
     <p>
         The ability to move freely is referred to as mobility. Mobility often refers to whether or not an injured body part,

@@ -3,13 +3,6 @@
 @section('introduction')
     <h1>Introduction to Robotics and Automation</h1>
     <p>&nbsp;</p>
-    <h3 id="learning-objectives">Learning Objectives:</h3>
-    <ul>
-        <li>To discuss the concept of Robotics and Automation.</li>
-        <li>To learn and identify different materials used in.</li>
-        <li>To learn how to build simple robotics project.</li>
-    </ul>
-    <p>&nbsp;</p>
 @endsection
 
 @section('table_of_contents')
@@ -20,6 +13,15 @@
 @endSection
 
 @section('content')
+    <h3 id="learning-objectives">Learning Objectives:</h3>
+    <ul>
+        <li>To discuss the concept of Robotics and Automation.</li>
+        <li>To learn and identify different materials used in.</li>
+        <li>To learn how to build simple robotics project.</li>
+    </ul>
+
+    <p>&nbsp;</p>
+
     <h3 id="what-is-robotics-and-automation">What is Robotics and Automation?</h3>
     <p>
         Robotics is a branch of engineering that deals with the design and application of robots, as well as the use of

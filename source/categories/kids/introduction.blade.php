@@ -2,13 +2,12 @@
 
 @section('introduction')
     <h1 id="introduction">Introduction to Robotics</h1>
-    <p class="fs-5">Discusses the concept of Robotics that can be assembled by kids with no computer programming required.</p>
     <p>&nbsp;</p>
 @endsection
 
 @section('table_of_contents')
     @include('_toc.toc', [ 'items' => [
-        'Introduction',
+        'Intended Learning Outcomes',
         'What is Robotics?',
         'Types of Robots',
         'Uses of Robots'
@@ -16,6 +15,11 @@
 @endSection
 
 @section('content')
+    <h3 id="intended-learning-outcomes">Intended Learning Outcomes</h3>
+    <p>Discusses the concept of Robotics that can be assembled by kids with no computer programming required.</p>
+
+    <p>&nbsp;</p>
+
     <h3 id="what-is-robotics">What is Robotics?</h3>
     <p>
         Robotics is a discipline that combines computer science and engineering. It is the study of how to plan, create,

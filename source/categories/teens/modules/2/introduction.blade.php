@@ -3,16 +3,6 @@
 @section('introduction')
     <h1>Introduction to Drone Technology</h1>
     <p>&nbsp;</p>
-    <h3 id="intended-learning-outcomes">Intended Learning Outcomes</h3>
-    <p class="mb-0">After successful completion of this module, the student will be able to:</p>
-    <ul>
-        <li>Understand the concepts, and characteristics of the drone.</li>
-        <li>Distinguish the advantages and disadvantages of drone.</li>
-        <li>Enumerate the classifications of drone.</li>
-        <li>Learn the basic knowledge about quadcopters.</li>
-        <li>Build and design a personalized quadcopter.</li>
-    </ul>
-    <p>&nbsp;</p>
 @endsection
 
 @section('table_of_contents')
@@ -24,6 +14,18 @@
 @endSection
 
 @section('content')
+    <h3 id="intended-learning-outcomes">Intended Learning Outcomes</h3>
+    <p class="mb-0">After successful completion of this module, the student will be able to:</p>
+    <ul>
+        <li>Understand the concepts, and characteristics of the drone.</li>
+        <li>Distinguish the advantages and disadvantages of drone.</li>
+        <li>Enumerate the classifications of drone.</li>
+        <li>Learn the basic knowledge about quadcopters.</li>
+        <li>Build and design a personalized quadcopter.</li>
+    </ul>
+
+    <p>&nbsp;</p>
+
     <h3 id="what-is-a-drone">What is a Drone?</h3>
     <p>
         Unmanned aerial vehicle (UAV) or unmanned aircraft systems (UAS), also known as a drone, is an aircraft that may or may

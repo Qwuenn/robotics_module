@@ -22,7 +22,8 @@ return [
             'Introduction' => 'categories\adults\modules\3/introduction',
             'Materials' => 'categories\adults\modules\3/materials',
             'Mechanical Designed' => 'categories\adults\modules\3/mechanical-designed',
-            'Circuit Diagram' => 'categories\adults\modules\3/circuit-diagram'
+            'Circuit Diagram' => 'categories\adults\modules\3/circuit-diagram',
+            'Quiz' => 'categories\adults\modules\3/quiz'
         ]
     ]
 ];

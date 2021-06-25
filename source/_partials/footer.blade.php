@@ -16,19 +16,19 @@
                 <h5 class="pb-2 border-bottom border-white mb-3">Quick Links</h4>
                 <div class="d-flex flex-row">
                     <nav class="nav flex-column flex-fill">
-                        <a class="nav-link {{ empty($page->getPath()) ? 'selected' : ''}}" 
+                        <a class="nav-link {{ empty($page->getPath()) ? 'active' : ''}}" 
                             href="{{ $page->link('/') }}">
                             Robotics Home
                         </a>
-                        <a class="nav-link {{ $page->selected('/categories\kids') }}" 
+                        <a class="nav-link {{ $page->isActive('/categories\kids') }}" 
                             href="{{ $page->link('categories/kids/introduction') }}">
                             Robotics for Kids!
                         </a>
-                        <a class="nav-link {{ $page->selected('/categories\teens') }}" 
+                        <a class="nav-link {{ $page->isActive('/categories\teens') }}" 
                             href="{{ $page->link('categories/teens/introduction') }}">
                             Robotics for Teens!
                         </a>
-                        <a class="nav-link {{ $page->selected('/categories\adults') }}" 
+                        <a class="nav-link {{ $page->isActive('/categories\adults') }}" 
                             href="{{ $page->link('categories/adults/introduction') }}">
                             Robotics for Adults
                         </a>

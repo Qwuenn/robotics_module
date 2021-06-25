@@ -26,9 +26,9 @@ function mediaBreakpointDownLarge() {
 }
 
 // Check if element exists
-if (document.querySelector('.btn-toggle-nav .selected')) {
-    // Show collapse menu if any of its nested children is selected
-    let element = document.querySelector('.btn-toggle-nav .selected');
+if (document.querySelector('.btn-toggle-nav .active')) {
+    // Show collapse menu if any of its nested children is active
+    let element = document.querySelector('.btn-toggle-nav .active');
     let node = [];
     while (!element.classList.contains('module-nav')) {
         node.unshift(element);

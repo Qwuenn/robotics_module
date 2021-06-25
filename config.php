@@ -39,8 +39,8 @@ return [
     ],
 
     // Helpers
-    'selected' => function ($page, $section) {
-        return Str::contains($page->getPath(), $section) ? 'selected' : '';
+    'isActive' => function ($page, $section) {
+        return Str::contains($page->getPath(), $section) ? 'active' : '';
     },
 
     'svg' => function($page, $file, $properties = []) {

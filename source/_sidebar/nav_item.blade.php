@@ -1,7 +1,7 @@
 <li class="nav-item">
     @if ($url = is_string($item) ? $item : $item->url)
         {{-- Nav item with url --}}
-        <a class="nav-link {{ $level <= 1 ? 'fw-medium' : '' }} {{ $page->selected($url) }}" href="{{ $page->link($url) }}">
+        <a class="nav-link {{ $level <= 1 ? 'fw-medium' : '' }} {{ $page->isActive($url) }}" href="{{ $page->link($url) }}">
             {{ $label }}
         </a>
     @else

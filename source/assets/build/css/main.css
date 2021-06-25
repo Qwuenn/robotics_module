@@ -11937,7 +11937,7 @@ textarea.form-control-lg {
 .header .navbar-nav .nav-item {
   padding: 0 0.6rem;
 }
-.header .navbar-nav .nav-item .selected {
+.header .navbar-nav .nav-item .active {
   color: #fcc741;
 }
 .header .navbar-nav .nav-link {
@@ -12021,7 +12021,7 @@ footer .nav-link {
 footer .nav-link:hover {
   color: #fcc741;
 }
-footer .selected {
+footer .active {
   color: #fcc741;
 }
 

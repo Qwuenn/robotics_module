@@ -28,9 +28,9 @@
                         {!! $page->icon('grid-fill') !!} Categories
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownCategories">
-                        <li><a class="dropdown-item" href="{{ $page->link('categories/kids/introduction') }}">Robotics for Kids!</a></li>
-                        <li><a class="dropdown-item" href="{{ $page->link('categories/teens/introduction') }}">Robotics for Teens!</a></li>
-                        <li><a class="dropdown-item" href="{{ $page->link('categories/adults/introduction') }}">Robotics for Adults</a></li>
+                        <li><a class="dropdown-item {{ $page->isActive('/categories\kids') }}" href="{{ $page->link('categories/kids/introduction') }}">Robotics for Kids!</a></li>
+                        <li><a class="dropdown-item {{ $page->isActive('/categories\teens') }}" href="{{ $page->link('categories/teens/introduction') }}">Robotics for Teens!</a></li>
+                        <li><a class="dropdown-item {{ $page->isActive('/categories\adults') }}" href="{{ $page->link('categories/adults/introduction') }}">Robotics for Adults</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">

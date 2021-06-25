@@ -39,6 +39,20 @@
                 color: $default-yellow;
             }
         }
+
+        .dropdown-menu {
+            background-color: $light;
+
+            .dropdown-item {
+                color: $default-black;
+    
+                &.active,
+                &:focus {
+                    color: $default-black;
+                    @include gradient-bg($default-yellow);
+                }
+            }
+        }
     }
 }
 

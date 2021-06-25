@@ -16,7 +16,10 @@
                 <h5 class="pb-2 border-bottom border-white mb-3">Quick Links</h4>
                 <div class="d-flex flex-row">
                     <nav class="nav flex-column flex-fill">
-                        <a class="nav-link {{ empty($page->getPath()) ? 'selected' : ''}}" href="{{ $page->link('/') }}">Home</a>
+                        <a class="nav-link {{ empty($page->getPath()) ? 'selected' : ''}}" 
+                            href="{{ $page->link('/') }}">
+                            Robotics Home
+                        </a>
                         <a class="nav-link {{ $page->selected('/categories\kids') }}" 
                             href="{{ $page->link('categories/kids/introduction') }}">
                             Robotics for Kids!
@@ -55,27 +58,15 @@
             <nav class="nav gap-3">
                 <a class="nav-link"
                     href="https://www.erovoutika.ph">
-                    {!! $page->svg('icon-globe', [
-                        'css' => [
-                            'height' => '32px'
-                        ]
-                    ]) !!}
+                    {!! $page->icon('globe', ['width' => '32', 'height' => '32']) !!}
                 </a>
                 <a class="nav-link"
                     href="https://www.facebook.com/erovoutika">
-                    {!! $page->svg('icon-facebook', [
-                        'css' => [
-                            'height' => '32px'
-                        ]
-                    ]) !!}
+                    {!! $page->icon('facebook', ['width' => '32', 'height' => '32']) !!}
                 </a>
                 <a class="nav-link"
                     href="https://www.youtube.com/channel/UC405vJKrS2r20iFV_5ccgVg">
-                    {!! $page->svg('icon-youtube', [
-                        'css' => [
-                            'height' => '32px'
-                        ]
-                    ]) !!}
+                    {!! $page->icon('youtube', ['width' => '32', 'height' => '32']) !!}
                 </a>
             </nav>
             <span class="fs-6 mt-3 text-center">&copy; Erovoutika International Corporation {{ date('Y') }}. All Rights Reserved.</span>

@@ -1,6 +1,6 @@
 <header class="header navbar navbar-expand-lg bg-default-black py-0 px-lg-5">
     <div class="container-xxl">
-        <a class="navbar-brand" href="{{ $page->link('/') }}">
+        <a class="navbar-brand" href="https://www.erovoutika.ph">
             {!! $page->svg('erovoutika-white.svg', ['css' => ['height' => '76px']]) !!}
         </a>
         <button class="navbar-toggler" 
@@ -17,42 +17,32 @@
         <div class="collapse navbar-collapse" id="navMenu">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link {{ empty($page->getPath()) ? 'selected' : ''}}" 
+                    <a class="nav-link {{ empty($page->getPath()) ? 'active' : ''}}" 
                         href="{{ $page->link('/') }}">
-                        Home
+                        {!! $page->icon('house-door-fill') !!} Robotics Home
                     </a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" 
-                        href="https://www.erovoutika.ph">
-                        {!! $page->svg('icon-globe', [
-                            'css' => [
-                                'height' => '1rem'
-                            ]
-                        ]) !!}
-                        Main Website
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownCategories" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        {!! $page->icon('grid-fill') !!} Categories
                     </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownCategories">
+                        <li><a class="dropdown-item" href="{{ $page->link('categories/kids/introduction') }}">Robotics for Kids!</a></li>
+                        <li><a class="dropdown-item" href="{{ $page->link('categories/teens/introduction') }}">Robotics for Teens!</a></li>
+                        <li><a class="dropdown-item" href="{{ $page->link('categories/adults/introduction') }}">Robotics for Adults</a></li>
+                    </ul>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" 
                         href="https://www.facebook.com/erovoutika">
-                        {!! $page->svg('icon-facebook', [
-                            'css' => [
-                                'height' => '1rem'
-                            ]
-                        ]) !!}
-                        Facebook
+                        {!! $page->icon('facebook') !!} Facebook
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" 
                         href="https://www.youtube.com/channel/UC405vJKrS2r20iFV_5ccgVg">
-                        {!! $page->svg('icon-youtube', [
-                            'css' => [
-                                'height' => '1rem'
-                            ]
-                        ]) !!}
-                        Youtube
+                        {!! $page->icon('youtube') !!} Youtube
                     </a>
                 </li>
             </ul>

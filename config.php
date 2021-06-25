@@ -8,14 +8,14 @@ function svg($path, $file, $properties = []) {
 
     if (!is_null($properties)) {
         foreach ($properties as $key => $value) {
-            if ($key === 'class') {
-                $svg->documentElement->setAttribute($key, $value);
-            } else if ($key === 'css') {
+            if ($key === 'css') {
                 $style = "";
                 foreach($value as $property => $value) {
                     $style .= "$property: $value;";
                 }
                 $svg->documentElement->setAttribute('style', $style);
+            } else {
+                $svg->documentElement->setAttribute($key, $value);
             }
         }
     }

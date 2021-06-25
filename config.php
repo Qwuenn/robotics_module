@@ -2,6 +2,27 @@
 
 use Illuminate\Support\Str;
 
+function svg($path, $file, $properties = []) {
+    $svg = new \DOMDocument();
+    $svg->load($path. $file .(str_contains($file, '.svg') ? '' : '.svg'));
+
+    if (!is_null($properties)) {
+        foreach ($properties as $key => $value) {
+            if ($key === 'class') {
+                $svg->documentElement->setAttribute($key, $value);
+            } else if ($key === 'css') {
+                $style = "";
+                foreach($value as $property => $value) {
+                    $style .= "$property: $value;";
+                }
+                $svg->documentElement->setAttribute('style', $style);
+            }
+        }
+    }
+
+    return $svg->saveXML($svg->documentElement);
+}
+
 return [
     'production' => false,
     'baseUrl' => '',
@@ -23,24 +44,7 @@ return [
     },
 
     'svg' => function($page, $file, $properties = []) {
-        $svg = new \DOMDocument();
-        $svg->load("./source/_assets/svg/". $file .(str_contains($file, '.svg') ? '' : '.svg'));
-
-        if (!is_null($properties)) {
-            foreach ($properties as $key => $value) {
-                if ($key === 'class') {
-                    $svg->documentElement->setAttribute($key, $value);
-                } else if ($key === 'css') {
-                    $style = "";
-                    foreach($value as $property => $value) {
-                        $style .= "$property: $value;";
-                    }
-                    $svg->documentElement->setAttribute('style', $style);
-                }
-            }
-        }
-
-        return $svg->saveXML($svg->documentElement);
+        return svg("./source/_assets/svg/", $file, $properties);
     },
 
     'link' => function ($page, $link) {

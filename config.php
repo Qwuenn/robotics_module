@@ -47,6 +47,10 @@ return [
         return svg("./source/_assets/svg/", $file, $properties);
     },
 
+    'icon' => function($page, $file, $properties = []) {
+        return svg("./node_modules/bootstrap-icons/icons/", $file, $properties);
+    },
+
     'link' => function ($page, $link) {
         return $page->baseUrl . '/' . trim($link, '/');
     }

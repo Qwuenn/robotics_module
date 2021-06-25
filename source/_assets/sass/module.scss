@@ -25,9 +25,12 @@ main {
     gap: inherit;
     grid-template-columns: 4fr 1fr;
     grid-template-rows: auto 1fr;
+    // grid-template-areas: 
+    //     "intro toc" 
+    //     "content toc";
     grid-template-areas: 
-        "intro toc" 
-        "content toc";
+        "intro none" 
+        "content none";
 
     background-color: $white;
 }
@@ -56,9 +59,12 @@ b {
     }
 
     main {
+        // grid-template-areas: 
+        //     "intro intro"
+        //     "toc toc"
+        //     "content content";
         grid-template-areas: 
         "intro intro"
-        "toc toc"
         "content content";
 
         margin: 0;

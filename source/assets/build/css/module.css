@@ -59,15 +59,6 @@
   color: #343a40;
 }
 
-@media (min-width: 992px) {
-  .table-of-contents {
-    position: sticky;
-    top: 2rem;
-    right: 0;
-    z-index: 2;
-    height: calc(100vh - 5rem);
-  }
-}
 .subnavbar .navbar-toggler {
   box-shadow: none;
 }
@@ -120,7 +111,7 @@ main {
   gap: inherit;
   grid-template-columns: 4fr 1fr;
   grid-template-rows: auto 1fr;
-  grid-template-areas: "intro toc" "content toc";
+  grid-template-areas: "intro none" "content none";
   background-color: #fff;
 }
 
@@ -146,7 +137,7 @@ b {
   }
 
   main {
-    grid-template-areas: "intro intro" "toc toc" "content content";
+    grid-template-areas: "intro intro" "content content";
     margin: 0;
   }
 }

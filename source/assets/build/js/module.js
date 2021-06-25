@@ -16,15 +16,14 @@ window.addEventListener('resize', function () {
 function mediaBreakpointDownLarge() {
   if (window.innerWidth <= 991.98) {
     // Check if OverlayScrollbars is initialized in the two elements
-    if (osToc) {
-      osToc.destroy();
-    }
-
+    // if (osToc) {
+    //     osToc.destroy();
+    // }
     if (osSidebar) {
       osSidebar.destroy();
     }
   } else {
-    osToc = OverlayScrollbars(document.getElementById('table-of-contents'), {});
+    // osToc = OverlayScrollbars(document.getElementById('table-of-contents'), { });
     osSidebar = OverlayScrollbars(document.getElementById('sidebar'), {});
   }
 } // Check if element exists

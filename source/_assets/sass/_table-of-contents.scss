@@ -29,12 +29,12 @@
     }
 }
 
-@include media-breakpoint-up(lg) {
-    .table-of-contents {
-        position: sticky;
-        top: 2rem;
-        right: 0;
-        z-index: 2;
-        height: calc(100vh - 5rem);
-    }
-}
+// @include media-breakpoint-up(lg) {
+//     .table-of-contents {
+//         position: sticky;
+//         top: 2rem;
+//         right: 0;
+//         z-index: 2;
+//         height: calc(100vh - 5rem);
+//     }
+// }

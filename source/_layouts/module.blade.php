@@ -27,14 +27,12 @@
         @endif
         
         <main class="mx-0 p-lg-5 py-5 px-3 shadow-sm">
-
             <div class="intro pe-lg-5">
                 @yield('introduction')
             </div>
 
-            @yield('table_of_contents')
-
             <div class="content pe-lg-5">
+                @yield('table_of_contents')
                 @yield('content')
             </div>
         </main>

@@ -11,7 +11,7 @@
             aria-expanded="false" 
             aria-label="Toggle navigation">
             <span class="navbar-toggler-icon">
-                {!! $page->svg('list') !!}
+                {!! $page->icon('list', ['width' => '32', 'height' => '32']) !!}
             </span>
         </button>
         <div class="collapse navbar-collapse" id="navMenu">

@@ -5,7 +5,7 @@
 @endpush
 
 @section('body')
-    <header class="subnavbar navbar navbar-expand-lg navbar-light bg-white position-relative p-lg-0 p-2 justify-content-end">
+    <header class="subnavbar navbar navbar-expand-lg navbar-light bg-white position-relative p-lg-0 p-2 justify-content-end shadow-sm">
         <button class="navbar-toggler border-none collapsed" 
             type="button" 
             data-bs-toggle="collapse" 

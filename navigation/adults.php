@@ -14,16 +14,5 @@ return [
             'Procedure' => 'categories\adults\modules\2/procedure',
             'Quiz' => 'categories\adults\modules\2/quiz'
         ]
-    ],
-
-    'Gimbal Stabilizer' => [
-        'collapsible' => true,
-        'children' => [
-            'Introduction' => 'categories\adults\modules\3/introduction',
-            'Materials' => 'categories\adults\modules\3/materials',
-            'Mechanical Designed' => 'categories\adults\modules\3/mechanical-designed',
-            'Circuit Diagram' => 'categories\adults\modules\3/circuit-diagram',
-            'Quiz' => 'categories\adults\modules\3/quiz'
-        ]
     ]
 ];

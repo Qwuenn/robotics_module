@@ -1,5 +1,6 @@
 const mix = require('laravel-mix');
 require('laravel-mix-jigsaw');
+require('laravel-mix-purgecss');
 
 mix.disableSuccessNotifications();
 mix.setPublicPath('source/assets/build');
@@ -16,5 +17,8 @@ mix.jigsaw()
     .sass('source/_assets/sass/codebox.scss', 'css')
     .options({
         processCssUrls: false,
+    })
+    .purgeCss({
+        content: ['source/**/*.php', 'source/**/*.js', 'source/**/*.html', 'source/**/*.blade.php', 'source/**/*.md']
     })
     .version();

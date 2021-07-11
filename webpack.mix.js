@@ -17,6 +17,9 @@ mix.jigsaw()
     .sass('source/_assets/sass/codebox.scss', 'css')
     .options({
         processCssUrls: false,
+        terser: {
+            extractComments: false,
+        }
     })
     .purgeCss({
         content: ['source/**/*.php', 'source/**/*.js', 'source/**/*.html', 'source/**/*.blade.php', 'source/**/*.md']

@@ -151,7 +151,25 @@ Alternatively, if you are using Laravel Mix to compile your assets, you can run 
 npm run prod
 ```
 
-This will generate the webpage into a new folder called `build_production`. Upload the contents of this folder to your own domain.
+This will generate the webpage into a new folder called `build_production`.  Upload the contents of this folder to your own domain.
+
+**NOTE:** Running the `npm run prod` command will also trigger the [laravel-mix-purgecss](https://github.com/spatie/laravel-mix-purgecss) plugin which is used to remove unused CSS in production. To disable the plugin, simply remove the following lines of code in `webpack.mix.js` .
+
+```js
+require('laravel-mix-purgecss');
+
+// mix.jigsaw()
+    ...
+    .purgeCss({
+        extend: {
+            content: [
+                'source/**/*.js',
+                'source/**/*.blade.php'
+            ],
+            safelist: [/os/]
+        }
+    })
+```
 
 <p>&nbsp;</p>
 
